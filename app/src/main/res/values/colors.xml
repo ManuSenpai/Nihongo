@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="nihonBlack">#000000</color>
+    <color name="nihonDarkPurple">#6A2C70</color>
+    <color name="nihonPurple">#B83B5E</color>
+    <color name="nihonOrange">#f08a5d</color>
+    <color name="nihonYellow">#f9ed69</color>
+
+
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- MAIN MENU -->
+    <string name="home">Inicio</string>
+    <string name="favourite">Favoritos</string>
+    <string name="settings">Ajustes</string>
+</resources>
