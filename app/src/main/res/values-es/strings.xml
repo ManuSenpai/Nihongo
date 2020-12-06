@@ -5,4 +5,10 @@
     <string name="home">Inicio</string>
     <string name="favourite">Favoritos</string>
     <string name="settings">Ajustes</string>
+
+    <string-array name="levels">
+        <item>A1 Temas 1–10</item>
+        <item>A2.1 Temas 11–22</item>
+    </string-array>
+
 </resources>

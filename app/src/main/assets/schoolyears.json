@@ -1,0 +1,71 @@
+{
+  "title": "Course 1",
+  "schoolYears": [
+    {
+      "title": "Kanjis A1 Temas 1-10",
+      "units": [
+        {
+          "title": "Tema 1",
+          "kanjis": [
+            {
+              "kanji": "日",
+              "strokes": 4,
+              "onyomi": ["ニチ", "ジツ"],
+              "kunyomi": ["ひ", "(び)", "か"],
+              "meaning": ["Sol", "Día"]
+            },
+            {
+              "kanji": "月",
+              "strokes": 4,
+              "onyomi": ["ゲツ", "ガツ"],
+              "kunyomi": ["つき"],
+              "meaning": ["Luna", "Mes"]
+            },
+            {
+              "kanji": "木",
+              "strokes": 4,
+              "onyomi": ["モク", "ボク"],
+              "kunyomi": ["き"],
+              "meaning": ["Árbol", "Madera"]
+            }
+          ],
+          "isCompleted": false,
+          "bestMark": 0
+        }
+      ]
+    },
+    {
+      "title": "Kanjis A2.1 Temas 11-22",
+      "units": [
+        {
+          "title": "Tema 11",
+          "kanjis": [
+            {
+              "kanji": "作",
+              "strokes": 7,
+              "onyomi": ["サク", "サ"],
+              "kunyomi": ["つく・る"],
+              "meaning": ["Hacer (manualmente)", "Fabricar"]
+            },
+            {
+              "kanji": "泳",
+              "strokes": 8,
+              "onyomi": ["エイ"],
+              "kunyomi": ["およ・ぐ"],
+              "meaning": ["Nadar"]
+            },
+            {
+              "kanji": "油",
+              "strokes": 8,
+              "onyomi": ["ユ", "(ユウ)"],
+              "kunyomi": ["あぶら"],
+              "meaning": ["Aceite", "Grasa"]
+            }
+          ],
+          "isCompleted": true,
+          "bestMark": 9
+        }
+      ]
+    }
+  ]
+}
