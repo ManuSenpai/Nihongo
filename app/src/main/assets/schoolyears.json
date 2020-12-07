@@ -682,6 +682,443 @@
           ],
           "isCompleted": false,
           "bestMark": 0
+        },
+        {
+          "title": "Tema 3",
+          "kanjis": [
+            {
+              "kanji": "一",
+              "strokes": 1,
+              "onyomi": ["イチ"],
+              "kunyomi": ["ひと", "ひと・つ"],
+              "meaning": ["Uno"],
+              "examples": [
+                {
+                  "example": "一つ",
+                  "transcription": "ひとつ",
+                  "meaning": "Uno; Una cosa; Una unidad"
+                },
+                {
+                  "example": "一人",
+                  "transcription": "ひとり",
+                  "meaning": "Una persona"
+                },
+                {
+                  "example": "一月",
+                  "transcription": "いちがつ",
+                  "meaning": "Enero"
+                },
+                {
+                  "example": "一年",
+                  "transcription": "いちねん",
+                  "meaning": "Un año"
+                },
+                {
+                  "example": "一日",
+                  "transcription": "いちにち / ついたち",
+                  "meaning": "Un día / Día 1 del mes"
+                },
+                {
+                  "example": "一番",
+                  "transcription": "いちばん",
+                  "meaning": "El número 1; El mejor"
+                }
+              ]
+            },
+            {
+              "kanji": "二",
+              "strokes": 2,
+              "onyomi": ["二"],
+              "kunyomi": ["ふた", "ふた・つ"],
+              "meaning": ["Dos"],
+              "examples": [
+                {
+                  "example": "二つ",
+                  "transcription": "ふたつ",
+                  "meaning": "Dos, dos cosas, dos unidades"
+                },
+                {
+                  "example": "二人",
+                  "transcription": "ふたり",
+                  "meaning": "Dos personas"
+                },
+                {
+                  "example": "二月",
+                  "transcription": "にがつ",
+                  "meaning": "Febrero"
+                },
+                {
+                  "example": "二年",
+                  "transcription": "にねん",
+                  "meaning": "Dos años"
+                },
+                {
+                  "example": "二日",
+                  "transcription": "ふつか",
+                  "meaning": "Día 2 del mes; 2 días"
+                }
+              ]
+            },
+            {
+              "kanji": "三",
+              "strokes": 3,
+              "onyomi": ["サン"],
+              "kunyomi": ["みっ・つ"],
+              "meaning": ["Tres"],
+              "examples": [
+                {
+                  "example": "三つ",
+                  "transcription": "みっつ",
+                  "meaning": "Tres; tres objetos, tres unidades"
+                },
+                {
+                  "example": "三人",
+                  "transcription": "さんにん",
+                  "meaning": "3 personas"
+                },
+                {
+                  "example": "三日",
+                  "transcription": "みっか",
+                  "meaning": "Día 3 del mes; 3 días"
+                }
+              ]
+            },
+            {
+              "kanji": "四",
+              "strokes": 5,
+              "onyomi": ["シ"],
+              "kunyomi": ["よっ・つ", "よん", "よ"],
+              "meaning": ["Cuatro"],
+              "examples": [
+                {
+                  "example": "四つ",
+                  "transcription": "よっつ",
+                  "meaning": "Cuatro; cuatro objetos, cuatro unidades"
+                },
+                {
+                  "example": "四日",
+                  "transcription": "よっか",
+                  "meaning": "Día 4 del mes; 4 días"
+                },
+                {
+                  "example": "四月",
+                  "transcription": "しがつ",
+                  "meaning": "Abril"
+                },
+                {
+                  "example": "四時",
+                  "transcription": "よじ",
+                  "meaning": "Las 4 (del reloj)"
+                }
+              ]
+            },
+            {
+              "kanji": "五",
+              "strokes": 4,
+              "onyomi": ["ゴ"],
+              "kunyomi": ["いつ・つ", "いつ"],
+              "meaning": ["Cinco"],
+              "examples": [
+                {
+                  "example": "五つ",
+                  "transcription": "いつつ",
+                  "meaning": "Cinco; cinco objetos, cinco unidades"
+                },
+                {
+                  "example": "五日",
+                  "transcription": "いつか",
+                  "meaning": "Día 5 del mes; 5 días"
+                },
+                {
+                  "example": "五月",
+                  "transcription": "ごがつ",
+                  "meaning": "Mayo"
+                }
+              ]
+            },
+            {
+              "kanji": "六",
+              "strokes": 4,
+              "onyomi": ["ロク"],
+              "kunyomi": ["むっ・つ"],
+              "meaning": ["Seis"],
+              "examples": [
+                {
+                  "example": "六つ",
+                  "transcription": "むっつ",
+                  "meaning": "Seis; seis objetos, seis unidades"
+                },
+                {
+                  "example": "六日",
+                  "transcription": "むいか",
+                  "meaning": "Día 6 del mes; Seis días"
+                },
+                {
+                  "example": "六月",
+                  "transcription": "ろくがつ",
+                  "meaning": "Junio"
+                }
+              ]
+            },
+            {
+              "kanji": "七",
+              "strokes": 2,
+              "onyomi": ["シチ"],
+              "kunyomi": ["なな・つ", "なな"],
+              "meaning": ["Siete"],
+              "examples": [
+                {
+                  "example": "七つ",
+                  "transcription": "ななつ",
+                  "meaning": "Siete; siete objetos, siete unidades"
+                },
+                {
+                  "example": "七日",
+                  "transcription": "なのか",
+                  "meaning": "Día 7; siete días"
+                },
+                {
+                  "example": "七月",
+                  "transcription": "しちがつ",
+                  "meaning": "Julio"
+                }
+              ]
+            },
+            {
+              "kanji": "八",
+              "strokes": 2,
+              "onyomi": ["ハチ"],
+              "kunyomi": ["やっ・つ"],
+              "meaning": ["Ocho"],
+              "examples": [
+                {
+                  "example": "八つ",
+                  "transcription": "やっつ",
+                  "meaning": "Ocho; ocho objetos, ocho unidades "
+                },
+                {
+                  "example": "八日",
+                  "transcription": "ようか",
+                  "meaning": "Día 8; ocho días"
+                },
+                {
+                  "example": "八月",
+                  "transcription": "はちがつ",
+                  "meaning": "Agosto"
+                }
+              ]
+            },
+            {
+              "kanji": "九",
+              "strokes": 2,
+              "onyomi": ["キュウ", "ク"],
+              "kunyomi": ["ここの・つ"],
+              "meaning": ["Nueve"],
+              "examples": [
+                {
+                  "example": "九つ",
+                  "transcription": "ここのつ",
+                  "meaning": "Nueve; nueve objetos, nueve unidades"
+                },
+                {
+                  "example": "九日",
+                  "transcription": "ここのか",
+                  "meaning": "Día 9; nueve días"
+                },
+                {
+                  "example": "九月",
+                  "transcription": "くがつ",
+                  "meaning": "Septiembre"
+                },
+                {
+                  "example": "九時",
+                  "transcription": "くじ",
+                  "meaning": "Las 9 (del reloj)"
+                }
+              ]
+            },
+            {
+              "kanji": "十",
+              "strokes": 2,
+              "onyomi": ["ジュウ", "ジュッ-", "ジッ"],
+              "kunyomi": ["とお"],
+              "meaning": ["Diez"],
+              "examples": [
+                {
+                  "example": "十",
+                  "transcription": "じゅう / とお",
+                  "meaning": "Diez; diez objetos, diez unidades"
+                },
+                {
+                  "example": "十日",
+                  "transcription": "とおか",
+                  "meaning": "Día 10; diez días"
+                },
+                {
+                  "example": "十四日",
+                  "transcription": "じゅうよっか",
+                  "meaning": "Día 14; 14 días"
+                },
+                {
+                  "example": "二十日",
+                  "transcription": "はつか",
+                  "meaning": "Día 20; 20 días"
+                },
+                {
+                  "example": "十月",
+                  "transcription": "じゅうがつ",
+                  "meaning": "Octubre"
+                },
+                {
+                  "example": "十一月",
+                  "transcription": "じゅういちがつ",
+                  "meaning": "Noviembre"
+                },
+                {
+                  "example": "十二月",
+                  "transcription": "じゅうにがつ",
+                  "meaning": "Diciembre"
+                }
+              ]
+            },
+            {
+              "kanji": "百",
+              "strokes": 6,
+              "onyomi": ["ヒャク", "-ビャク", "-ピャク"],
+              "kunyomi": ["—"],
+              "meaning": ["Cien"],
+              "examples": [
+                {
+                  "example": "二百",
+                  "transcription": "にひゃく",
+                  "meaning": "Doscientos"
+                },
+                {
+                  "example": "三百",
+                  "transcription": "さんびゃく",
+                  "meaning": "Trescientos"
+                },
+                {
+                  "example": "六百",
+                  "transcription": "ろっぴゃく",
+                  "meaning": "Seiscientos"
+                },
+                {
+                  "example": "八百",
+                  "transcription": "はっぴゃく",
+                  "meaning": "Ochocientos"
+                }
+              ]
+            },
+            {
+              "kanji": "千",
+              "strokes": 3,
+              "onyomi": ["セン"],
+              "kunyomi": ["ち"],
+              "meaning": ["Mil"],
+              "examples": [
+                {
+                  "example": "千",
+                  "transcription": "せん",
+                  "meaning": "Mil"
+                },
+                {
+                  "example": "三千",
+                  "transcription": "さんぜん",
+                  "meaning": "Tres mil"
+                },
+                {
+                  "example": "千ばけん",
+                  "transcription": "ちばけん",
+                  "meaning": "Prefectura de Chiba"
+                }
+              ]
+            },
+            {
+              "kanji": "万",
+              "strokes": 3,
+              "onyomi": ["マン", "バン"],
+              "kunyomi": ["—"],
+              "meaning": ["Diez mil"],
+              "examples": [
+                {
+                  "example": "一万円",
+                  "transcription": "いちまんえん",
+                  "meaning": "Diez mil yenes"
+                },
+                {
+                  "example": "百万",
+                  "transcription": "ひゃくまん",
+                  "meaning": "Un millón"
+                },
+                {
+                  "example": "万ざい",
+                  "transcription": "ばんざい",
+                  "meaning": "Grito de celebración (Diez mil años de vida)"
+                }
+              ]
+            },
+            {
+              "kanji": "円",
+              "strokes": 4,
+              "onyomi": ["エン"],
+              "kunyomi": ["まる", "まる・い"],
+              "meaning": ["Yen", "Redondo", "Circular", "Círculo"],
+              "examples": [
+                {
+                  "example": "円",
+                  "transcription": "えん",
+                  "meaning": "Yen; círculo"
+                },
+                {
+                  "example": "五千円",
+                  "transcription": "ごせんえん",
+                  "meaning": "Cinco mil yenes"
+                },
+                {
+                  "example": "円高",
+                  "transcription": "えんだか",
+                  "meaning": "Revalorización del yen"
+                }
+              ]
+            },
+            {
+              "kanji": "年",
+              "strokes": 6,
+              "onyomi": ["ネン"],
+              "kunyomi": ["とし"],
+              "meaning": ["Año"],
+              "examples": [
+                {
+                  "example": "年",
+                  "transcription": "とし / -ねん",
+                  "meaning": "Año / Sufijo para año"
+                },
+                {
+                  "example": "来年",
+                  "transcription": "らいねん",
+                  "meaning": "El año que viene"
+                },
+                {
+                  "example": "去年 / 昨年",
+                  "transcription": "きょねん / さくねん",
+                  "meaning": "El año pasado"
+                },
+                {
+                  "example": "年上",
+                  "transcription": "としうえ",
+                  "meaning": "Mayor que uno"
+                },
+                {
+                  "example": "年下",
+                  "transcription": "としした",
+                  "meaning": "Menor que uno"
+                }
+              ]
+            }
+          ],
+          "isCompleted": false,
+          "bestMark": 0
         }
       ]
     },
