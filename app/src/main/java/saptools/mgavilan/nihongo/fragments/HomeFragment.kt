@@ -6,10 +6,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ImageButton
-import android.widget.ImageView
-import android.widget.LinearLayout
-import android.widget.TextView
+import android.widget.*
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import org.w3c.dom.Text
@@ -17,6 +14,7 @@ import saptools.mgavilan.nihongo.MainActivity
 import saptools.mgavilan.nihongo.R
 import saptools.mgavilan.nihongo.fragments.adapters.MainMenuRecViewAdapter
 import saptools.mgavilan.nihongo.fragments.adapters.UnitRecViewAdapter
+import saptools.mgavilan.nihongo.utils.Utils
 
 class HomeFragment : Fragment() {
 
@@ -31,6 +29,7 @@ class HomeFragment : Fragment() {
     var areatitle:TextView? = null
     var unitLayout: LinearLayout? = null
     var kanjiList: LinearLayout? = null
+    var studyBtn: Button? = null
 
     var currentYear: Int = 0
     var currentUnit: Int = 0
@@ -63,6 +62,12 @@ class HomeFragment : Fragment() {
         }
         mainView?.layoutManager = layoutManager
         mainView?.adapter = mainAdapter
+        studyBtn = rootView?.findViewById(R.id.study_unit_btn)
+        studyBtn?.setOnClickListener {
+            MainActivity.currentYear = currentYear
+            MainActivity.currentUnit = currentUnit
+            Utils.storeSharedValue(activity!!, "kanji", "kanji", "0")
+        }
 
         return rootView
     }
@@ -120,6 +125,11 @@ class HomeFragment : Fragment() {
                 )
                 currentKanjiLayout = horizontalLayout
                 kanjiList?.addView(currentKanjiLayout)
+            }
+            textView.setOnClickListener {
+                MainActivity.currentYear = currentYear
+                MainActivity.currentUnit = currentUnit
+                Utils.storeSharedValue(activity!!, "kanji", "kanji", position.toString() )
             }
             currentKanjiLayout?.addView(textView)
         }

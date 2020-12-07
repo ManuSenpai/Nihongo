@@ -27,6 +27,8 @@ class MainActivity : AppCompatActivity() {
 
     companion object {
         var course: Course? = null
+        var currentYear: Int = 0
+        var currentUnit: Int = 0
     }
 
     private fun setUpTabs() {

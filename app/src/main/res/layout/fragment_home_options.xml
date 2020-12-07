@@ -20,9 +20,11 @@
             android:id="@+id/study_unit_btn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/action_button"
             android:layout_margin="16dp"
             android:padding="8dp"
             android:textAllCaps="false"
+            android:textColor="@android:color/white"
             android:text="Estudiar este tema"/>
     </LinearLayout>
 
