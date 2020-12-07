@@ -27,6 +27,132 @@
               "onyomi": ["モク", "ボク"],
               "kunyomi": ["き"],
               "meaning": ["Árbol", "Madera"]
+            },
+            {
+              "kanji": "山",
+              "strokes": 3,
+              "onyomi": ["サン"],
+              "kunyomi": ["やま"],
+              "meaning": ["Montaña"]
+            },
+            {
+              "kanji": "川",
+              "strokes": 3,
+              "onyomi": ["モク", "ボク"],
+              "kunyomi": ["かわ", "(～がわ)"],
+              "meaning": ["Río"]
+            },
+            {
+              "kanji": "田",
+              "strokes": 5,
+              "onyomi": ["デン"],
+              "kunyomi": ["た"],
+              "meaning": ["Campo de arroz"]
+            },
+            {
+              "kanji": "人",
+              "strokes": 2,
+              "onyomi": ["ジン", "ニン"],
+              "kunyomi": ["ひと", "(～びと)"],
+              "meaning": ["Persona"]
+            },
+            {
+              "kanji": "口",
+              "strokes": 3,
+              "onyomi": ["コウ"],
+              "kunyomi": ["くち"],
+              "meaning": ["Boca", "Entrada"]
+            },
+            {
+              "kanji": "車",
+              "strokes": 7,
+              "onyomi": ["シャ"],
+              "kunyomi": ["くるま"],
+              "meaning": ["Coche", "Vehículo"]
+            },
+            {
+              "kanji": "門",
+              "strokes": 8,
+              "onyomi": ["モン"],
+              "kunyomi": ["(かど)"],
+              "meaning": ["Puerta"]
+            }
+          ],
+          "isCompleted": false,
+          "bestMark": 0
+        },
+        {
+          "title": "Tema 2",
+          "kanjis": [
+            {
+              "kanji": "火",
+              "strokes": 4,
+              "onyomi": ["カ"],
+              "kunyomi": ["ひ", "(～び)"],
+              "meaning": ["Fuego"]
+            },
+            {
+              "kanji": "水",
+              "strokes": 4,
+              "onyomi": ["スイ"],
+              "kunyomi": ["みず"],
+              "meaning": ["Agua"]
+            },
+            {
+              "kanji": "金",
+              "strokes": 8,
+              "onyomi": ["キン", "コン", "(- ゴン)"],
+              "kunyomi": ["かね"],
+              "meaning": ["Metal", "Oro", "Dinero"]
+            },
+            {
+              "kanji": "土",
+              "strokes": 3,
+              "onyomi": ["ド"],
+              "kunyomi": ["つち"],
+              "meaning": ["Tierra", "Suelo", "Terreno", "Turquía"]
+            },
+            {
+              "kanji": "子",
+              "strokes": 3,
+              "onyomi": ["シ"],
+              "kunyomi": ["こ", "ね"],
+              "meaning": ["Niño", "Sufijo nombres de mujer", "Signo de la rata"]
+            },
+            {
+              "kanji": "女",
+              "strokes": 3,
+              "onyomi": ["ジョ", "ニョウ"],
+              "kunyomi": ["おんな", "め"],
+              "meaning": ["Mujer"]
+            },
+            {
+              "kanji": "学",
+              "strokes": 8,
+              "onyomi": ["ガク", "ガッ-"],
+              "kunyomi": ["(まな・ぶ)"],
+              "meaning": ["Estudiar", "Aprender", "Ciencia"]
+            },
+            {
+              "kanji": "生",
+              "strokes": 5,
+              "onyomi": ["セイ"],
+              "kunyomi": ["い・きる", "う・まれる", "なま"],
+              "meaning": ["Vivir", "Vida", "Origen", "Crudo", "Puro", "Sin procesar"]
+            },
+            {
+              "kanji": "先",
+              "strokes": 6,
+              "onyomi": ["セン"],
+              "kunyomi": ["さき"],
+              "meaning": ["Previo", "Anterior", "Delante", "Extremo"]
+            },
+            {
+              "kanji": "私",
+              "strokes": 7,
+              "onyomi": ["シ"],
+              "kunyomi": ["わたし", "わたくし"],
+              "meaning": ["Yo", "Privado"]
             }
           ],
           "isCompleted": false,

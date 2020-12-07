@@ -15,15 +15,17 @@ import saptools.mgavilan.nihongo.R
 import saptools.mgavilan.nihongo.R.color.nihonOrange
 import saptools.mgavilan.nihongo.data.YearUnit
 
-class UnitRecViewAdapter(_items: List<YearUnit>, context: Context): RecyclerView.Adapter<UnitRecViewAdapter.ViewHolder>() {
+class UnitRecViewAdapter(_items: List<YearUnit>, context: Context, _callback: (Int) -> Unit ): RecyclerView.Adapter<UnitRecViewAdapter.ViewHolder>() {
 
     var items: List<YearUnit>? = null
     var viewHolder: ViewHolder? = null
     var mContext: Context? = null
+    var callback: ( (Int) -> Unit )? = null
 
     init {
         items= _items
         mContext = context
+        callback = _callback
     }
     override fun onCreateViewHolder(
         parent: ViewGroup,
@@ -52,6 +54,10 @@ class UnitRecViewAdapter(_items: List<YearUnit>, context: Context): RecyclerView
             val lp = LinearLayout.LayoutParams( LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT )
             iv.layoutParams = lp
             holder.starLL?.addView(iv)
+        }
+
+        holder.view?.setOnClickListener {
+            callback!!(position)
         }
     }
 

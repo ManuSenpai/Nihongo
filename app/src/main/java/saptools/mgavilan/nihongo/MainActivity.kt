@@ -49,4 +49,8 @@ class MainActivity : AppCompatActivity() {
 
         course = gson.fromJson(jsonFileString, Course::class.java)
     }
+
+    override fun onBackPressed() {
+
+    }
 }
