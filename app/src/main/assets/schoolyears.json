@@ -12,70 +12,315 @@
               "strokes": 4,
               "onyomi": ["ニチ", "ジツ"],
               "kunyomi": ["ひ", "(び)", "か"],
-              "meaning": ["Sol", "Día"]
+              "meaning": ["Sol", "Día"],
+              "examples": [
+                {
+                  "example": "日",
+                  "transcription": "ひ",
+                  "meaning": "El sol; Día"
+                },
+                {
+                  "example": "日本",
+                  "transcription": "にほん",
+                  "meaning": "Japón, Japonés"
+                },
+                {
+                  "example": "日曜日",
+                  "transcription": "にちようび",
+                  "meaning": "Domingo"
+                },
+                {
+                  "example": "休日",
+                  "transcription": "きゅうじつ",
+                  "meaning": "Día festivo"
+                },
+                {
+                  "example": "今日",
+                  "transcription": "きょう / こんにち",
+                  "meaning": "Hoy"
+                },
+                {
+                  "example": "明日",
+                  "transcription": "あした",
+                  "meaning": "Mañana"
+                },
+                {
+                  "example": "昨日",
+                  "transcription": "きのう",
+                  "meaning": "Ayer"
+                }
+              ]
             },
             {
               "kanji": "月",
               "strokes": 4,
               "onyomi": ["ゲツ", "ガツ"],
               "kunyomi": ["つき"],
-              "meaning": ["Luna", "Mes"]
+              "meaning": ["Luna", "Mes"],
+              "examples": [
+                {
+                  "example": "月",
+                  "transcription": "つき",
+                  "meaning": "La luna"
+                },
+                {
+                  "example": "月",
+                  "transcription": "～がつ",
+                  "meaning": "Mes del año"
+                },
+                {
+                  "example": "一か月",
+                  "transcription": "いっかげつ",
+                  "meaning": "Un mes"
+                },
+                {
+                  "example": "月曜日",
+                  "transcription": "げつようび",
+                  "meaning": "Lunes"
+                },
+                {
+                  "example": "今月",
+                  "transcription": "こんげつ",
+                  "meaning": "Este mes"
+                },
+                {
+                  "example": "来月",
+                  "transcription": "らいげつ",
+                  "meaning": "El mes que viene"
+                },
+                {
+                  "example": "先月",
+                  "transcription": "せんげつ",
+                  "meaning": "El mes pasado"
+                }
+              ]
             },
             {
               "kanji": "木",
               "strokes": 4,
               "onyomi": ["モク", "ボク"],
               "kunyomi": ["き"],
-              "meaning": ["Árbol", "Madera"]
+              "meaning": ["Árbol", "Madera"],
+              "examples": [
+                {
+                  "example": "木",
+                  "transcription": "き",
+                  "meaning": "Árbol"
+                },
+                {
+                  "example": "木曜日",
+                  "transcription": "もくようび",
+                  "meaning": "Jueves"
+                },
+                {
+                  "example": "木星",
+                  "transcription": "もくせい",
+                  "meaning": "Jupiter"
+                },
+                {
+                  "example": "木刀",
+                  "transcription": "ぼくと",
+                  "meaning": "Bokuto: Espada de madera"
+                }
+              ]
             },
             {
               "kanji": "山",
               "strokes": 3,
               "onyomi": ["サン"],
               "kunyomi": ["やま"],
-              "meaning": ["Montaña"]
+              "meaning": ["Montaña"],
+              "examples": [
+                {
+                  "example": "山",
+                  "transcription": "やま",
+                  "meaning": "Montaña"
+                },
+                {
+                  "example": "富士山",
+                  "transcription": "ふじさん",
+                  "meaning": "Monte Fuji"
+                },
+                {
+                  "example": "火山",
+                  "transcription": "かざん",
+                  "meaning": "Volcán"
+                }
+              ]
             },
             {
               "kanji": "川",
               "strokes": 3,
               "onyomi": ["モク", "ボク"],
               "kunyomi": ["かわ", "(～がわ)"],
-              "meaning": ["Río"]
+              "meaning": ["Río"],
+              "examples": [
+                {
+                  "example": "川",
+                  "transcription": "かわ",
+                  "meaning": "Río"
+                },
+                {
+                  "example": "山川",
+                  "transcription": "さんせん",
+                  "meaning": "Montañas y ríos"
+                },
+                {
+                  "example": "天の川",
+                  "transcription": "あまのがわ",
+                  "meaning": "Vía láctea"
+                }
+              ]
             },
             {
               "kanji": "田",
               "strokes": 5,
               "onyomi": ["デン"],
               "kunyomi": ["た"],
-              "meaning": ["Campo de arroz"]
+              "meaning": ["Campo de arroz"],
+              "examples": [
+                {
+                  "example": "田んぼ",
+                  "transcription": "たんぼ",
+                  "meaning": "Campo de arroz"
+                },
+                {
+                  "example": "水田",
+                  "transcription": "すいでん",
+                  "meaning": "Campo de regadío"
+                },
+                {
+                  "example": "油田",
+                  "transcription": "ゆでん",
+                  "meaning": "Campo petrolífero"
+                }
+              ]
             },
             {
               "kanji": "人",
               "strokes": 2,
               "onyomi": ["ジン", "ニン"],
               "kunyomi": ["ひと", "(～びと)"],
-              "meaning": ["Persona"]
+              "meaning": ["Persona"],
+              "examples": [
+                {
+                  "example": "人",
+                  "transcription": "ひと",
+                  "meaning": "Persona"
+                },
+                {
+                  "example": "三人",
+                  "transcription": "さんにん",
+                  "meaning": "3 personas"
+                },
+                {
+                  "example": "日本人",
+                  "transcription": "にほんじん",
+                  "meaning": "Persona japonesa"
+                },
+                {
+                  "example": "男の人",
+                  "transcription": "おとこのひと",
+                  "meaning": "Hombre"
+                },
+                {
+                  "example": "女の人",
+                  "transcription": "おんなのひと",
+                  "meaning": "Mujer"
+                },
+                {
+                  "example": "人生",
+                  "transcription": "じんせい",
+                  "meaning": "Vida humana"
+                },
+                {
+                  "example": "人間",
+                  "transcription": "にんげん",
+                  "meaning": "Humano, ser humano"
+                }
+              ]
             },
             {
               "kanji": "口",
               "strokes": 3,
               "onyomi": ["コウ"],
               "kunyomi": ["くち"],
-              "meaning": ["Boca", "Entrada"]
+              "meaning": ["Boca", "Entrada"],
+              "examples": [
+                {
+                  "example": "口",
+                  "transcription": "くち",
+                  "meaning": "Boca"
+                },
+                {
+                  "example": "入口",
+                  "transcription": "いりぐち",
+                  "meaning": "Entrada"
+                },
+                {
+                  "example": "出口",
+                  "transcription": "でぐち",
+                  "meaning": "Salida"
+                },
+                {
+                  "example": "人口",
+                  "transcription": "じんこう",
+                  "meaning": "Población"
+                },
+                {
+                  "example": "火口",
+                  "transcription": "かこう",
+                  "meaning": "Crater volcánico"
+                }
+              ]
             },
             {
               "kanji": "車",
               "strokes": 7,
               "onyomi": ["シャ"],
               "kunyomi": ["くるま"],
-              "meaning": ["Coche", "Vehículo"]
+              "meaning": ["Coche", "Vehículo"],
+              "examples": [
+                {
+                  "example": "車",
+                  "transcription": "くるま",
+                  "meaning": "Coche, vehículo"
+                },
+                {
+                  "example": "じどう車",
+                  "transcription": "じどうしゃ",
+                  "meaning": "Coche, Automóvil"
+                },
+                {
+                  "example": "電車",
+                  "transcription": "でんしゃ",
+                  "meaning": "Tren (eléctrico)"
+                },
+                {
+                  "example": "じてん車",
+                  "transcription": "じてんしゃ",
+                  "meaning": "Bicicleta"
+                }
+              ]
             },
             {
               "kanji": "門",
               "strokes": 8,
               "onyomi": ["モン"],
               "kunyomi": ["(かど)"],
-              "meaning": ["Puerta"]
+              "meaning": ["Puerta"],
+              "examples": [
+                {
+                  "example": "門",
+                  "transcription": "もん",
+                  "meaning": "Puerta"
+                },
+                {
+                  "example": "せん門",
+                  "transcription": "せんもん",
+                  "meaning": "Especialidad"
+                }
+              ]
             }
           ],
           "isCompleted": false,
@@ -89,70 +334,350 @@
               "strokes": 4,
               "onyomi": ["カ"],
               "kunyomi": ["ひ", "(～び)"],
-              "meaning": ["Fuego"]
+              "meaning": ["Fuego"],
+              "examples": [
+                {
+                  "example": "火山",
+                  "transcription": "かざん",
+                  "meaning": "Volcán"
+                },
+                {
+                  "example": "火曜日",
+                  "transcription": "かようび",
+                  "meaning": "Martes"
+                },
+                {
+                  "example": "火口",
+                  "transcription": "かこう",
+                  "meaning": "Crater volcánico"
+                },
+                {
+                  "example": "火星",
+                  "transcription": "かせい",
+                  "meaning": "Marte"
+                },
+                {
+                  "example": "花火",
+                  "transcription": "はなび",
+                  "meaning": "Fuegos artificiales"
+                },
+                {
+                  "example": "火災",
+                  "transcription": "かさい",
+                  "meaning": "Incendio"
+                }
+              ]
             },
             {
               "kanji": "水",
               "strokes": 4,
               "onyomi": ["スイ"],
               "kunyomi": ["みず"],
-              "meaning": ["Agua"]
+              "meaning": ["Agua"],
+              "examples": [
+                {
+                  "example": "水",
+                  "transcription": "みず",
+                  "meaning": "Agua"
+                },
+                {
+                  "example": "水曜日",
+                  "transcription": "すいようび",
+                  "meaning": "Miércoles"
+                },
+                {
+                  "example": "水田",
+                  "transcription": "すいでん",
+                  "meaning": "Campo de regadío"
+                },
+                {
+                  "example": "水星",
+                  "transcription": "すいせい",
+                  "meaning": "Mercurio"
+                },
+                {
+                  "example": "手水",
+                  "transcription": "てみず",
+                  "meaning": "Ritual limpieza de manos"
+                },
+                {
+                  "example": "海水",
+                  "transcription": "かいすい",
+                  "meaning": "Agua de mar"
+                },
+                {
+                  "example": "水泳",
+                  "transcription": "すいえい",
+                  "meaning": "Natación"
+                }
+              ]
             },
             {
               "kanji": "金",
               "strokes": 8,
               "onyomi": ["キン", "コン", "(- ゴン)"],
               "kunyomi": ["かね"],
-              "meaning": ["Metal", "Oro", "Dinero"]
+              "meaning": ["Metal", "Oro", "Dinero"],
+              "examples": [
+                {
+                  "example": "お金",
+                  "transcription": "おかね",
+                  "meaning": "Dinero"
+                },
+                {
+                  "example": "金曜日",
+                  "transcription": "きんようび",
+                  "meaning": "Viernes"
+                },
+                {
+                  "example": "金星",
+                  "transcription": "きんせい",
+                  "meaning": "Venus"
+                }
+              ]
             },
             {
               "kanji": "土",
               "strokes": 3,
               "onyomi": ["ド"],
               "kunyomi": ["つち"],
-              "meaning": ["Tierra", "Suelo", "Terreno", "Turquía"]
+              "meaning": ["Tierra", "Suelo", "Terreno", "Turquía"],
+              "examples": [
+                {
+                  "example": "土",
+                  "transcription": "つち",
+                  "meaning": "Suelo, tierra, terreno"
+                },
+                {
+                  "example": "土曜日",
+                  "transcription": "どようび",
+                  "meaning": "Sábado"
+                },
+                {
+                  "example": "土木",
+                  "transcription": "どぼく",
+                  "meaning": "Ingeniería civil"
+                },
+                {
+                  "example": "土星",
+                  "transcription": "どせい",
+                  "meaning": "Saturno"
+                },
+                {
+                  "example": "お土やげ",
+                  "transcription": "おみやげ",
+                  "meaning": "Recuerdo, souvenir"
+                }
+              ]
             },
             {
               "kanji": "子",
               "strokes": 3,
               "onyomi": ["シ"],
               "kunyomi": ["こ", "ね"],
-              "meaning": ["Niño", "Sufijo nombres de mujer", "Signo de la rata"]
+              "meaning": ["Niño", "Sufijo nombres de mujer", "Signo de la rata"],
+              "examples": [
+                {
+                  "example": "子 / 子供",
+                  "transcription": "こ / こども",
+                  "meaning": "Niño"
+                },
+                {
+                  "example": "男の子",
+                  "transcription": "おとこのこ",
+                  "meaning": "Niño (masculino)"
+                },
+                {
+                  "example": "女の子",
+                  "transcription": "おんなのこ",
+                  "meaning": "Niña (femenino)"
+                },
+                {
+                  "example": "女子",
+                  "transcription": "じょし",
+                  "meaning": "Chica, muchacha, señorita"
+                },
+                {
+                  "example": "男子",
+                  "transcription": "だんし",
+                  "meaning": "Chico, muchacho"
+                },
+                {
+                  "example": "子年",
+                  "transcription": "ねどし / ねずみどし",
+                  "meaning": "Año de la rata"
+                }
+              ]
             },
             {
               "kanji": "女",
               "strokes": 3,
               "onyomi": ["ジョ", "ニョウ"],
               "kunyomi": ["おんな", "め"],
-              "meaning": ["Mujer"]
+              "meaning": ["Mujer"],
+              "examples": [
+                {
+                  "example": "女 / 女の人 / 女の方",
+                  "transcription": "おんな / おんなのひと / おんなのかた",
+                  "meaning": "Mujer"
+                },
+                {
+                  "example": "かの女",
+                  "transcription": "かのじょ",
+                  "meaning": "Ella, novia"
+                },
+                {
+                  "example": "女の子",
+                  "transcription": "おんなのこ",
+                  "meaning": "Niña (femenino)"
+                },
+                {
+                  "example": "女子",
+                  "transcription": "じょし",
+                  "meaning": "Chica, muchacha, señorita"
+                },
+                {
+                  "example": "女性",
+                  "transcription": "じょせい",
+                  "meaning": "Género femenino"
+                },
+                {
+                  "example": "少女",
+                  "transcription": "しょうじょ",
+                  "meaning": "Chica, muchacha, jovencita"
+                },
+                {
+                  "example": "乙女",
+                  "transcription": "おとめ",
+                  "meaning": "Jovencita, doncella"
+                },
+                {
+                  "example": "女神",
+                  "transcription": "めがみ",
+                  "meaning": "Diosa"
+                }
+              ]
             },
             {
               "kanji": "学",
               "strokes": 8,
               "onyomi": ["ガク", "ガッ-"],
               "kunyomi": ["(まな・ぶ)"],
-              "meaning": ["Estudiar", "Aprender", "Ciencia"]
+              "meaning": ["Estudiar", "Aprender", "Ciencia"],
+              "examples": [
+                {
+                  "example": "学生",
+                  "transcription": "がくせい",
+                  "meaning": "Estudiante"
+                },
+                {
+                  "example": "大学",
+                  "transcription": "だいがく",
+                  "meaning": "Universidad"
+                },
+                {
+                  "example": "か学",
+                  "transcription": "かがく",
+                  "meaning": "Ciencia"
+                }
+              ]
             },
             {
               "kanji": "生",
               "strokes": 5,
               "onyomi": ["セイ"],
               "kunyomi": ["い・きる", "う・まれる", "なま"],
-              "meaning": ["Vivir", "Vida", "Origen", "Crudo", "Puro", "Sin procesar"]
+              "meaning": ["Vivir", "Vida", "Origen", "Crudo", "Puro", "Sin procesar"],
+              "examples": [
+                {
+                  "example": "生きる",
+                  "transcription": "いきる",
+                  "meaning": "Vivir, estar vivo"
+                },
+                {
+                  "example": "生まれる",
+                  "transcription": "うまれる",
+                  "meaning": "Nacer"
+                },
+                {
+                  "example": "先生",
+                  "transcription": "せんせい",
+                  "meaning": "Profesor"
+                },
+                {
+                  "example": "人生",
+                  "transcription": "じんせい",
+                  "meaning": "Vida humana"
+                },
+                {
+                  "example": "生魚",
+                  "transcription": "なまさかな",
+                  "meaning": "Pescado crudo"
+                }
+              ]
             },
             {
               "kanji": "先",
               "strokes": 6,
               "onyomi": ["セン"],
               "kunyomi": ["さき"],
-              "meaning": ["Previo", "Anterior", "Delante", "Extremo"]
+              "meaning": ["Previo", "Anterior", "Delante", "Extremo"],
+              "examples": [
+                {
+                  "example": "先",
+                  "transcription": "さき",
+                  "meaning": "Extremidad, punta; adelante; antes que, previamente"
+                },
+                {
+                  "example": "先生",
+                  "transcription": "せんせい",
+                  "meaning": "Profesor"
+                },
+                {
+                  "example": "先月",
+                  "transcription": "せんげつ",
+                  "meaning": "El mes pasado"
+                },
+                {
+                  "example": "先週",
+                  "transcription": "せんしゅう",
+                  "meaning": "La semana pasada"
+                },
+                {
+                  "example": "先日",
+                  "transcription": "せんじつ",
+                  "meaning": "El otro día"
+                },
+                {
+                  "example": "先ほど",
+                  "transcription": "さきほど",
+                  "meaning": "Hace tiempo"
+                }
+              ]
             },
             {
               "kanji": "私",
               "strokes": 7,
               "onyomi": ["シ"],
               "kunyomi": ["わたし", "わたくし"],
-              "meaning": ["Yo", "Privado"]
+              "meaning": ["Yo", "Privado"],
+              "examples": [
+                {
+                  "example": "私",
+                  "transcription": "わたし / わたくし",
+                  "meaning": "Yo"
+                },
+                {
+                  "example": "私立",
+                  "transcription": "しりつ",
+                  "meaning": "Privado"
+                },
+                {
+                  "example": "私ゆう物",
+                  "transcription": "しゆうぶつ",
+                  "meaning": "Propiedad privada"
+                }
+              ]
             }
           ],
           "isCompleted": false,
@@ -171,21 +696,92 @@
               "strokes": 7,
               "onyomi": ["サク", "サ"],
               "kunyomi": ["つく・る"],
-              "meaning": ["Hacer (manualmente)", "Fabricar"]
+              "meaning": ["Hacer (manualmente)", "Fabricar"],
+              "examples": [
+                {
+                  "example": "作る",
+                  "transcription": "つくる",
+                  "meaning": "Hacer, fabricar, construir, producir, manufacturar; cultivar"
+                },
+                {
+                  "example": "作品",
+                  "transcription": "さくひん",
+                  "meaning": "Obra de arte"
+                },
+                {
+                  "example": "作文",
+                  "transcription": "さくぶん",
+                  "meaning": "Redacción"
+                },
+                {
+                  "example": "作家",
+                  "transcription": "さっか",
+                  "meaning": "Autor, compositor, escritor"
+                },
+                {
+                  "example": "作物",
+                  "transcription": "さくもつ",
+                  "meaning": "Productos agrícolas, del campo; Cosecha"
+                },
+                {
+                  "example": "新作",
+                  "transcription": "しんさく",
+                  "meaning": "Nueva obra"
+                }
+              ]
             },
             {
               "kanji": "泳",
               "strokes": 8,
               "onyomi": ["エイ"],
               "kunyomi": ["およ・ぐ"],
-              "meaning": ["Nadar"]
+              "meaning": ["Nadar"],
+              "examples": [
+                {
+                  "example": "泳ぐ",
+                  "transcription": "およぐ",
+                  "meaning": "Nadar"
+                },
+                {
+                  "example": "水泳  ～をする",
+                  "transcription": "すいえい  ～をする",
+                  "meaning": "Natación"
+                }
+              ]
             },
             {
               "kanji": "油",
               "strokes": 8,
               "onyomi": ["ユ", "(ユウ)"],
               "kunyomi": ["あぶら"],
-              "meaning": ["Aceite", "Grasa"]
+              "meaning": ["Aceite", "Grasa"],
+              "examples": [
+                {
+                  "example": "油",
+                  "transcription": "あぶら",
+                  "meaning": "Aceite"
+                },
+                {
+                  "example": "油絵",
+                  "transcription": "あぶらえ",
+                  "meaning": "Pintura al óleo"
+                },
+                {
+                  "example": "石油",
+                  "transcription": "せきゆ",
+                  "meaning": "Petróleo"
+                },
+                {
+                  "example": "オリーブ油",
+                  "transcription": "オリーブゆ",
+                  "meaning": "Aceite de oliva"
+                },
+                {
+                  "example": "油田",
+                  "transcription": "ゆでん",
+                  "meaning": "Campo petrolífero"
+                }
+              ]
             }
           ],
           "isCompleted": true,

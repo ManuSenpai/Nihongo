@@ -1,5 +1,6 @@
 package saptools.mgavilan.nihongo.fragments
 
+import android.graphics.Typeface
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -8,6 +9,9 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
+import androidx.core.content.ContextCompat
+import kotlinx.android.synthetic.main.kanji_example_item.view.*
+import kotlinx.android.synthetic.main.kanji_summary_card.*
 import saptools.mgavilan.nihongo.MainActivity
 import saptools.mgavilan.nihongo.R
 import saptools.mgavilan.nihongo.utils.Utils
@@ -56,12 +60,12 @@ class KanjiSummaryFragment : Fragment() {
         exitBtn = rootView?.findViewById(R.id.exit_btn)
 
         backBtn?.setOnClickListener {
-            setKanji( currentValue - 1 )
+            setKanji(currentValue - 1)
             currentValue--
         }
 
         forwardBtn?.setOnClickListener {
-            setKanji( currentValue + 1 )
+            setKanji(currentValue + 1)
             currentValue++
         }
 
@@ -72,7 +76,8 @@ class KanjiSummaryFragment : Fragment() {
 
     private fun setKanji(value: Int) {
 
-        val thisUnit = MainActivity.course!!.schoolYears[MainActivity.currentYear]!!.units[MainActivity.currentUnit]
+        val thisUnit =
+            MainActivity.course!!.schoolYears[MainActivity.currentYear]!!.units[MainActivity.currentUnit]
 
         if (value == 0) {
             backBtn?.visibility = View.GONE
@@ -92,25 +97,38 @@ class KanjiSummaryFragment : Fragment() {
         kanji?.text = thisUnit.kanjis[value].kanji
 
         onyomiLL?.removeAllViewsInLayout()
-        for ( on in thisUnit.kanjis[value].onyomi.indices) {
+        for (on in thisUnit.kanjis[value].onyomi.indices) {
             val textView: TextView = TextView(activity!!)
             textView.text = thisUnit.kanjis[value].onyomi[on]
+            textView.textSize = 16f
             onyomiLL?.addView(textView)
         }
 
         kunyomiLL?.removeAllViewsInLayout()
-        for ( on in thisUnit.kanjis[value].kunyomi.indices) {
+        for (on in thisUnit.kanjis[value].kunyomi.indices) {
             val textView: TextView = TextView(activity!!)
             textView.text = thisUnit.kanjis[value].kunyomi[on]
+            textView.textSize = 16f
             kunyomiLL?.addView(textView)
         }
 
         var text = ""
-        for ( on in thisUnit.kanjis[value].meaning.indices) {
-            val textView: TextView = TextView(activity!!)
+        for (on in thisUnit.kanjis[value].meaning.indices) {
             text += thisUnit.kanjis[value].meaning[on]
-            if ( on < thisUnit.kanjis[value].meaning.size -1 ) text += "; "
+            if (on < thisUnit.kanjis[value].meaning.size - 1) text += "; "
         }
+
+        examples?.removeAllViewsInLayout()
+        for (on in thisUnit.kanjis[value].examples.indices) {
+            val kanjiItemLL: LinearLayout =
+                layoutInflater.inflate(R.layout.kanji_example_item, null, false) as LinearLayout
+            kanjiItemLL.example_text.text = thisUnit.kanjis[value].examples[on].example
+            kanjiItemLL.transcription_text.text = thisUnit.kanjis[value].examples[on].transcription
+            kanjiItemLL.meaning_text.text = thisUnit.kanjis[value].examples[on].meaning
+
+            examples?.addView(kanjiItemLL)
+        }
+
         meaning?.text = text
 
     }

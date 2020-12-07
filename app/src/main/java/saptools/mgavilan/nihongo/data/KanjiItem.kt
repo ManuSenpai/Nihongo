@@ -5,6 +5,7 @@ data class KanjiItem(
     val strokes: Int,
     val onyomi: List<String>,
     val kunyomi: List<String>,
-    val meaning: List<String>
+    val meaning: List<String>,
+    val examples: List<KanjiExample>
 //    val examples: List<String>
 )

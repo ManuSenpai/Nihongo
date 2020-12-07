@@ -55,7 +55,7 @@
             android:id="@+id/kanji"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="0.3"
+            android:layout_weight="0.4"
             android:includeFontPadding="false"
             android:textSize="100sp"
             android:padding="16dp"
@@ -111,11 +111,15 @@
         android:textSize="20dp"
         android:text="Profesor"/>
 
-    <LinearLayout
-        android:id="@+id/examplesLL"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:orientation="vertical"/>
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/examplesLL"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"/>
+    </ScrollView>
 
 </LinearLayout>
