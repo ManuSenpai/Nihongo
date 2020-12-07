@@ -1,17 +1,14 @@
 package saptools.mgavilan.nihongo
 
+import android.app.Activity
+import android.content.Context
 import android.os.Bundle
-import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
+import androidx.fragment.app.Fragment
+import androidx.fragment.app.FragmentManager
 import com.google.gson.Gson
-import com.google.gson.reflect.TypeToken
-import kotlinx.android.synthetic.main.activity_main.*
 import saptools.mgavilan.nihongo.data.Course
-import saptools.mgavilan.nihongo.data.SchoolYear
-import saptools.mgavilan.nihongo.fragments.FavoriteFragment
 import saptools.mgavilan.nihongo.fragments.HomeFragment
-import saptools.mgavilan.nihongo.fragments.SettingsFragment
-import saptools.mgavilan.nihongo.fragments.adapters.ViewPagerAdapter
 import saptools.mgavilan.nihongo.utils.Utils
 
 class MainActivity : AppCompatActivity() {
@@ -19,8 +16,9 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        fragment = HomeFragment()
+        fragmentCalling(this, supportFragmentManager)
 
-        setUpTabs()
         fillSchoolYears()
 
     }
@@ -29,19 +27,14 @@ class MainActivity : AppCompatActivity() {
         var course: Course? = null
         var currentYear: Int = 0
         var currentUnit: Int = 0
-    }
+        var fragment: Fragment = HomeFragment()
 
-    private fun setUpTabs() {
-        val adapter = ViewPagerAdapter(supportFragmentManager)
-        adapter.addFragment(HomeFragment(), getString(R.string.home))
-        adapter.addFragment(FavoriteFragment(), getString(R.string.favourite))
-        adapter.addFragment(SettingsFragment(), getString(R.string.settings))
-        viewPager.adapter = adapter
-        tabs.setupWithViewPager(viewPager)
-
-        tabs.getTabAt(0)!!.setIcon(R.drawable.ic_home)
-        tabs.getTabAt(1)!!.setIcon(R.drawable.ic_star)
-        tabs.getTabAt(2)!!.setIcon(R.drawable.ic_settings)
+        fun fragmentCalling(myContext: Context, fragmentManager: androidx.fragment.app.FragmentManager) {
+            val fragmentTransaction: androidx.fragment.app.FragmentTransaction = fragmentManager.beginTransaction()
+            fragmentTransaction.replace(R.id.frame_container, fragment)
+            fragmentTransaction.addToBackStack(null)
+            fragmentTransaction.commit()
+        }
     }
 
     private fun fillSchoolYears() {

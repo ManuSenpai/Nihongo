@@ -27,7 +27,7 @@ class Utils {
             try {
                 hideKeyboard(myContext as Activity)
                 val transaction = fragmentManager.beginTransaction()
-                transaction.replace(R.id.viewPager, fragment!!)
+                transaction.replace(R.id.frame_container, fragment!!)
                 //                transaction.addToBackStack(null);
                 //                transaction.disallowAddToBackStack()
                 transaction.commit()

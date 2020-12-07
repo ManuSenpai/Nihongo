@@ -1,6 +1,5 @@
 package saptools.mgavilan.nihongo.fragments
 
-import android.media.Image
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -9,7 +8,6 @@ import android.view.ViewGroup
 import android.widget.*
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import org.w3c.dom.Text
 import saptools.mgavilan.nihongo.MainActivity
 import saptools.mgavilan.nihongo.R
 import saptools.mgavilan.nihongo.fragments.adapters.MainMenuRecViewAdapter
@@ -67,6 +65,7 @@ class HomeFragment : Fragment() {
             MainActivity.currentYear = currentYear
             MainActivity.currentUnit = currentUnit
             Utils.storeSharedValue(activity!!, "kanji", "kanji", "0")
+            Utils.fragmentCalling(activity!!, fragmentManager!!, KanjiSummaryFragment())
         }
 
         return rootView
@@ -129,7 +128,8 @@ class HomeFragment : Fragment() {
             textView.setOnClickListener {
                 MainActivity.currentYear = currentYear
                 MainActivity.currentUnit = currentUnit
-                Utils.storeSharedValue(activity!!, "kanji", "kanji", position.toString() )
+                Utils.storeSharedValue(activity!!, "kanji", "kanji", i.toString() )
+                Utils.fragmentCalling(activity!!, fragmentManager!!, KanjiSummaryFragment())
             }
             currentKanjiLayout?.addView(textView)
         }
