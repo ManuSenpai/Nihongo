@@ -1773,6 +1773,288 @@
           ],
           "isCompleted": false,
           "bestMark": 0
+        },
+        {
+          "title": "Tema 6",
+          "kanjis": [
+            {
+              "kanji": "目",
+              "strokes": 5,
+              "onyomi": ["モク"],
+              "kunyomi": ["め"],
+              "meaning": ["Ojo", "Sufijo de números cardinales"],
+              "examples": [
+                {
+                  "example": "目",
+                  "transcription": "め",
+                  "meaning": "Ojo"
+                },
+                {
+                  "example": "目上 ～の人",
+                  "transcription": "めうえ ～の人",
+                  "meaning": "Superior, de rango superior"
+                },
+                {
+                  "example": "目下 ～の人",
+                  "transcription": "めした ～の人",
+                  "meaning": "Subordinado, de rango inferior"
+                },
+                {
+                  "example": "一番目",
+                  "transcription": "いちばんめ",
+                  "meaning": "El primero de una lista"
+                }
+              ]
+            },
+            {
+              "kanji": "耳",
+              "strokes": 6,
+              "onyomi": ["ジ"],
+              "kunyomi": ["みみ"],
+              "meaning": ["Oreja", "Oído"],
+              "examples": [
+                {
+                  "example": "耳",
+                  "transcription": "みみ",
+                  "meaning": "Oreja, oído"
+                },
+                {
+                  "example": "耳目",
+                  "transcription": "じもく",
+                  "meaning": "Ojos y oídos"
+                }
+              ]
+            },
+            {
+              "kanji": "手",
+              "strokes": 4,
+              "onyomi": ["シュ"],
+              "kunyomi": ["て"],
+              "meaning": ["Mano"],
+              "examples": [
+                {
+                  "example": "手",
+                  "transcription": "て",
+                  "meaning": "Mano"
+                },
+                {
+                  "example": "か手",
+                  "transcription": "かしゅ",
+                  "meaning": "Cantante"
+                },
+                {
+                  "example": "手がみ",
+                  "transcription": "てがみ",
+                  "meaning": "Carta"
+                },
+                {
+                  "example": "上手",
+                  "transcription": "じょうず",
+                  "meaning": "Hábil"
+                },
+                {
+                  "example": "下手",
+                  "transcription": "へた",
+                  "meaning": "Torpe"
+                },
+                {
+                  "example": "手作り",
+                  "transcription": "てづくり",
+                  "meaning": "Hecho a mano"
+                },
+                {
+                  "example": "手あらい",
+                  "transcription": "てあらい",
+                  "meaning": "Aseo, lavabos"
+                }
+              ]
+            },
+            {
+              "kanji": "足",
+              "strokes": 7,
+              "onyomi": ["ソク"],
+              "kunyomi": ["あし", "た・りる", "た・す"],
+              "meaning": ["Pie", "Pierna", "Bastar, ser suficiente", "Contador de pares (calzado)"],
+              "examples": [
+                {
+                  "example": "足",
+                  "transcription": "あし",
+                  "meaning": "Pierna"
+                },
+                {
+                  "example": "足りる",
+                  "transcription": "たりる",
+                  "meaning": "Ser suficiente, bastar\nコーヒーは足りません no hay suficiente café, falta café"
+                },
+                {
+                  "example": "足す",
+                  "transcription": "たす",
+                  "meaning": "Sumar"
+                },
+                {
+                  "example": "二足",
+                  "transcription": "にそく",
+                  "meaning": "Dos pares (de zapatos, calzado...)"
+                },
+                {
+                  "example": "足首",
+                  "transcription": "あしくび",
+                  "meaning": "Tobillo"
+                },
+                {
+                  "example": "不足",
+                  "transcription": "ふそく",
+                  "meaning": "Escasez, insuficiencia"
+                }
+              ]
+            },
+            {
+              "kanji": "雨",
+              "strokes": 8,
+              "onyomi": ["ウ"],
+              "kunyomi": ["あめ"],
+              "meaning": ["Lluvia"],
+              "examples": [
+                {
+                  "example": "雨",
+                  "transcription": "あめ",
+                  "meaning": "Lluvia"
+                },
+                {
+                  "example": "雨天",
+                  "transcription": "うてん",
+                  "meaning": "Tiempo lluvioso"
+                },
+                {
+                  "example": "雨雲",
+                  "transcription": "あまぐも / ううん",
+                  "meaning": "Nubarrones, nubes de lluvia"
+                },
+                {
+                  "example": "小雨",
+                  "transcription": "こさめ",
+                  "meaning": "Llovizna"
+                }
+              ]
+            },
+            {
+              "kanji": "竹",
+              "strokes": 6,
+              "onyomi": ["チク"],
+              "kunyomi": ["たけ"],
+              "meaning": ["Bambú"],
+              "examples": [
+                {
+                  "example": "竹",
+                  "transcription": "たけ",
+                  "meaning": "Bambú"
+                },
+                {
+                  "example": "ばく竹",
+                  "transcription": "ばくちく",
+                  "meaning": "Petardo"
+                },
+                {
+                  "example": "竹林",
+                  "transcription": "たけばやし / ちくりん",
+                  "meaning": "Bosque de bambú"
+                }
+              ]
+            },
+            {
+              "kanji": "米",
+              "strokes": 6,
+              "onyomi": ["ベイ", "マイ"],
+              "kunyomi": ["こめ"],
+              "meaning": ["Arroz", "América"],
+              "examples": [
+                {
+                  "example": "米",
+                  "transcription": "こめ",
+                  "meaning": "Arroz, planta de arroz"
+                },
+                {
+                  "example": "米国",
+                  "transcription": "べいこく",
+                  "meaning": "EEUU"
+                },
+                {
+                  "example": "新米",
+                  "transcription": "しんまい",
+                  "meaning": "Arroz de última cosecha; Novato"
+                }
+              ]
+            },
+            {
+              "kanji": "貝",
+              "strokes": 7,
+              "onyomi": ["(ハイ)"],
+              "kunyomi": ["かい"],
+              "meaning": ["Concha"],
+              "examples": [
+                {
+                  "example": "貝",
+                  "transcription": "かい",
+                  "meaning": "Marisco, molusco; almeja, concha"
+                },
+                {
+                  "example": "貝がら",
+                  "transcription": "かいがら",
+                  "meaning": "Concha"
+                }
+              ]
+            },
+            {
+              "kanji": "石",
+              "strokes": 5,
+              "onyomi": ["セキ"],
+              "kunyomi": ["いし"],
+              "meaning": ["Piedra"],
+              "examples": [
+                {
+                  "example": "石",
+                  "transcription": "いし",
+                  "meaning": "Piedra, china"
+                },
+                {
+                  "example": "石油",
+                  "transcription": "せきゆ",
+                  "meaning": "Petróleo"
+                },
+                {
+                  "example": "化石",
+                  "transcription": "かせき",
+                  "meaning": "Fósil"
+                },
+                {
+                  "example": "小石",
+                  "transcription": "こいし",
+                  "meaning": "China, piedrecilla"
+                }
+              ]
+            },
+            {
+              "kanji": "糸",
+              "strokes": 6,
+              "onyomi": ["シ"],
+              "kunyomi": ["いと"],
+              "meaning": ["Hilo", "Hebra"],
+              "examples": [
+                {
+                  "example": "糸",
+                  "transcription": "いと",
+                  "meaning": "Hilo, hebra"
+                },
+                {
+                  "example": "赤い糸",
+                  "transcription": "あかいいと",
+                  "meaning": "Hilo rojo (del destino)"
+                }
+              ]
+            }
+          ],
+          "isCompleted": false,
+          "bestMark": 0
         }
       ]
     },
