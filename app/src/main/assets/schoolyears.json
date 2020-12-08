@@ -1119,6 +1119,373 @@
           ],
           "isCompleted": false,
           "bestMark": 0
+        },
+        {
+          "title": "Tema 4",
+          "kanjis": [
+            {
+              "kanji": "上",
+              "strokes": 3,
+              "onyomi": ["ジョウ"],
+              "kunyomi": ["うえ", "あ・げる", "あ・がる", "のぼ・る"],
+              "meaning": ["Arriba", "Parte superior", "Dar", "Subir", "Ascender"],
+              "examples": [
+                {
+                  "example": "上",
+                  "transcription": "うえ",
+                  "meaning": "Arriba, parte superior, sobre, encima de"
+                },
+                {
+                  "example": "上がる",
+                  "transcription": "あがる",
+                  "meaning": "Subir, ascender, elevarse, acceder"
+                },
+                {
+                  "example": "上る",
+                  "transcription": "のぼる",
+                  "meaning": "Ascender, subir, moverse hacia arriba, escalar"
+                },
+                {
+                  "example": "上手 －な",
+                  "transcription": "じょうず －な",
+                  "meaning": "Ser hábil"
+                },
+                {
+                  "example": "年上",
+                  "transcription": "としうえ",
+                  "meaning": "Mayor que uno"
+                }
+              ]
+            },
+            {
+              "kanji": "下",
+              "strokes": 3,
+              "onyomi": ["カ", "ゲ"],
+              "kunyomi": ["した", "さ・がる", "さ・げる", "くだ・る", "くださ・る"],
+              "meaning": ["Abajo", "Debajo", "Parte inferior", "Bajar", "Descender"],
+              "examples": [
+                {
+                  "example": "下",
+                  "transcription": "した",
+                  "meaning": "Abajo, debajo, parte inferior"
+                },
+                {
+                  "example": "下がる",
+                  "transcription": "さがる",
+                  "meaning": "Bajar, descender"
+                },
+                {
+                  "example": "年下",
+                  "transcription": "としした",
+                  "meaning": "Menor que uno"
+                },
+                {
+                  "example": "下車 ～する",
+                  "transcription": "げしゃ ～する",
+                  "meaning": "Bajar del coche"
+                },
+                {
+                  "example": "下げる",
+                  "transcription": "くだる",
+                  "meaning": "Dajar, descender (un camino, una cuesta...), moverse de un sitio más alto a otro más bajo"
+                },
+                {
+                  "example": "下り道",
+                  "transcription": "くだりみち",
+                  "meaning": "Camino de bajada"
+                },
+                {
+                  "example": "下さる",
+                  "transcription": "くださる",
+                  "meaning": "Darle otra persona (de rango superior) algo a uno"
+                },
+                {
+                  "example": "下さい",
+                  "transcription": "ください",
+                  "meaning": "Por favor; démelo, me llevo esto"
+                },
+                {
+                  "example": "下手 －な",
+                  "transcription": "へた －な",
+                  "meaning": "Torpe, que se le da mal algo"
+                }
+              ]
+            },
+            {
+              "kanji": "中",
+              "strokes": 4,
+              "onyomi": ["チュウ", "-ジュウ"],
+              "kunyomi": ["なか\n"],
+              "meaning": ["Dentro", "Interior", "Parte central"],
+              "examples": [
+                {
+                  "example": "中",
+                  "transcription": "なか",
+                  "meaning": "Dentro, interior"
+                },
+                {
+                  "example": "中心",
+                  "transcription": "ちゅうしん",
+                  "meaning": "Núcleo, centro"
+                },
+                {
+                  "example": "一日中",
+                  "transcription": "いちにちじゅう",
+                  "meaning": "Todo el día; El día entero"
+                },
+                {
+                  "example": "中国",
+                  "transcription": "ちゅうごく",
+                  "meaning": "China"
+                }
+              ]
+            },
+            {
+              "kanji": "大",
+              "strokes": 3,
+              "onyomi": ["タイ", "ダイ"],
+              "kunyomi": ["おお・きい"],
+              "meaning": ["Grande"],
+              "examples": [
+                {
+                  "example": "大きい",
+                  "transcription": "おおきい",
+                  "meaning": "Grande"
+                },
+                {
+                  "example": "大切 -な",
+                  "transcription": "たいせつ -な",
+                  "meaning": "Preciado"
+                },
+                {
+                  "example": "大人",
+                  "transcription": "おとな",
+                  "meaning": "Adulto"
+                },
+                {
+                  "example": "大じ",
+                  "transcription": "だいじ",
+                  "meaning": "Grave"
+                },
+                {
+                  "example": "大じょうぶ",
+                  "transcription": "だいじょうぶ",
+                  "meaning": "Todo OK; Sin problema"
+                },
+                {
+                  "example": "巨大 ‐な",
+                  "transcription": "きょだい ‐な",
+                  "meaning": "Enorme, gigante, descomunal"
+                }
+              ]
+            },
+            {
+              "kanji": "小",
+              "strokes": 3,
+              "onyomi": ["ショウ"],
+              "kunyomi": ["ちい・さい", "こ", "お" ],
+              "meaning": ["Pequeño"],
+              "examples": [
+                {
+                  "example": "小さい",
+                  "transcription": "ちいさい",
+                  "meaning": "Pequeño; Poco importante, Insignificante"
+                },
+                {
+                  "example": "小学校",
+                  "transcription": "しょうがっこう",
+                  "meaning": "Escuela primaria"
+                },
+                {
+                  "example": "小川",
+                  "transcription": "おがわ",
+                  "meaning": "Riachuelo, Arroyo"
+                },
+                {
+                  "example": "小人 / 子供",
+                  "transcription": "こびと / こども",
+                  "meaning": "Enano / niño"
+                }
+              ]
+            },
+            {
+              "kanji": "本",
+              "strokes": 5,
+              "onyomi": ["ホン"],
+              "kunyomi": ["もと"],
+              "meaning": ["Raíz", "Origen", "Libro", "Principal", "Contador de objetos alargados"],
+              "examples": [
+                {
+                  "example": "本",
+                  "transcription": "ほん",
+                  "meaning": "Libro"
+                },
+                {
+                  "example": "日本",
+                  "transcription": "にほん",
+                  "meaning": "Japón"
+                },
+                {
+                  "example": "本日",
+                  "transcription": "ほんじつ",
+                  "meaning": "Hoy, el día de hoy (formal)"
+                },
+                {
+                  "example": "本当",
+                  "transcription": "ほんとう",
+                  "meaning": "Verdadero, genuino"
+                },
+                {
+                  "example": "一本",
+                  "transcription": "いっぽん",
+                  "meaning": "Un objeto alargado"
+                }
+              ]
+            },
+            {
+              "kanji": "半",
+              "strokes": 5,
+              "onyomi": ["ハン"],
+              "kunyomi": ["(なか・ば)"],
+              "meaning": ["Medio", "Mitad"],
+              "examples": [
+                {
+                  "example": "半分",
+                  "transcription": "はんぶん",
+                  "meaning": "Mitad, medio"
+                },
+                {
+                  "example": "半ば",
+                  "transcription": "なかば",
+                  "meaning": "Medio, a medias"
+                },
+                {
+                  "example": "半年",
+                  "transcription": "はんとし",
+                  "meaning": "Medio año"
+                },
+                {
+                  "example": "三時半",
+                  "transcription": "さんじはん",
+                  "meaning": "Las 3 y media"
+                },
+                {
+                  "example": "半時間",
+                  "transcription": "はんじかん",
+                  "meaning": "Media hora"
+                }
+              ]
+            },
+            {
+              "kanji": "分",
+              "strokes": 4,
+              "onyomi": ["ブン", "(-ブン、-プン)", "ブ"],
+              "kunyomi": ["わ・かる", "わ・かれる", "わ・ける"],
+              "meaning": ["División", "parte", "minuto", "entender", "comprender", "dividir", "partir", "separar"],
+              "examples": [
+                {
+                  "example": "分ける",
+                  "transcription": "わける",
+                  "meaning": "Dividir, separar; repartir, distribuir"
+                },
+                {
+                  "example": "分かる",
+                  "transcription": "わかる",
+                  "meaning": "Entender, comprender"
+                },
+                {
+                  "example": "五分",
+                  "transcription": "ごふん",
+                  "meaning": "5 minutos"
+                },
+                {
+                  "example": "分かれる",
+                  "transcription": "わかれる",
+                  "meaning": "Divergir, ramificarse, dividirse, partirse, bifurcarse"
+                }
+              ]
+            },
+            {
+              "kanji": "力",
+              "strokes": 2,
+              "onyomi": ["リョク", "リキ"],
+              "kunyomi": ["ちから"],
+              "meaning": ["Fuerza", "Vigor", "Energía"],
+              "examples": [
+                {
+                  "example": "力",
+                  "transcription": "ちから",
+                  "meaning": "Fuerza, vigor, energía, potencia"
+                },
+                {
+                  "example": "力学",
+                  "transcription": "りきがく",
+                  "meaning": "Dinámica"
+                },
+                {
+                  "example": "実力",
+                  "transcription": "じつりょく",
+                  "meaning": "Capacidad, habilidad"
+                },
+                {
+                  "example": "馬力",
+                  "transcription": "ばりき",
+                  "meaning": "Caballo de vapor"
+                },
+                {
+                  "example": "体力",
+                  "transcription": "たいりょく",
+                  "meaning": "Vigor, fuerza física"
+                }
+              ]
+            },
+            {
+              "kanji": "何",
+              "strokes": 7,
+              "onyomi": ["(カ)"],
+              "kunyomi": ["なに", "なん"],
+              "meaning": ["Qué", "Cuál", "Cuántos"],
+              "examples": [
+                {
+                  "example": "何",
+                  "transcription": "なに / なん",
+                  "meaning": "Qué"
+                },
+                {
+                  "example": "何人",
+                  "transcription": "なんにん",
+                  "meaning": "Cuántas personas"
+                },
+                {
+                  "example": "何年",
+                  "transcription": "なんねん / なにどし",
+                  "meaning": "Qué año"
+                },
+                {
+                  "example": "何月",
+                  "transcription": "なんがつ",
+                  "meaning": "Qué mes"
+                },
+                {
+                  "example": "何か月",
+                  "transcription": "なんかげつ",
+                  "meaning": "Cuántos meses"
+                },
+                {
+                  "example": "何日",
+                  "transcription": "なんにち",
+                  "meaning": "Qué día"
+                },
+                {
+                  "example": "何時",
+                  "transcription": "なんじ",
+                  "meaning": "Qué hora (de reloj)"
+                }
+              ]
+            }
+          ],
+          "isCompleted": false,
+          "bestMark": 0
         }
       ]
     },
