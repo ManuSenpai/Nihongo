@@ -1215,7 +1215,7 @@
               "kanji": "中",
               "strokes": 4,
               "onyomi": ["チュウ", "-ジュウ"],
-              "kunyomi": ["なか\n"],
+              "kunyomi": ["なか"],
               "meaning": ["Dentro", "Interior", "Parte central"],
               "examples": [
                 {
@@ -1480,6 +1480,293 @@
                   "example": "何時",
                   "transcription": "なんじ",
                   "meaning": "Qué hora (de reloj)"
+                }
+              ]
+            }
+          ],
+          "isCompleted": false,
+          "bestMark": 0
+        },
+        {
+          "title": "Tema 5",
+          "kanjis": [
+            {
+              "kanji": "明",
+              "strokes": 8,
+              "onyomi": ["メイ", "(ミョウ)"],
+              "kunyomi": ["あか・るい", "あ・ける", "あき・らか"],
+              "meaning": ["Claridad", "Claro", "Brillante", "Evidente"],
+              "examples": [
+                {
+                  "example": "明るい",
+                  "transcription": "あかるい",
+                  "meaning": "Luminoso, claro; alegre, jovial; brillante, prometedor"
+                },
+                {
+                  "example": "明ける",
+                  "transcription": "あける",
+                  "meaning": "Clarear, amanecer, comenzar el día; comenzar el año"
+                },
+                {
+                  "example": "夜明け",
+                  "transcription": "よあけ",
+                  "meaning": "Amanecer, madrugada, alba"
+                },
+                {
+                  "example": "明日",
+                  "transcription": "あした / あす",
+                  "meaning": "Mañana / por la mañana"
+                },
+                {
+                  "example": "明らか ～な",
+                  "transcription": "あきらか ～な",
+                  "meaning": "Evidente, Claro, Obvio"
+                }
+              ]
+            },
+            {
+              "kanji": "休",
+              "strokes": 6,
+              "onyomi": ["キュウ"],
+              "kunyomi": ["やす・む", "やす・み"],
+              "meaning": ["Descanso", "Descansar", "Vacaciones"],
+              "examples": [
+                {
+                  "example": "休む",
+                  "transcription": "やすむ",
+                  "meaning": "Descansar; Ausentarse; tomarse el día libre"
+                },
+                {
+                  "example": "休み / 休日",
+                  "transcription": "やすみ / きゅうじつ",
+                  "meaning": "descanso; día libre, día de descanso"
+                }
+              ]
+            },
+            {
+              "kanji": "体",
+              "strokes": 7,
+              "onyomi": ["タイ"],
+              "kunyomi": ["からだ"],
+              "meaning": ["Cuerpo"],
+              "examples": [
+                {
+                  "example": "体",
+                  "transcription": "からだ",
+                  "meaning": "Cuerpo"
+                },
+                {
+                  "example": "体力",
+                  "transcription": "たいりょく",
+                  "meaning": "Vigor, fuerza física"
+                },
+                {
+                  "example": "死体",
+                  "transcription": "したい",
+                  "meaning": "Cadáver, cuerpo muerto"
+                }
+              ]
+            },
+            {
+              "kanji": "好",
+              "strokes": 6,
+              "onyomi": ["コウ"],
+              "kunyomi": ["す・き", "す・く", "この・み", "この・む"],
+              "meaning": ["Gustar", "Querer", "Ser del agrado de uno"],
+              "examples": [
+                {
+                  "example": "好き ～な",
+                  "transcription": "すき ～な",
+                  "meaning": "Gustar, ser algo del gusto o el agrado de uno"
+                },
+                {
+                  "example": "好かれる",
+                  "transcription": "すかれる",
+                  "meaning": "Ser querido, gustar a la gente"
+                },
+                {
+                  "example": "(大) 好物",
+                  "transcription": "(だい) こうぶつ",
+                  "meaning": "Comida preferida"
+                },
+                {
+                  "example": "好む",
+                  "transcription": "このむ",
+                  "meaning": "Ser aficionado de algo, gustarle a uno algo\n私はジュースより水を好みます prefiero el agua al zumo"
+                },
+                {
+                  "example": "好み",
+                  "transcription": "このみ",
+                  "meaning": "Gusto, afición, inclinación, preferencia"
+                },
+                {
+                  "example": "お好みやき",
+                  "transcription": "おこのみやき",
+                  "meaning": "Okonomiyaki"
+                }
+              ]
+            },
+            {
+              "kanji": "男",
+              "strokes": 7,
+              "onyomi": ["ダン", "ナン"],
+              "kunyomi": ["おとこ"],
+              "meaning": ["Hombre", "Varón"],
+              "examples": [
+                {
+                  "example": "男の人",
+                  "transcription": "おとこのひと",
+                  "meaning": "Hombre, Varón"
+                },
+                {
+                  "example": "男の子",
+                  "transcription": "おとこのこ",
+                  "meaning": "Niño"
+                },
+                {
+                  "example": "男子",
+                  "transcription": "だんし",
+                  "meaning": "Chico, muchacho"
+                },
+                {
+                  "example": "男性",
+                  "transcription": "だんせい",
+                  "meaning": "Género masculino"
+                },
+                {
+                  "example": "男女",
+                  "transcription": "だんじょ",
+                  "meaning": "Hombre(s) y mujer(es)"
+                },
+                {
+                  "example": "長男",
+                  "transcription": "ちょうなん",
+                  "meaning": "Primogénito"
+                }
+              ]
+            },
+            {
+              "kanji": "林",
+              "strokes": 8,
+              "onyomi": ["リン"],
+              "kunyomi": ["はやし"],
+              "meaning": ["Bosque"],
+              "examples": [
+                {
+                  "example": "林",
+                  "transcription": "はやし",
+                  "meaning": "Bosque, arboleda"
+                },
+                {
+                  "example": "林ご",
+                  "transcription": "りんご",
+                  "meaning": "Manzana"
+                },
+                {
+                  "example": "山林",
+                  "transcription": "さんりん",
+                  "meaning": "Bosque en la mañana"
+                }
+              ]
+            },
+            {
+              "kanji": "森",
+              "strokes": 12,
+              "onyomi": ["シン"],
+              "kunyomi": ["もり"],
+              "meaning": ["Bosque (grande)", "Jungla", "Selva"],
+              "examples": [
+                {
+                  "example": "森",
+                  "transcription": "もり",
+                  "meaning": "Bosque, Selva"
+                },
+                {
+                  "example": "森林",
+                  "transcription": "しんりん",
+                  "meaning": "Bosque, selva; Forestal"
+                }
+              ]
+            },
+            {
+              "kanji": "間",
+              "strokes": 12,
+              "onyomi": ["カン", "(ケン)"],
+              "kunyomi": ["あいだ", "ま"],
+              "meaning": ["Intervalo, periodo", "entre, durante", "sufijo temporal"],
+              "examples": [
+                {
+                  "example": "間",
+                  "transcription": "あいだ / ま",
+                  "meaning": "Intervalo, espacio; entre; durante, mientras"
+                },
+                {
+                  "example": "間に合う",
+                  "transcription": "まにあう",
+                  "meaning": "Ser puntual"
+                },
+                {
+                  "example": "時間",
+                  "transcription": "じかん",
+                  "meaning": "Tiempo (cronológico); hora"
+                },
+                {
+                  "example": "人間",
+                  "transcription": "にんげん",
+                  "meaning": "Ser humano"
+                }
+              ]
+            },
+            {
+              "kanji": "畑",
+              "strokes": 9,
+              "onyomi": ["—"],
+              "kunyomi": ["はたけ", "はた"],
+              "meaning": ["Campo cultivado"],
+              "examples": [
+                {
+                  "example": "畑",
+                  "transcription": "はたけ",
+                  "meaning": "Campo cultivado"
+                },
+                {
+                  "example": "田畑",
+                  "transcription": "たはた",
+                  "meaning": "Campos de cultivo"
+                },
+                {
+                  "example": "花畑",
+                  "transcription": "はなばたけ",
+                  "meaning": "Campo de flores"
+                }
+              ]
+            },
+            {
+              "kanji": "岩",
+              "strokes": 8,
+              "onyomi": ["ガン"],
+              "kunyomi": ["いわ"],
+              "meaning": ["Roca"],
+              "examples": [
+                {
+                  "example": "岩",
+                  "transcription": "いわ",
+                  "meaning": "Roca"
+                },
+                {
+                  "example": "岩山",
+                  "transcription": "いわやま",
+                  "meaning": "Montaña rocosa"
+                },
+                {
+                  "example": "岩石",
+                  "transcription": "がんせき",
+                  "meaning": "Roca, peña, pedrolo"
+                },
+                {
+                  "example": "岩絵",
+                  "transcription": "いわえ",
+                  "meaning": "Pintura rupestre"
                 }
               ]
             }
