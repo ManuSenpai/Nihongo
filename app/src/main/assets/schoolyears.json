@@ -151,7 +151,7 @@
             {
               "kanji": "川",
               "strokes": 3,
-              "onyomi": ["モク", "ボク"],
+              "onyomi": ["ゲツ", "ガツ"],
               "kunyomi": ["かわ", "(～がわ)"],
               "meaning": ["Río"],
               "examples": [
@@ -2049,6 +2049,845 @@
                   "example": "赤い糸",
                   "transcription": "あかいいと",
                   "meaning": "Hilo rojo (del destino)"
+                }
+              ]
+            }
+          ],
+          "isCompleted": false,
+          "bestMark": 0
+        },
+        {
+          "title": "Tema 7",
+          "kanjis": [
+            {
+              "kanji": "花",
+              "strokes": 7,
+              "onyomi": ["カ"],
+              "kunyomi": ["はな"],
+              "meaning": ["Flor"],
+              "examples": [
+                {
+                  "example": "花",
+                  "transcription": "はな",
+                  "meaning": "Flor"
+                },
+                {
+                  "example": "花びん",
+                  "transcription": "はなびん",
+                  "meaning": "Jarrón, Florero"
+                },
+                {
+                  "example": "花火",
+                  "transcription": "はなび",
+                  "meaning": "Fuegos artificiales"
+                },
+                {
+                  "example": "火花",
+                  "transcription": "ひばな",
+                  "meaning": "Chispa"
+                },
+                {
+                  "example": "花見",
+                  "transcription": "はなみ",
+                  "meaning": "Hanami, contemplación de las flores de cerezo"
+                },
+                {
+                  "example": "花屋",
+                  "transcription": "はなや",
+                  "meaning": "Floristería"
+                },
+                {
+                  "example": "花びら",
+                  "transcription": "はなびら",
+                  "meaning": "Pétalo"
+                },
+                {
+                  "example": "生け花",
+                  "transcription": "いけばな",
+                  "meaning": "Arreglo Floral"
+                },
+                {
+                  "example": "おう花",
+                  "transcription": "おうか",
+                  "meaning": "Flor de cerezo"
+                }
+              ]
+            },
+            {
+              "kanji": "茶",
+              "strokes": 9,
+              "onyomi": ["チャ", "サ"],
+              "kunyomi": ["—"],
+              "meaning": ["Té"],
+              "examples": [
+                {
+                  "example": "茶",
+                  "transcription": "ちゃ",
+                  "meaning": "Té (verde)"
+                },
+                {
+                  "example": "きっ茶てん",
+                  "transcription": "きっさてん",
+                  "meaning": "Cafetería"
+                },
+                {
+                  "example": "茶どう",
+                  "transcription": "さどう",
+                  "meaning": "Ceremonia del té (aprendizaje)"
+                },
+                {
+                  "example": "茶のゆ",
+                  "transcription": "ちゃのゆ",
+                  "meaning": "Ceremonia del té (realización)"
+                },
+                {
+                  "example": "茶色",
+                  "transcription": "ちゃいろ",
+                  "meaning": "Color marrón"
+                }
+              ]
+            },
+            {
+              "kanji": "肉",
+              "strokes": 6,
+              "onyomi": ["ニク"],
+              "kunyomi": ["—"],
+              "meaning": ["Carne"],
+              "examples": [
+                {
+                  "example": "肉",
+                  "transcription": "にく",
+                  "meaning": "Carne"
+                },
+                {
+                  "example": "牛肉",
+                  "transcription": "ぎゅうにく",
+                  "meaning": "Carne de ternera"
+                },
+                {
+                  "example": "肉体",
+                  "transcription": "にくたい",
+                  "meaning": "Cuerpo como ente físico"
+                },
+                {
+                  "example": "肉屋",
+                  "transcription": "にくや",
+                  "meaning": "Carnicería"
+                },
+                {
+                  "example": "肉食 ～する",
+                  "transcription": "にくしょく ～する",
+                  "meaning": "Comer carne"
+                }
+              ]
+            },
+            {
+              "kanji": "字",
+              "strokes": 6,
+              "onyomi": ["ジ"],
+              "kunyomi": ["あざ"],
+              "meaning": ["Letra escrita", "Carácter"],
+              "examples": [
+                {
+                  "example": "かん字",
+                  "transcription": "かんじ",
+                  "meaning": "Kanji"
+                },
+                {
+                  "example": "文字",
+                  "transcription": "もじ / もんじ",
+                  "meaning": "Letra, escritura, caracteres"
+                },
+                {
+                  "example": "絵文字",
+                  "transcription": "えもじ",
+                  "meaning": "Emoji"
+                },
+                {
+                  "example": "すう字",
+                  "transcription": "すうじ",
+                  "meaning": "Dígito, Cifra, Número"
+                },
+                {
+                  "example": "字",
+                  "transcription": "あざ",
+                  "meaning": "Sección; Unidad administrativa de una aldea"
+                }
+              ]
+            },
+            {
+              "kanji": "文",
+              "strokes": 4,
+              "onyomi": ["ブン", "モン"],
+              "kunyomi": ["ふみ"],
+              "meaning": ["Letra", "Frase", "Texto", "Literatura"],
+              "examples": [
+                {
+                  "example": "文",
+                  "transcription": "ぶん",
+                  "meaning": "Frase, oración"
+                },
+                {
+                  "example": "文学",
+                  "transcription": "ぶんがく",
+                  "meaning": "Literatura"
+                },
+                {
+                  "example": "文化",
+                  "transcription": "ぶんか",
+                  "meaning": "Cultura"
+                },
+                {
+                  "example": "作文",
+                  "transcription": "さくぶん",
+                  "meaning": "Redacción"
+                },
+                {
+                  "example": "文法",
+                  "transcription": "ぶんぽう",
+                  "meaning": "Gramática"
+                },
+                {
+                  "example": "呪文",
+                  "transcription": "じゅもん",
+                  "meaning": "Hechizo, Conjuro"
+                },
+                {
+                  "example": "恋文",
+                  "transcription": "こいぶみ",
+                  "meaning": "Carta de amor"
+                },
+                {
+                  "example": "文明",
+                  "transcription": "ぶんめい",
+                  "meaning": "Civilización, cultura"
+                }
+              ]
+            },
+            {
+              "kanji": "物",
+              "strokes": 8,
+              "onyomi": ["ブツ", "モツ"],
+              "kunyomi": ["もの"],
+              "meaning": ["Cosa", "Objeto"],
+              "examples": [
+                {
+                  "example": "買い物",
+                  "transcription": "かいもの",
+                  "meaning": "Compras"
+                },
+                {
+                  "example": "生物 / 生き物",
+                  "transcription": "せいぶつ / いきもの",
+                  "meaning": "Ser vivo; Criatura"
+                },
+                {
+                  "example": "食べ物",
+                  "transcription": "たべもの",
+                  "meaning": "Comida"
+                },
+                {
+                  "example": "飲み物",
+                  "transcription": "のみもの",
+                  "meaning": "Bebida"
+                },
+                {
+                  "example": "おくり物",
+                  "transcription": "おくりもの",
+                  "meaning": "Regalo"
+                },
+                {
+                  "example": "たて物",
+                  "transcription": "たてもの",
+                  "meaning": "Edificio"
+                },
+                {
+                  "example": "物語",
+                  "transcription": "ものがたり",
+                  "meaning": "Relato, cuento, historia"
+                },
+                {
+                  "example": "どう物",
+                  "transcription": "どうぶつ",
+                  "meaning": "Animal"
+                },
+                {
+                  "example": "しょく物",
+                  "transcription": "しょくぶつ",
+                  "meaning": "Planta"
+                }
+              ]
+            },
+            {
+              "kanji": "牛",
+              "strokes": 4,
+              "onyomi": ["ギュウ"],
+              "kunyomi": ["うし"],
+              "meaning": ["Vaca", "Toro", "Buey", "Res"],
+              "examples": [
+                {
+                  "example": "牛",
+                  "transcription": "うし",
+                  "meaning": "Toro, buey, vaca, novillo, ternero, becerro"
+                },
+                {
+                  "example": "牛にゅう",
+                  "transcription": "ぎゅうにゅう",
+                  "meaning": "Leche de vaca"
+                },
+                {
+                  "example": "牛肉",
+                  "transcription": "ぎゅうにく",
+                  "meaning": "Carne de ternera"
+                },
+                {
+                  "example": "お牛",
+                  "transcription": "おうし",
+                  "meaning": "Toro"
+                },
+                {
+                  "example": "め牛",
+                  "transcription": "めうし",
+                  "meaning": "Vaca"
+                },
+                {
+                  "example": "牛車",
+                  "transcription": "うしぐるま",
+                  "meaning": "Carro tirado por bueyes"
+                }
+              ]
+            },
+            {
+              "kanji": "鳥",
+              "strokes": 11,
+              "onyomi": ["チョウ"],
+              "kunyomi": ["とり"],
+              "meaning": ["Pájaro", "Ave"],
+              "examples": [
+                {
+                  "example": "鳥",
+                  "transcription": "とり",
+                  "meaning": "Pájaro, Ave"
+                },
+                {
+                  "example": "やき鳥",
+                  "transcription": "やきとり",
+                  "meaning": "Yakitori: Pincho de pollo"
+                },
+                {
+                  "example": "鳥肉",
+                  "transcription": "とりにく",
+                  "meaning": "Carne de pollo"
+                },
+                {
+                  "example": "小鳥",
+                  "transcription": "ことり",
+                  "meaning": "Pájaro, pajarito"
+                }
+              ]
+            },
+            {
+              "kanji": "馬",
+              "strokes": 10,
+              "onyomi": ["バ"],
+              "kunyomi": ["うま"],
+              "meaning": ["Caballo"],
+              "examples": [
+                {
+                  "example": "馬",
+                  "transcription": "うま",
+                  "meaning": "Caballo, yegua, potro\n馬にのります montar a caballo, cabalgar\n馬からおります Bajarse del caballo"
+                },
+                {
+                  "example": "馬車",
+                  "transcription": "ばしゃ",
+                  "meaning": "Coche de caballos"
+                },
+                {
+                  "example": "馬力",
+                  "transcription": "ばりき",
+                  "meaning": "Caballo de vapor"
+                },
+                {
+                  "example": "子馬",
+                  "transcription": "こうま",
+                  "meaning": "Potro"
+                },
+                {
+                  "example": "め馬",
+                  "transcription": "めうま",
+                  "meaning": "Yegua"
+                },
+                {
+                  "example": "馬か",
+                  "transcription": "ばか",
+                  "meaning": "Tonto"
+                },
+                {
+                  "example": "馬肉",
+                  "transcription": "ばにく",
+                  "meaning": "Carne de caballo"
+                }
+              ]
+            },
+            {
+              "kanji": "魚",
+              "strokes": 11,
+              "onyomi": ["ギョ"],
+              "kunyomi": ["さかな", "うお"],
+              "meaning": ["Pez", "Pescado"],
+              "examples": [
+                {
+                  "example": "魚",
+                  "transcription": "さかな",
+                  "meaning": "Pescado"
+                },
+                {
+                  "example": "魚屋",
+                  "transcription": "さかなや",
+                  "meaning": "Pescadería"
+                },
+                {
+                  "example": "やき魚",
+                  "transcription": "やきさかな",
+                  "meaning": "Pescado asado"
+                },
+                {
+                  "example": "海魚",
+                  "transcription": "かいぎょ / うみうお",
+                  "meaning": "Pez de agua salada"
+                },
+                {
+                  "example": "川魚",
+                  "transcription": "かわうお / かわざかな",
+                  "meaning": "Pez de agua dulce"
+                },
+                {
+                  "example": "魚いちば",
+                  "transcription": "うおいちば",
+                  "meaning": "Lonja"
+                },
+                {
+                  "example": "人魚",
+                  "transcription": "にんぎょ",
+                  "meaning": "Sirena"
+                }
+              ]
+            }
+          ],
+          "isCompleted": false,
+          "bestMark": 0
+        },
+        {
+          "title": "Tema 8",
+          "kanjis": [
+            {
+              "kanji": "新",
+              "strokes": 13,
+              "onyomi": ["シン"],
+              "kunyomi": ["あたら・しい"],
+              "meaning": ["Nuevo"],
+              "examples": [
+                {
+                  "example": "新しい",
+                  "transcription": "あたらしい",
+                  "meaning": "Nuevo, fresco, reciente; moderno; original"
+                },
+                {
+                  "example": "新車",
+                  "transcription": "しんしゃ",
+                  "meaning": "Coche nuevo"
+                },
+                {
+                  "example": "新聞",
+                  "transcription": "しんぶん",
+                  "meaning": "Diario, periódico"
+                },
+                {
+                  "example": "新年",
+                  "transcription": "しんねん",
+                  "meaning": "Año nuevo"
+                },
+                {
+                  "example": "新人",
+                  "transcription": "しんじん",
+                  "meaning": "Novato"
+                },
+                {
+                  "example": "新せん -な",
+                  "transcription": "しんせん -な ",
+                  "meaning": "Fresco\n新せんな魚  Pescado fresco"
+                },
+                {
+                  "example": "新作",
+                  "transcription": "さいしん",
+                  "meaning": "Lo último, lo más reciente"
+                }
+              ]
+            },
+            {
+              "kanji": "古",
+              "strokes": 5,
+              "onyomi": ["コ"],
+              "kunyomi": ["ふる・い", "ふる・す", "(いにしえ)"],
+              "meaning": ["Viejo", "Antiguo"],
+              "examples": [
+                {
+                  "example": "古い",
+                  "transcription": "ふるい",
+                  "meaning": "Viejo, antiguo"
+                },
+                {
+                  "example": "古本",
+                  "transcription": "ふるほん",
+                  "meaning": "Libro de segunda mano"
+                },
+                {
+                  "example": "中古車",
+                  "transcription": "ちゅうこしゃ",
+                  "meaning": "Coche de segunda mano"
+                },
+                {
+                  "example": "古す",
+                  "transcription": "ふるす",
+                  "meaning": "Desgastarse"
+                }
+              ]
+            },
+            {
+              "kanji": "長",
+              "strokes": 8,
+              "onyomi": ["チョウ"],
+              "kunyomi": ["なが・い"],
+              "meaning": ["Largo", "El mayor", "Jefe, director, presidente"],
+              "examples": [
+                {
+                  "example": "長い",
+                  "transcription": "ながい",
+                  "meaning": "Largo"
+                },
+                {
+                  "example": "長さ",
+                  "transcription": "ながさ",
+                  "meaning": "Longitud, duración, extensión"
+                },
+                {
+                  "example": "学長",
+                  "transcription": "がくちょう",
+                  "meaning": "Rector"
+                },
+                {
+                  "example": "長男",
+                  "transcription": "ちょうなん",
+                  "meaning": "Hijo mayor"
+                },
+                {
+                  "example": "校長",
+                  "transcription": "こうちょう",
+                  "meaning": "Director de una escuela"
+                },
+                {
+                  "example": "長生き",
+                  "transcription": "ながいき",
+                  "meaning": "Longevidad"
+                },
+                {
+                  "example": "長年",
+                  "transcription": "ながねん",
+                  "meaning": "Muchos años"
+                },
+                {
+                  "example": "しん長",
+                  "transcription": "しんちょう",
+                  "meaning": "Estatura, altura"
+                }
+              ]
+            },
+            {
+              "kanji": "短",
+              "strokes": 12,
+              "onyomi": ["タン"],
+              "kunyomi": ["みじか・い"],
+              "meaning": ["Corto"],
+              "examples": [
+                {
+                  "example": "短い",
+                  "transcription": "みじかい",
+                  "meaning": "Corto, breve"
+                },
+                {
+                  "example": "気が短い",
+                  "transcription": "きがみじかい",
+                  "meaning": "Ser irascible, impaciente"
+                },
+                {
+                  "example": "気短",
+                  "transcription": "きみじか",
+                  "meaning": "Impaciencia, irascibilidad"
+                },
+                {
+                  "example": "短大",
+                  "transcription": "たんだい",
+                  "meaning": "Universidad para carreras de dos años"
+                }
+              ]
+            },
+            {
+              "kanji": "高",
+              "strokes": 10,
+              "onyomi": ["コウ"],
+              "kunyomi": ["たか・い"],
+              "meaning": ["Alto, elevado", "Caro"],
+              "examples": [
+                {
+                  "example": "高い",
+                  "transcription": "たかい",
+                  "meaning": "Alto, caro"
+                },
+                {
+                  "example": "せが高い",
+                  "transcription": "せがたかい",
+                  "meaning": "Alto (de estatura para personas)"
+                },
+                {
+                  "example": "高さ",
+                  "transcription": "たかさ",
+                  "meaning": "Altura"
+                },
+                {
+                  "example": "高校",
+                  "transcription": "こうこう",
+                  "meaning": "Instituto de bachillerato, escuela preparatoria"
+                },
+                {
+                  "example": "高そく",
+                  "transcription": "こうそく",
+                  "meaning": "Alta velocidad"
+                },
+                {
+                  "example": "さい高",
+                  "transcription": "さいこう",
+                  "meaning": "Lo mejor, lo más alto, lo máximo"
+                }
+              ]
+            },
+            {
+              "kanji": "安",
+              "strokes": 6,
+              "onyomi": ["アン"],
+              "kunyomi": ["やす・い"],
+              "meaning": ["Barato", "Seguro", "Tranquilidad"],
+              "examples": [
+                {
+                  "example": "安い",
+                  "transcription": "やすい",
+                  "meaning": "Barato, de bajo precio"
+                },
+                {
+                  "example": "安全",
+                  "transcription": "あんぜん",
+                  "meaning": "Seguridad, certeza, certidumbre"
+                },
+                {
+                  "example": "安心 ～する",
+                  "transcription": "あんしん ～する",
+                  "meaning": "Tranquilizarse, sosegarse\n安心してください  Tranquilo, tranquilícese"
+                },
+                {
+                  "example": "安売り",
+                  "transcription": "やすうり",
+                  "meaning": "Venta a bajo precio, rebaja"
+                },
+                {
+                  "example": "不安",
+                  "transcription": "ふあん",
+                  "meaning": "Inquietud, intranquilidad"
+                },
+                {
+                  "example": "安物",
+                  "transcription": "やすもの",
+                  "meaning": "Artículo barato, baratija"
+                },
+                {
+                  "example": "安てい",
+                  "transcription": "あんてい",
+                  "meaning": "Estabilidad, firmeza, equilibrio, constancia"
+                },
+                {
+                  "example": "安らか ～な",
+                  "transcription": "どうぶつ ～な",
+                  "meaning": "Tranquilo, sosegado, apacible, pacífico"
+                },
+                {
+                  "example": "円安",
+                  "transcription": "えんやす",
+                  "meaning": "Depreciación del yen"
+                }
+              ]
+            },
+            {
+              "kanji": "低",
+              "strokes": 7,
+              "onyomi": ["テイ"],
+              "kunyomi": ["ひく・い"],
+              "meaning": ["Bajo"],
+              "examples": [
+                {
+                  "example": "低い",
+                  "transcription": "ひくい",
+                  "meaning": "Bajo, inferior"
+                },
+                {
+                  "example": "低おん",
+                  "transcription": "ていおん",
+                  "meaning": "Baja temperatura"
+                },
+                {
+                  "example": "低下",
+                  "transcription": "ていか",
+                  "meaning": "Bajada, bajón"
+                },
+                {
+                  "example": "さい低",
+                  "transcription": "さいてい",
+                  "meaning": "Mínimo, lo más bajo, pésimo"
+                }
+              ]
+            },
+            {
+              "kanji": "暗",
+              "strokes": 13,
+              "onyomi": ["アン"],
+              "kunyomi": ["くら・い"],
+              "meaning": ["Oscuro"],
+              "examples": [
+                {
+                  "example": "暗い",
+                  "transcription": "くらい",
+                  "meaning": "Oscuro, tenebroso, sombrío"
+                },
+                {
+                  "example": "暗室",
+                  "transcription": "あんしつ",
+                  "meaning": "Cuarto oscuro, sala oscura"
+                },
+                {
+                  "example": "暗闇",
+                  "transcription": "くらやみ",
+                  "meaning": "Oscuridad total, tinieblas"
+                },
+                {
+                  "example": "暗さつ",
+                  "transcription": "あんさつ",
+                  "meaning": "Asesinato"
+                },
+                {
+                  "example": "暗記",
+                  "transcription": "あんき",
+                  "meaning": "Memorización"
+                },
+                {
+                  "example": "暗ごう",
+                  "transcription": "あんごう",
+                  "meaning": "Clave, cifrado"
+                },
+                {
+                  "example": "暗雲",
+                  "transcription": "あんうん",
+                  "meaning": "Nubes oscuras, nubarrones"
+                }
+              ]
+            },
+            {
+              "kanji": "多",
+              "strokes": 6,
+              "onyomi": ["タ"],
+              "kunyomi": ["おお・い", "おお・く"],
+              "meaning": ["Muchos", "Numerosos"],
+              "examples": [
+                {
+                  "example": "多い",
+                  "transcription": "おおい",
+                  "meaning": "Muchos, numerosos, en gran cantidad"
+                },
+                {
+                  "example": "多く ～の",
+                  "transcription": "おおく ～の",
+                  "meaning": "Muchos, numerosos"
+                },
+                {
+                  "example": "多すう ～の",
+                  "transcription": "たすう ～の",
+                  "meaning": "Un gran número, muchos, mayoría\n多すうの人  Mucha gente, muchas personas"
+                },
+                {
+                  "example": "多少",
+                  "transcription": "たしょう",
+                  "meaning": "Más o menos\n多少のお金があります  Tengo algo de dinero (pero no mucho)"
+                },
+                {
+                  "example": "多分",
+                  "transcription": "たぶん",
+                  "meaning": "Probablemente"
+                },
+                {
+                  "example": "多ぼう ～な",
+                  "transcription": "たぼう ～な",
+                  "meaning": "Muy ocupado"
+                },
+                {
+                  "example": "多りょう",
+                  "transcription": "たりょう",
+                  "meaning": "Mucha cantidad, mucho gran cantidad de algo, en abundancia\n多りょうの水  Mucha agua, una gran cantidad de agua"
+                },
+                {
+                  "example": "多雨",
+                  "transcription": "たう",
+                  "meaning": "Lluvia abundante"
+                }
+              ]
+            },
+            {
+              "kanji": "少",
+              "strokes": 4,
+              "onyomi": ["ショウ"],
+              "kunyomi": ["すく・ない", "すこ・し"],
+              "meaning": ["Poco, escaso", "Un poco"],
+              "examples": [
+                {
+                  "example": "少ない",
+                  "transcription": "すくない",
+                  "meaning": "Pocos, escasos\n今年は雨が少ない está lloviendo poco este año"
+                },
+                {
+                  "example": "少し",
+                  "transcription": "すこし",
+                  "meaning": "Un poco, algo"
+                },
+                {
+                  "example": "少年",
+                  "transcription": "しょうねん",
+                  "meaning": "Chico, muchacho, niño"
+                },
+                {
+                  "example": "少女",
+                  "transcription": "しょうじょ",
+                  "meaning": "Chica, muchacha, niña "
+                },
+                {
+                  "example": "少なくとも",
+                  "transcription": "すくなくとも",
+                  "meaning": "Como poco, como mínimo, por lo menos\n少なくとも百万円あります  Hay como poco un millón de yenes\n"
+                },
+                {
+                  "example": "少りょう",
+                  "transcription": "しょうりょう",
+                  "meaning": "Poca cantidad, una cantidad pequeña de algo\nこのビンの中に少りょうの水があります  Hay un poco de agua en esta botella"
+                },
+                {
+                  "example": "少雨",
+                  "transcription": "しょうう",
+                  "meaning": "Poca lluvia"
                 }
               ]
             }
