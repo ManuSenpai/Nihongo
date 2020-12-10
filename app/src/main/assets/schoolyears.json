@@ -3365,6 +3365,461 @@
           ],
           "isCompleted": false,
           "bestMark": 0
+        },
+        {
+          "title": "Tema 10",
+          "kanjis": [
+            {
+              "kanji": "朝",
+              "strokes": 12,
+              "onyomi": ["チョウ"],
+              "kunyomi": ["あさ"],
+              "meaning": ["Mañana, primera parte del día", "Corea"],
+              "examples": [
+                {
+                  "example": "朝",
+                  "transcription": "あさ",
+                  "meaning": "Mañana; por la mañana"
+                },
+                {
+                  "example": "毎朝",
+                  "transcription": "まいあさ",
+                  "meaning": "Todas las mañanas"
+                },
+                {
+                  "example": "朝食 / 朝ご飯",
+                  "transcription": "ちょうしょく / あさごはん",
+                  "meaning": "Desayuno"
+                },
+                {
+                  "example": "朝日",
+                  "transcription": "あさひ",
+                  "meaning": "Sol naciente; Sol de la mañana"
+                },
+                {
+                  "example": "明朝",
+                  "transcription": "みょうちょう",
+                  "meaning": "Mañana por la mañana"
+                }
+              ]
+            },
+            {
+              "kanji": "昼",
+              "strokes": 9,
+              "onyomi": ["チュウ"],
+              "kunyomi": ["ひる"],
+              "meaning": ["Día", "Mediodía"],
+              "examples": [
+                {
+                  "example": "昼",
+                  "transcription": "ひる",
+                  "meaning": "Día; Mediodía"
+                },
+                {
+                  "example": "昼食 / 昼ご飯",
+                  "transcription": "ちゅうしょく / ひるごはん",
+                  "meaning": "Almuerzo; Comida del mediodía"
+                },
+                {
+                  "example": "昼間",
+                  "transcription": "ひるま",
+                  "meaning": "Día; Periodo diurno"
+                },
+                {
+                  "example": "昼休み",
+                  "transcription": "ひるやすみ",
+                  "meaning": "Descanso del mediodía"
+                },
+                {
+                  "example": "昼夜",
+                  "transcription": "ちゅうや",
+                  "meaning": "Día y noche"
+                }
+              ]
+            },
+            {
+              "kanji": "夜",
+              "strokes": 8,
+              "onyomi": ["ヤ"],
+              "kunyomi": ["よる", "よ"],
+              "meaning": ["Noche"],
+              "examples": [
+                {
+                  "example": "夜",
+                  "transcription": "よる",
+                  "meaning": "Noche"
+                },
+                {
+                  "example": "今夜",
+                  "transcription": "こんや",
+                  "meaning": "Esta noche"
+                },
+                {
+                  "example": "夜食",
+                  "transcription": "やしょく",
+                  "meaning": "Cena ligera"
+                },
+                {
+                  "example": "夜中",
+                  "transcription": "よなか",
+                  "meaning": "Madrugada"
+                },
+                {
+                  "example": "夜間 ～の",
+                  "transcription": "やかん ～の",
+                  "meaning": "Nocturno"
+                },
+                {
+                  "example": "昨夜",
+                  "transcription": "さくや",
+                  "meaning": "Anoche"
+                },
+                {
+                  "example": "日夜",
+                  "transcription": "にちや",
+                  "meaning": "Día y noche"
+                },
+                {
+                  "example": "前夜",
+                  "transcription": "ぜんや",
+                  "meaning": "La noche anterior"
+                }
+              ]
+            },
+            {
+              "kanji": "晩",
+              "strokes": 12,
+              "onyomi": ["バン"],
+              "kunyomi": ["—"],
+              "meaning": ["Tarde", "Noche"],
+              "examples": [
+                {
+                  "example": "晩",
+                  "transcription": "ばん",
+                  "meaning": "Tarde, noche; Contador para noches"
+                },
+                {
+                  "example": "晩ご飯",
+                  "transcription": "ばんごはん",
+                  "meaning": "Cena"
+                },
+                {
+                  "example": "今晩",
+                  "transcription": "こんばん",
+                  "meaning": "Esta tarde, esta noche"
+                },
+                {
+                  "example": "毎晩",
+                  "transcription": "まいばん",
+                  "meaning": "Cada noche"
+                },
+                {
+                  "example": "一晩",
+                  "transcription": "ひとばん",
+                  "meaning": "Una noche, una tarde"
+                },
+                {
+                  "example": "明晩",
+                  "transcription": "みょうばん",
+                  "meaning": "Mañana por la noche"
+                }
+              ]
+            },
+            {
+              "kanji": "夕",
+              "strokes": 3,
+              "onyomi": ["(セキ)"],
+              "kunyomi": ["ゆう"],
+              "meaning": ["Tarde"],
+              "examples": [
+                {
+                  "example": "夕べ",
+                  "transcription": "ゆうべ",
+                  "meaning": "Anoche"
+                },
+                {
+                  "example": "夕食 / 夕飯",
+                  "transcription": "ゆうしょく / ゆうはん",
+                  "meaning": "Cena"
+                },
+                {
+                  "example": "夕日",
+                  "transcription": "ゆうひ",
+                  "meaning": "Sol poniente"
+                },
+                {
+                  "example": "夕方",
+                  "transcription": "ゆうがた",
+                  "meaning": "Tarde, atardecer, crepúsculo"
+                }
+              ]
+            },
+            {
+              "kanji": "方",
+              "strokes": 4,
+              "onyomi": ["ホウ"],
+              "kunyomi": ["かた", "-かた"],
+              "meaning": ["Dirección, alternativa", "Camino", "Modo, manera", "Persona (formal)"],
+              "examples": [
+                {
+                  "example": "方ほう",
+                  "transcription": "ほうほう",
+                  "meaning": "Modo, forma de hacer algo"
+                },
+                {
+                  "example": "方",
+                  "transcription": "かた",
+                  "meaning": "Persona (formal)"
+                },
+                {
+                  "example": "明け方",
+                  "transcription": "あけがた",
+                  "meaning": "Amanecer"
+                },
+                {
+                  "example": "あなた方",
+                  "transcription": "あなたがた",
+                  "meaning": "Ustedes"
+                },
+                {
+                  "example": "方",
+                  "transcription": "ほう",
+                  "meaning": "Dirección, rumbo; Alternariva, opción"
+                }
+              ]
+            },
+            {
+              "kanji": "午",
+              "strokes": 4,
+              "onyomi": ["ゴ"],
+              "kunyomi": ["(うま)"],
+              "meaning": ["Mediodía", "Signo del caballo en el horóscopo chino"],
+              "examples": [
+                {
+                  "example": "午前",
+                  "transcription": "ごぜん",
+                  "meaning": "Mañana, antes del mediodía, AM"
+                },
+                {
+                  "example": "午後",
+                  "transcription": "ごご",
+                  "meaning": "Tarde, horas después del mediodía, PM"
+                },
+                {
+                  "example": "正午",
+                  "transcription": "しょうご",
+                  "meaning": "Mediodía"
+                },
+                {
+                  "example": "午年",
+                  "transcription": "うまどし",
+                  "meaning": "Año del caballo"
+                }
+              ]
+            },
+            {
+              "kanji": "前",
+              "strokes": 9,
+              "onyomi": ["ゼン"],
+              "kunyomi": ["まえ"],
+              "meaning": ["Antes de, anterior, previo", "Delante de, enfrente de"],
+              "examples": [
+                {
+                  "example": "前",
+                  "transcription": "まえ",
+                  "meaning": "Antes de, previo, frente"
+                },
+                {
+                  "example": "前半",
+                  "transcription": "ぜんはん",
+                  "meaning": "Primera mitad, primera parte"
+                },
+                {
+                  "example": "前世",
+                  "transcription": "ぜんせ",
+                  "meaning": "Existencia previa, vida anterior"
+                },
+                {
+                  "example": "名前",
+                  "transcription": "なまえ",
+                  "meaning": "Nombre"
+                },
+                {
+                  "example": "人前",
+                  "transcription": "ひとまえ",
+                  "meaning": "En público, delante de la gente"
+                },
+                {
+                  "example": "前日",
+                  "transcription": "ぜんじつ",
+                  "meaning": "El otro día"
+                },
+                {
+                  "example": "えき前",
+                  "transcription": "えきまえ",
+                  "meaning": "Frente a la estación"
+                }
+              ]
+            },
+            {
+              "kanji": "後",
+              "strokes": 9,
+              "onyomi": ["ゴ", "コウ"],
+              "kunyomi": ["うし・ろ", "あと", "のち"],
+              "meaning": ["Después de", "Posterior", "Detrás, parte trasera"],
+              "examples": [
+                {
+                  "example": "後ろ",
+                  "transcription": "うしろ",
+                  "meaning": "Detrás, parte trasera"
+                },
+                {
+                  "example": "後",
+                  "transcription": "あと",
+                  "meaning": "Después, luego, más tarde; dentro de\n後三日でクリスマスです  Dentro de tres días será navidad"
+                },
+                {
+                  "example": "後",
+                  "transcription": "のち",
+                  "meaning": "Después de, luego, más tarde"
+                },
+                {
+                  "example": "後半",
+                  "transcription": "こうはん",
+                  "meaning": "Segunda mitad, segunda parte; Segundo tiempo"
+                },
+                {
+                  "example": "~年後",
+                  "transcription": "~ねんご",
+                  "meaning": "~ años después"
+                },
+                {
+                  "example": "今後",
+                  "transcription": "こんご",
+                  "meaning": "De ahora en adelante"
+                },
+                {
+                  "example": "さい後",
+                  "transcription": "さいご",
+                  "meaning": "Fin, final; último"
+                }
+              ]
+            },
+            {
+              "kanji": "毎",
+              "strokes": 6,
+              "onyomi": ["マイ"],
+              "kunyomi": ["ごと"],
+              "meaning": ["Todos", "Cada"],
+              "examples": [
+                {
+                  "example": "毎日",
+                  "transcription": "まいにち",
+                  "meaning": "Todos los días"
+                },
+                {
+                  "example": "毎月",
+                  "transcription": "まいげつ",
+                  "meaning": "Todos los meses"
+                },
+                {
+                  "example": "毎週",
+                  "transcription": "まいしゅう",
+                  "meaning": "Todas las semanas"
+                },
+                {
+                  "example": "毎年",
+                  "transcription": "まいとし / まいねん",
+                  "meaning": "Todos los años"
+                },
+                {
+                  "example": "毎 ～に",
+                  "transcription": "ごと ～に",
+                  "meaning": "Cada...\n５分毎に　(ごぶんごとに)  Cada 5 minutos"
+                }
+              ]
+            },
+            {
+              "kanji": "週",
+              "strokes": 11,
+              "onyomi": ["シュウ"],
+              "kunyomi": ["—"],
+              "meaning": ["Semana"],
+              "examples": [
+                {
+                  "example": "来週",
+                  "transcription": "らいしゅう",
+                  "meaning": "La semana que viene"
+                },
+                {
+                  "example": "先週",
+                  "transcription": "せんしゅう",
+                  "meaning": "La semana pasada"
+                },
+                {
+                  "example": "週末",
+                  "transcription": "しゅうまつ",
+                  "meaning": "Fin de semana"
+                },
+                {
+                  "example": "一週間",
+                  "transcription": "いっしゅうかん",
+                  "meaning": "Una semana"
+                },
+                {
+                  "example": "今週",
+                  "transcription": "こんしゅう",
+                  "meaning": "Esta semana"
+                }
+              ]
+            },
+            {
+              "kanji": "曜",
+              "strokes": 18,
+              "onyomi": ["ヨウ"],
+              "kunyomi": ["—"],
+              "meaning": ["Día de la semana"],
+              "examples": [
+                {
+                  "example": "月曜日",
+                  "transcription": "げつようび",
+                  "meaning": "Lunes"
+                },
+                {
+                  "example": "火曜日",
+                  "transcription": "かようび",
+                  "meaning": "Martes"
+                },
+                {
+                  "example": "水曜日",
+                  "transcription": "すいようび",
+                  "meaning": "Miércoles"
+                },
+                {
+                  "example": "木曜日",
+                  "transcription": "もくようび",
+                  "meaning": "Jueves"
+                },
+                {
+                  "example": "金曜日",
+                  "transcription": "きんようび",
+                  "meaning": "Viernes"
+                },
+                {
+                  "example": "土曜日",
+                  "transcription": "どようび",
+                  "meaning": "Sábado"
+                },
+                {
+                  "example": "日曜日",
+                  "transcription": "にひようび",
+                  "meaning": "Domingo"
+                }
+              ]
+            }
+          ],
+          "isCompleted": false,
+          "bestMark": 0
         }
       ]
     },
