@@ -2894,6 +2894,477 @@
           ],
           "isCompleted": false,
           "bestMark": 0
+        },
+        {
+          "title": "Tema 9",
+          "kanjis": [
+            {
+              "kanji": "行",
+              "strokes": 6,
+              "onyomi": ["コウ", "ギョウ"],
+              "kunyomi": ["い・く", "おこな・う"],
+              "meaning": ["Ir", "Llevar a cabo", "Fila", "Línea"],
+              "examples": [
+                {
+                  "example": "行く",
+                  "transcription": "いく / ゆく",
+                  "meaning": "Ir、irse, marcharse, partir"
+                },
+                {
+                  "example": "行う",
+                  "transcription": "おこなう",
+                  "meaning": "Llevar a cabo, realizar, cumplir, ejecutar, efectuar"
+                },
+                {
+                  "example": "りょ行",
+                  "transcription": "りょこう",
+                  "meaning": "Viaje, excursión"
+                },
+                {
+                  "example": "行",
+                  "transcription": "ぎょう",
+                  "meaning": "Línea de un texto\n10 ページの８行目  Línea 8 de la página 10"
+                },
+                {
+                  "example": "行き",
+                  "transcription": "いき / ゆき",
+                  "meaning": "Que va a, con dirección a, con destino\nこうべ行きのバス  El autobús que va a Kobe"
+                },
+                {
+                  "example": "ぎん行",
+                  "transcription": "ぎんこう",
+                  "meaning": "Banco"
+                },
+                {
+                  "example": "ひ行き",
+                  "transcription": "ひこうき",
+                  "meaning": "Avión"
+                }
+              ]
+            },
+            {
+              "kanji": "来",
+              "strokes": 7,
+              "onyomi": ["ライ"],
+              "kunyomi": ["く・る", "き・ます", "き・ます", "こ・ない"],
+              "meaning": ["Venir", "Llegar"],
+              "examples": [
+                {
+                  "example": "来る / 来ます",
+                  "transcription": "くる / きます",
+                  "meaning": "Venir, llegar"
+                },
+                {
+                  "example": "来ない",
+                  "transcription": "こない",
+                  "meaning": "No venir, no llegar. Forma corta de 来ません"
+                },
+                {
+                  "example": "来年",
+                  "transcription": "らいねん",
+                  "meaning": "El año que viene"
+                },
+                {
+                  "example": "来月",
+                  "transcription": "らいげつ",
+                  "meaning": "El mes que viene"
+                },
+                {
+                  "example": "来日 ～する",
+                  "transcription": "らいにち ～する",
+                  "meaning": "Venir a Japón, visitar Japón"
+                },
+                {
+                  "example": "来週",
+                  "transcription": "らいしゅう",
+                  "meaning": "La semana que viene"
+                },
+                {
+                  "example": "未来",
+                  "transcription": "みらい",
+                  "meaning": "Futuro, porvenir"
+                },
+                {
+                  "example": "出来る",
+                  "transcription": "できる",
+                  "meaning": "Poder, saber, ser capaz de algo"
+                }
+              ]
+            },
+            {
+              "kanji": "帰",
+              "strokes": 10,
+              "onyomi": ["キ"],
+              "kunyomi": ["かえ・る"],
+              "meaning": ["Volver", "Regresar"],
+              "examples": [
+                {
+                  "example": "帰る",
+                  "transcription": "かえる",
+                  "meaning": "Volver, regresar"
+                },
+                {
+                  "example": "帰国",
+                  "transcription": "きこく",
+                  "meaning": "Vuelta al país de origen"
+                },
+                {
+                  "example": "帰宅 ～する",
+                  "transcription": "きたく ～する",
+                  "meaning": "Volver a casa"
+                },
+                {
+                  "example": "帰そん ～する",
+                  "transcription": "きそん ～する",
+                  "meaning": "Vuelta al pueblo"
+                },
+                {
+                  "example": "帰り",
+                  "transcription": "かえり",
+                  "meaning": "Vuelta, regreso"
+                }
+              ]
+            },
+            {
+              "kanji": "食",
+              "strokes": 9,
+              "onyomi": ["ショク"],
+              "kunyomi": ["たべ・る", "く・う"],
+              "meaning": ["Comer"],
+              "examples": [
+                {
+                  "example": "食べる",
+                  "transcription": "たべる",
+                  "meaning": "Comer, tomar algo"
+                },
+                {
+                  "example": "食べ物",
+                  "transcription": "たべもの",
+                  "meaning": "Comida, alimentos"
+                },
+                {
+                  "example": "夕食",
+                  "transcription": "ゆうしょく",
+                  "meaning": "Cena"
+                },
+                {
+                  "example": "食事",
+                  "transcription": "しょくじ",
+                  "meaning": "Comida (del día)"
+                },
+                {
+                  "example": "朝食",
+                  "transcription": "ちょうしょく",
+                  "meaning": "Desayuno"
+                },
+                {
+                  "example": "昼食",
+                  "transcription": "ちゅうしょく",
+                  "meaning": "Comida, almuerzo"
+                },
+                {
+                  "example": "食よく",
+                  "transcription": "しょくよく",
+                  "meaning": "Apetito"
+                },
+                {
+                  "example": "飲食",
+                  "transcription": "いんしょく",
+                  "meaning": "Comida y bebida"
+                },
+                {
+                  "example": "食どう",
+                  "transcription": "しょくどう",
+                  "meaning": "Comedor"
+                },
+                {
+                  "example": "間食",
+                  "transcription": "かんしょく",
+                  "meaning": "Comer entre horas, picar"
+                },
+                {
+                  "example": "和食",
+                  "transcription": "わしょく",
+                  "meaning": "Comida japonesa"
+                }
+              ]
+            },
+            {
+              "kanji": "飲",
+              "strokes": 12,
+              "onyomi": ["イン"],
+              "kunyomi": ["の・む"],
+              "meaning": ["Beber"],
+              "examples": [
+                {
+                  "example": "飲む",
+                  "transcription": "のむ",
+                  "meaning": "Beber, tragar, ingerir"
+                },
+                {
+                  "example": "飲み物",
+                  "transcription": "のみもの",
+                  "meaning": "Bebida"
+                },
+                {
+                  "example": "飲酒 ～する",
+                  "transcription": "いんしゅ ～する",
+                  "meaning": "Beber alcohol"
+                },
+                {
+                  "example": "飲みこむ",
+                  "transcription": "のみこむ",
+                  "meaning": "Tragar, deglutir, engullir"
+                },
+                {
+                  "example": "飲み会",
+                  "transcription": "のみかい",
+                  "meaning": "Irse de parranda con los compañeros"
+                },
+                {
+                  "example": "飲み水",
+                  "transcription": "のみみず",
+                  "meaning": "Agua potable"
+                }
+              ]
+            },
+            {
+              "kanji": "見",
+              "strokes": 7,
+              "onyomi": ["ケン"],
+              "kunyomi": ["み・る", "み・せる", "み・える"],
+              "meaning": ["Vista", "Ver", "Observar, verse, mostrar", "Idea", "Opinión"],
+              "examples": [
+                {
+                  "example": "見る",
+                  "transcription": "みる",
+                  "meaning": "Ver, mirar, observar, contemplar"
+                },
+                {
+                  "example": "見せる",
+                  "transcription": "みせる",
+                  "meaning": "Enseñar, mostrar"
+                },
+                {
+                  "example": "見える",
+                  "transcription": "みえる",
+                  "meaning": "Verse, ser visible"
+                },
+                {
+                  "example": "い見",
+                  "transcription": "いけん",
+                  "meaning": "Opinión, punto de vista"
+                },
+                {
+                  "example": "見物",
+                  "transcription": "けんぶつ",
+                  "meaning": "Visita, observación"
+                },
+                {
+                  "example": "見学",
+                  "transcription": "けんがく",
+                  "meaning": "Visita de estudios"
+                },
+                {
+                  "example": "見つける",
+                  "transcription": "みつける",
+                  "meaning": "Encontrar, hallar, descubrir\nしごとを見つける  Encontrar un trabajo"
+                },
+                {
+                  "example": "見つかる",
+                  "transcription": "みつかる",
+                  "meaning": "Aparecer, ser encontrado\nかぎが見つかりました  He encontrado las llaves, han aparecido las llaves"
+                }
+              ]
+            },
+            {
+              "kanji": "聞",
+              "strokes": 14,
+              "onyomi": ["ブン"],
+              "kunyomi": ["き・く", "き・こえる"],
+              "meaning": ["Oír", "Escuchar"],
+              "examples": [
+                {
+                  "example": "聞く",
+                  "transcription": "きく",
+                  "meaning": "Oír, escuchar; preguntar, interrogar"
+                },
+                {
+                  "example": "聞こえる",
+                  "transcription": "きこえる",
+                  "meaning": "Oírse, escucharse, ser audible\n海のおとが聞こえる  Se oye el sonido del mar"
+                },
+                {
+                  "example": "新聞",
+                  "transcription": "しんぶん",
+                  "meaning": "Periódico"
+                }
+              ]
+            },
+            {
+              "kanji": "読",
+              "strokes": 14,
+              "onyomi": ["ドク"],
+              "kunyomi": ["よ・む"],
+              "meaning": ["Leer", "Lectura"],
+              "examples": [
+                {
+                  "example": "読む",
+                  "transcription": "よむ",
+                  "meaning": "leer"
+                },
+                {
+                  "example": "読書",
+                  "transcription": "どくしょ",
+                  "meaning": "Lectura; Leer libros"
+                },
+                {
+                  "example": "読者",
+                  "transcription": "どくしゃ",
+                  "meaning": "Lector"
+                },
+                {
+                  "example": "立ち読み",
+                  "transcription": "たちよみ",
+                  "meaning": "Leer de pie"
+                },
+                {
+                  "example": "おん読み",
+                  "transcription": "おんよみ",
+                  "meaning": "Lectura On de un kanji"
+                },
+                {
+                  "example": "くん読み",
+                  "transcription": "くんよみ",
+                  "meaning": "Lectura Kun de un kanji"
+                }
+              ]
+            },
+            {
+              "kanji": "書",
+              "strokes": 10,
+              "onyomi": ["ショ"],
+              "kunyomi": ["か・く"],
+              "meaning": ["Escribir", "Escritura, escrito", "Documento", "Libro"],
+              "examples": [
+                {
+                  "example": "書く",
+                  "transcription": "かく",
+                  "meaning": "Escribir"
+                },
+                {
+                  "example": "書どう",
+                  "transcription": "しょどう",
+                  "meaning": "Caligrafía"
+                },
+                {
+                  "example": "書店",
+                  "transcription": "しょてん",
+                  "meaning": "Librería, tienda de libros"
+                },
+                {
+                  "example": "と書 (～かん)",
+                  "transcription": "としょ (～かん)",
+                  "meaning": "Libro (Biblioteca)"
+                },
+                {
+                  "example": "読み書き",
+                  "transcription": "よみかき",
+                  "meaning": "Lectura y escritura"
+                },
+                {
+                  "example": "書せき",
+                  "transcription": "しょせき",
+                  "meaning": "Libro, publicación"
+                }
+              ]
+            },
+            {
+              "kanji": "話",
+              "strokes": 13,
+              "onyomi": ["ワ"],
+              "kunyomi": ["はな・す"],
+              "meaning": ["Hablar", "Conversar"],
+              "examples": [
+                {
+                  "example": "話す",
+                  "transcription": "はなす",
+                  "meaning": "Hablar, contar, relatar"
+                },
+                {
+                  "example": "話",
+                  "transcription": "はなし",
+                  "meaning": "Conversación, diálogo, charla"
+                },
+                {
+                  "example": "会話",
+                  "transcription": "かいわ",
+                  "meaning": "Diálogo, conversación"
+                },
+                {
+                  "example": "電話 ～ばんごう",
+                  "transcription": "でんわ ～ばんごう",
+                  "meaning": "Teléfono ～número"
+                },
+                {
+                  "example": "世話",
+                  "transcription": "せわ",
+                  "meaning": "Cuidado, atención\n子どもの世話をする  Cuidar a los niños"
+                },
+                {
+                  "example": "話し合う",
+                  "transcription": "はなしあう",
+                  "meaning": "Conversar, dialogar"
+                },
+                {
+                  "example": "つう話",
+                  "transcription": "つうわ",
+                  "meaning": "Llamada telefónica, conferencia"
+                },
+                {
+                  "example": "手話",
+                  "transcription": "しゅわ",
+                  "meaning": "Lenguaje de signos"
+                }
+              ]
+            },
+            {
+              "kanji": "買",
+              "strokes": 12,
+              "onyomi": ["バイ"],
+              "kunyomi": ["か・う"],
+              "meaning": ["Comprar"],
+              "examples": [
+                {
+                  "example": "買う",
+                  "transcription": "かう",
+                  "meaning": "Comprar"
+                },
+                {
+                  "example": "買い物",
+                  "transcription": "かいもの",
+                  "meaning": "Compra"
+                },
+                {
+                  "example": "売買 / 売り買い",
+                  "transcription": "ばいばい / うりかい",
+                  "meaning": "Compraventa, negocio"
+                },
+                {
+                  "example": "買い上げ",
+                  "transcription": "かいあげ",
+                  "meaning": "Compra, adquisición"
+                },
+                {
+                  "example": "買い手",
+                  "transcription": "かいて",
+                  "meaning": "Comprador"
+                }
+              ]
+            }
+          ],
+          "isCompleted": false,
+          "bestMark": 0
         }
       ]
     },
