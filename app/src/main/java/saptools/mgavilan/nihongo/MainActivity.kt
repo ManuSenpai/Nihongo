@@ -9,6 +9,7 @@ import androidx.fragment.app.FragmentManager
 import com.google.gson.Gson
 import saptools.mgavilan.nihongo.data.Course
 import saptools.mgavilan.nihongo.fragments.HomeFragment
+import saptools.mgavilan.nihongo.fragments.KanjiSummaryFragment
 import saptools.mgavilan.nihongo.utils.Utils
 
 class MainActivity : AppCompatActivity() {
@@ -25,8 +26,8 @@ class MainActivity : AppCompatActivity() {
 
     companion object {
         var course: Course? = null
-        var currentYear: Int = 0
-        var currentUnit: Int = 0
+        var currentYear: Int = -1
+        var currentUnit: Int = -1
         var fragment: Fragment = HomeFragment()
 
         fun fragmentCalling(myContext: Context, fragmentManager: androidx.fragment.app.FragmentManager) {
@@ -46,6 +47,17 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onBackPressed() {
-
+        when ( fragment.id ) {
+            KanjiSummaryFragment().id -> {
+                fragment = HomeFragment()
+                fragmentCalling(this, supportFragmentManager)
+            }
+            HomeFragment().id -> {
+                currentUnit = -1
+                currentYear = -1
+                fragment = HomeFragment()
+                fragmentCalling(this, supportFragmentManager)
+            }
+        }
     }
 }

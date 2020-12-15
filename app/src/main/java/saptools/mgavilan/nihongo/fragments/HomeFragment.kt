@@ -1,5 +1,6 @@
 package saptools.mgavilan.nihongo.fragments
 
+import android.content.Context
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -29,12 +30,11 @@ class HomeFragment : Fragment() {
     var kanjiList: LinearLayout? = null
     var studyBtn: Button? = null
 
-    var currentYear: Int = 0
-    var currentUnit: Int = 0
+    var currentYear: Int = -1
+    var currentUnit: Int = -1
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
     }
 
     override fun onCreateView(
@@ -54,7 +54,7 @@ class HomeFragment : Fragment() {
         kanjiList = unitLayout?.findViewById(R.id.kanji_display_LL)
         areatitle?.text = "Selecciona curso"
         backButton?.visibility = View.GONE
-        mainAdapter = MainMenuRecViewAdapter( MainActivity.course!!.schoolYears ){ it ->
+        mainAdapter = MainMenuRecViewAdapter( MainActivity.course!!.schoolYears ){
             mainView?.visibility = View.GONE
             showUnits(it)
         }
@@ -66,6 +66,13 @@ class HomeFragment : Fragment() {
             MainActivity.currentUnit = currentUnit
             Utils.storeSharedValue(activity!!, "kanji", "kanji", "0")
             Utils.fragmentCalling(activity!!, fragmentManager!!, KanjiSummaryFragment())
+        }
+
+        if ( MainActivity.currentYear != -1 && MainActivity.currentUnit != -1 ) {
+            currentYear = MainActivity.currentYear
+            currentUnit = MainActivity.currentUnit
+            mainView?.visibility = View.GONE
+            goToUnitScreen( currentUnit )
         }
 
         return rootView
@@ -99,7 +106,7 @@ class HomeFragment : Fragment() {
         showUnits(currentYear)
     }
 
-    private fun goToUnitScreen( position: Int ) {
+    fun goToUnitScreen( position: Int ) {
         currentUnit = position
         unitLayout?.visibility = View.VISIBLE
         unitView?.visibility = View.GONE
@@ -128,6 +135,7 @@ class HomeFragment : Fragment() {
             textView.setOnClickListener {
                 MainActivity.currentYear = currentYear
                 MainActivity.currentUnit = currentUnit
+                MainActivity.fragment = KanjiSummaryFragment()
                 Utils.storeSharedValue(activity!!, "kanji", "kanji", i.toString() )
                 Utils.fragmentCalling(activity!!, fragmentManager!!, KanjiSummaryFragment())
             }

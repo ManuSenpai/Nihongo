@@ -10,24 +10,19 @@ import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.core.content.ContextCompat
+import androidx.viewpager.widget.ViewPager
 import kotlinx.android.synthetic.main.kanji_example_item.view.*
 import kotlinx.android.synthetic.main.kanji_summary_card.*
 import saptools.mgavilan.nihongo.MainActivity
 import saptools.mgavilan.nihongo.R
+import saptools.mgavilan.nihongo.fragments.adapters.KanjiCardAdapter
 import saptools.mgavilan.nihongo.utils.Utils
 
 class KanjiSummaryFragment : Fragment() {
 
     var rootView: View? = null
 
-    var kanji: TextView? = null
-    var onyomiLL: LinearLayout? = null
-    var kunyomiLL: LinearLayout? = null
-    var meaning: TextView? = null
-    var examples: LinearLayout? = null
-    var forwardBtn: ImageView? = null
-    var backBtn: ImageView? = null
-    var exitBtn: ImageView? = null
+    var viewPager: ViewPager? = null
     var currentValue: Int = 0
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -40,97 +35,19 @@ class KanjiSummaryFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        rootView = inflater.inflate(R.layout.kanji_summary_card, container, false)
+//        rootView = inflater.inflate(R.layout.kanji_summary_card, container, false)
+        rootView = inflater.inflate(R.layout.kanji_summary_container, container, false)
         currentValue = Utils.getSharedValue(activity!!, "kanji", "kanji")!!.toInt()
 
         setUI()
-        setKanji(currentValue)
 
         return rootView
     }
 
     private fun setUI() {
-        kanji = rootView?.findViewById(R.id.kanji)
-        onyomiLL = rootView?.findViewById(R.id.onyomiLL)
-        kunyomiLL = rootView?.findViewById(R.id.kunnyomiLL)
-        meaning = rootView?.findViewById(R.id.meaning_text)
-        examples = rootView?.findViewById(R.id.examplesLL)
-        forwardBtn = rootView?.findViewById(R.id.forward_btn)
-        backBtn = rootView?.findViewById(R.id.back_btn)
-        exitBtn = rootView?.findViewById(R.id.exit_btn)
-
-        backBtn?.setOnClickListener {
-            setKanji(currentValue - 1)
-            currentValue--
-        }
-
-        forwardBtn?.setOnClickListener {
-            setKanji(currentValue + 1)
-            currentValue++
-        }
-
-        exitBtn?.setOnClickListener {
-            Utils.fragmentCalling(activity!!, fragmentManager!!, HomeFragment()!!)
-        }
-    }
-
-    private fun setKanji(value: Int) {
-
-        val thisUnit =
-            MainActivity.course!!.schoolYears[MainActivity.currentYear]!!.units[MainActivity.currentUnit]
-
-        if (value == 0) {
-            backBtn?.visibility = View.GONE
-            if (thisUnit.kanjis.size > 1) {
-                forwardBtn?.visibility = View.VISIBLE
-            }
-        } else {
-            if (value == thisUnit.kanjis.size - 1) {
-                backBtn?.visibility = View.VISIBLE
-                forwardBtn?.visibility = View.GONE
-            } else {
-                backBtn?.visibility = View.VISIBLE
-                forwardBtn?.visibility = View.VISIBLE
-            }
-        }
-
-        kanji?.text = thisUnit.kanjis[value].kanji
-
-        onyomiLL?.removeAllViewsInLayout()
-        for (on in thisUnit.kanjis[value].onyomi.indices) {
-            val textView: TextView = TextView(activity!!)
-            textView.text = thisUnit.kanjis[value].onyomi[on]
-            textView.textSize = 16f
-            onyomiLL?.addView(textView)
-        }
-
-        kunyomiLL?.removeAllViewsInLayout()
-        for (on in thisUnit.kanjis[value].kunyomi.indices) {
-            val textView: TextView = TextView(activity!!)
-            textView.text = thisUnit.kanjis[value].kunyomi[on]
-            textView.textSize = 16f
-            kunyomiLL?.addView(textView)
-        }
-
-        var text = ""
-        for (on in thisUnit.kanjis[value].meaning.indices) {
-            text += thisUnit.kanjis[value].meaning[on]
-            if (on < thisUnit.kanjis[value].meaning.size - 1) text += "; "
-        }
-
-        examples?.removeAllViewsInLayout()
-        for (on in thisUnit.kanjis[value].examples.indices) {
-            val kanjiItemLL: LinearLayout =
-                layoutInflater.inflate(R.layout.kanji_example_item, null, false) as LinearLayout
-            kanjiItemLL.example_text.text = thisUnit.kanjis[value].examples[on].example
-            kanjiItemLL.transcription_text.text = thisUnit.kanjis[value].examples[on].transcription
-            kanjiItemLL.meaning_text.text = thisUnit.kanjis[value].examples[on].meaning
-
-            examples?.addView(kanjiItemLL)
-        }
-
-        meaning?.text = text
-
+        viewPager = rootView?.findViewById(R.id.viewpager)
+        viewPager?.adapter = KanjiCardAdapter(activity!!)
+        viewPager?.setCurrentItem(currentValue, true)
     }
 
 }
