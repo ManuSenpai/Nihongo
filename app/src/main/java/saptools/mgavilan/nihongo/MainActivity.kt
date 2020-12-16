@@ -47,12 +47,12 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onBackPressed() {
-        when ( fragment.id ) {
-            KanjiSummaryFragment().id -> {
+        when ( supportFragmentManager.findFragmentById(R.id.frame_container) ) {
+            is KanjiSummaryFragment -> {
                 fragment = HomeFragment()
                 fragmentCalling(this, supportFragmentManager)
             }
-            HomeFragment().id -> {
+            is HomeFragment -> {
                 currentUnit = -1
                 currentYear = -1
                 fragment = HomeFragment()

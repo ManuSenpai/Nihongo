@@ -1,6 +1,7 @@
 package saptools.mgavilan.nihongo.fragments.adapters
 
 import android.content.Context
+import android.graphics.Typeface
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -34,20 +35,29 @@ class KanjiCardAdapter ( _context: Context ): PagerAdapter() {
         kanji?.text = thisUnit.kanjis[position].kanji
 
         onyomiLL?.removeAllViewsInLayout()
+        val textView: TextView = TextView(mContext!!)
+
+        textView.textSize = 20f
+        textView.typeface = Typeface.DEFAULT_BOLD
+        var onText = ""
         for (on in thisUnit.kanjis[position].onyomi.indices) {
-            val textView: TextView = TextView(mContext!!)
-            textView.text = thisUnit.kanjis[position].onyomi[on]
-            textView.textSize = 16f
-            onyomiLL?.addView(textView)
+            onText += thisUnit.kanjis[position].onyomi[on]
+            if ( on < thisUnit.kanjis[position].onyomi.size - 1 ) onText += "    "
         }
+        textView.text = onText
+        onyomiLL?.addView(textView)
 
         kunyomiLL?.removeAllViewsInLayout()
+        val kunTextView: TextView = TextView(mContext!!)
+        kunTextView.textSize = 20f
+        kunTextView.typeface = Typeface.DEFAULT_BOLD
+        var kunText = ""
         for (on in thisUnit.kanjis[position].kunyomi.indices) {
-            val textView: TextView = TextView(mContext!!)
-            textView.text = thisUnit.kanjis[position].kunyomi[on]
-            textView.textSize = 16f
-            kunyomiLL?.addView(textView)
+            kunText += thisUnit.kanjis[position].kunyomi[on]
+            if ( on < thisUnit.kanjis[position].kunyomi.size - 1 ) kunText += "    "
         }
+        kunTextView.text = kunText
+        kunyomiLL?.addView(kunTextView)
 
         var text = ""
         for (on in thisUnit.kanjis[position].meaning.indices) {
@@ -80,6 +90,6 @@ class KanjiCardAdapter ( _context: Context ): PagerAdapter() {
     }
 
     override fun getCount(): Int {
-        return MainActivity.course!!.schoolYears[MainActivity.currentYear]!!.units.size
+        return MainActivity.course!!.schoolYears[MainActivity.currentYear]!!.units[MainActivity.currentUnit].kanjis.size
     }
 }
