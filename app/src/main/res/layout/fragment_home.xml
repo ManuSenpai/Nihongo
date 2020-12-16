@@ -3,13 +3,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     tools:context=".fragments.HomeFragment">
 
     <RelativeLayout
+        android:visibility="gone"
+        android:id="@+id/header"
         android:layout_width="match_parent"
         android:layout_height="40dp"
-        android:id="@+id/header"
         android:orientation="horizontal">
 
         <ImageButton
@@ -33,6 +35,80 @@
 
     </RelativeLayout>
 
+
+    <LinearLayout
+        android:id="@+id/menu_area"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/nihonDarkPurple"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:background="@android:color/white"
+            android:src="@mipmap/nihongo_logo_foreground"
+            android:scaleType="fitCenter"
+            android:scaleY="1.5"
+            android:scaleX="1.5"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:src="@drawable/divider"
+            app:tint="@color/nihonDarkPurple"
+            android:scaleY="1.1"
+            android:scaleX="1.01"
+            android:scaleType="fitXY"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:orientation="vertical">
+            <LinearLayout
+                android:id="@+id/exam_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="EXAMEN"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/white"
+                    android:textAlignment="center"
+                    android:fontFamily="sans-serif-black"
+                    android:textSize="30sp"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/summary_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="REPASO"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="@android:color/white"
+                    android:textSize="30sp"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recView"

@@ -9,6 +9,7 @@ import android.view.ViewGroup
 import android.widget.*
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import kotlinx.android.synthetic.main.fragment_home.view.*
 import saptools.mgavilan.nihongo.MainActivity
 import saptools.mgavilan.nihongo.R
 import saptools.mgavilan.nihongo.fragments.adapters.MainMenuRecViewAdapter
@@ -68,7 +69,14 @@ class HomeFragment : Fragment() {
             Utils.fragmentCalling(activity!!, fragmentManager!!, KanjiSummaryFragment())
         }
 
+        rootView!!.summary_button.setOnClickListener {
+            rootView!!.menu_area.visibility = View.GONE
+            rootView!!.header.visibility = View.VISIBLE
+        }
+
         if ( MainActivity.currentYear != -1 && MainActivity.currentUnit != -1 ) {
+            rootView!!.menu_area.visibility = View.GONE
+            rootView!!.header.visibility = View.VISIBLE
             currentYear = MainActivity.currentYear
             currentUnit = MainActivity.currentUnit
             mainView?.visibility = View.GONE
