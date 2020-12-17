@@ -58,6 +58,12 @@ class MainActivity : AppCompatActivity() {
                 fragment = HomeFragment()
                 fragmentCalling(this, supportFragmentManager)
             }
+            else -> {
+                currentUnit = -1
+                currentYear = -1
+                fragment = HomeFragment()
+                fragmentCalling(this, supportFragmentManager)
+            }
         }
     }
 }

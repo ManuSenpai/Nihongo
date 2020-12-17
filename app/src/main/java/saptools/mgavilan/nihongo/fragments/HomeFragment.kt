@@ -69,6 +69,11 @@ class HomeFragment : Fragment() {
             Utils.fragmentCalling(activity!!, fragmentManager!!, KanjiSummaryFragment())
         }
 
+        rootView!!.exam_button.setOnClickListener {
+            MainActivity.fragment = ExamGroupSelectorFragment()
+            Utils.fragmentCalling(activity!!, fragmentManager!!, ExamGroupSelectorFragment())
+        }
+
         rootView!!.summary_button.setOnClickListener {
             rootView!!.menu_area.visibility = View.GONE
             rootView!!.header.visibility = View.VISIBLE
