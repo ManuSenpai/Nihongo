@@ -45,6 +45,9 @@ class HomeFragment : Fragment() {
         // Inflate the layout for this fragment
         rootView = inflater.inflate(R.layout.fragment_home, container, false)
 
+        rootView!!.menu_area.visibility = View.VISIBLE
+        rootView!!.header.visibility = View.GONE
+
         mainView = rootView?.findViewById(R.id.recView)
         unitView = rootView?.findViewById(R.id.unitRecView)
         layoutManager = LinearLayoutManager(activity!!)

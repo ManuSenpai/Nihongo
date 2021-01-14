@@ -4,5 +4,6 @@ data class YearUnit (
     val title: String = "",
     val kanjis: List<KanjiItem>,
     var isCompleted: Boolean = false,
-    var bestMark: Int = 0
+    var bestMark: Int = 0,
+    var isSelected: Boolean = false
 )

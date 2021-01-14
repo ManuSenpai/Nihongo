@@ -57,6 +57,9 @@ class ExamSelectableGroupAdapter(_items: List<SchoolYear>, context: Context ): R
             val newUnit = LayoutInflater.from(mContext).inflate(R.layout.exam_selectable_group, null, false)
             newUnit.title.text = schoolYears!![position].units[un].title
             newUnit.check.isChecked = false
+            newUnit.check.setOnCheckedChangeListener { _, b ->
+                schoolYears!![position].units[un].isSelected = b
+            }
             unitList.addView(newUnit)
         }
 
@@ -73,7 +76,10 @@ class ExamSelectableGroupAdapter(_items: List<SchoolYear>, context: Context ): R
 
         // When clicking on the area checkbox, all its children must be checked / unchecked
         holder.checkbox?.setOnCheckedChangeListener { _, b ->
-            for ( i in 0 until unitList.childCount ) { unitList[i].check.isChecked = b }
+            for ( i in 0 until unitList.childCount ) {
+                unitList[i].check.isChecked = b
+                item?.units!![i].isSelected = b
+            }
         }
 
     }
