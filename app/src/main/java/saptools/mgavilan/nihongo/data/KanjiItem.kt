@@ -12,12 +12,28 @@ data class KanjiItem(
 
     fun getMeaning(): String {
         var result = ""
-
         for ( i in 0 until meaning.size ) {
             result += meaning[i]
             if ( i < meaning.size - 1 ) result += "; "
         }
+        return result
+    }
 
+    fun getOnyomi(): String {
+        var result = ""
+        for ( i in 0 until onyomi.size ) {
+            result += onyomi[i]
+            if ( i < onyomi.size - 1 ) result += "; "
+        }
+        return result
+    }
+
+    fun getKunyomi(): String {
+        var result = ""
+        for ( i in 0 until kunyomi.size ) {
+            result += kunyomi[i]
+            if ( i < kunyomi.size - 1 ) result += "; "
+        }
         return result
     }
 }
