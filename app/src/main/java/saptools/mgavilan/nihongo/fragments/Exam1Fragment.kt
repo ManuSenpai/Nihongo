@@ -10,6 +10,7 @@ import android.view.ViewGroup
 import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.cardview.widget.CardView
+import saptools.mgavilan.nihongo.MainActivity
 import saptools.mgavilan.nihongo.R
 import saptools.mgavilan.nihongo.data.KanjiItem
 import saptools.mgavilan.nihongo.data.Question
@@ -84,9 +85,12 @@ class Exam1Fragment(questionList: ArrayList<Question>) : Fragment() {
             cardView.setPadding(16, 16, 16, 16)
             cardView.setOnClickListener {
                 question.selectedAnswer = i
-                if ( currentQuestion < questions.size - 1 ) {
-                    currentQuestion++
+                currentQuestion++
+                if ( currentQuestion < questions.size ) {
                     generateQuestion( questions[currentQuestion] )
+                }  else {
+                    MainActivity.fragment = Exam1ResultsFragment( questions )
+                    MainActivity.fragmentCalling(requireActivity(), fragmentManager!!)
                 }
             }
 
