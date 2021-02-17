@@ -5644,6 +5644,832 @@
           ],
           "isCompleted": false,
           "bestMark": 0
+        },
+        {
+          "title": "Tema 13",
+          "kanjis": [
+            {
+              "kanji": "広",
+              "strokes": 5,
+              "onyomi": ["コウ"],
+              "kunyomi": ["ひろ・い", "ひろ・がる", "ひろ・げる"],
+              "meaning": ["Ancho, amplio, espacioso"],
+              "examples": [
+                {
+                  "example": "広い",
+                  "transcription": "ひろい",
+                  "meaning": "Amplio, ancho, espacioso, extenso, vasto"
+                },
+                {
+                  "example": "広さ",
+                  "transcription": "ひろさ",
+                  "meaning": "Anchura, amplitud"
+                },
+                {
+                  "example": "広島",
+                  "transcription": "ひろしま",
+                  "meaning": "Hiroshima"
+                },
+                {
+                  "example": "広こく",
+                  "transcription": "こうこく",
+                  "meaning": "Anuncio publicitario, publicidad"
+                },
+                {
+                  "example": "広がる",
+                  "transcription": "ひろがる",
+                  "meaning": "Extenderse, ensancharse, dilatarse; Propagarse, circular, difundirse"
+                },
+                {
+                  "example": "広げる",
+                  "transcription": "ひろげる",
+                  "meaning": "Ampliar, agrandar, ensanchar, extender, desplegar, desenrollar"
+                },
+                {
+                  "example": "広ば",
+                  "transcription": "ひろば",
+                  "meaning": "Plaza"
+                },
+                {
+                  "example": "広大 ～な",
+                  "transcription": "こうだい ～な",
+                  "meaning": "Muy grande, inmenso, enorme, vasto"
+                }
+              ]
+            },
+            {
+              "kanji": "店",
+              "strokes": 8,
+              "onyomi": ["テン"],
+              "kunyomi": ["みせ"],
+              "meaning": ["Tienda"],
+              "examples": [
+                {
+                  "example": "店",
+                  "transcription": "みせ",
+                  "meaning": "Tienda, comercio"
+                },
+                {
+                  "example": "店員",
+                  "transcription": "てんいん",
+                  "meaning": "Dependiente"
+                },
+                {
+                  "example": "売店",
+                  "transcription": "ばいてん",
+                  "meaning": "Puesto de venta"
+                },
+                {
+                  "example": "本店",
+                  "transcription": "ほんてん",
+                  "meaning": "Oficina principal, tienda principal"
+                },
+                {
+                  "example": "店長",
+                  "transcription": "てんちょう",
+                  "meaning": "Gerente de la tienda"
+                }
+              ]
+            },
+            {
+              "kanji": "度",
+              "strokes": 9,
+              "onyomi": ["ド"],
+              "kunyomi": ["たび"],
+              "meaning": ["Contador de veces, frecuencia", "Grado"],
+              "examples": [
+                {
+                  "example": "一度",
+                  "transcription": "いちど",
+                  "meaning": "Una vez más, otra vez"
+                },
+                {
+                  "example": "今度",
+                  "transcription": "こんど",
+                  "meaning": "Esta vez, ahora; La próxima vez, otra vez, de nuevo"
+                },
+                {
+                  "example": "速度",
+                  "transcription": "そくど",
+                  "meaning": "Velocidad, rapidez"
+                },
+                {
+                  "example": "しつ度",
+                  "transcription": "しつど",
+                  "meaning": "Humedad"
+                },
+                {
+                  "example": "毎度",
+                  "transcription": "まいど",
+                  "meaning": "Cada vez, siempre"
+                },
+                {
+                  "example": "度",
+                  "transcription": "たび",
+                  "meaning": "Vez\nこの度  Esta vez"
+                }
+              ]
+            },
+            {
+              "kanji": "病",
+              "strokes": 10,
+              "onyomi": ["ビョウ"],
+              "kunyomi": ["やまい"],
+              "meaning": ["Enfermedad"],
+              "examples": [
+                {
+                  "example": "病気",
+                  "transcription": "びょうき",
+                  "meaning": "Enfermedad, mal, afección\n病気～の  Enfermo (estar)\n病気～になる  Enfermar, ponerse enfermo\n病気～にかかる  Contraer una enfermedad\n病気～がちだ  Ser enfermizo, propenso a enfermar"
+                },
+                {
+                  "example": "病人",
+                  "transcription": "びょうにん",
+                  "meaning": "Enfermo, paciente"
+                },
+                {
+                  "example": "病いん",
+                  "transcription": "びょういん",
+                  "meaning": "Hospital, clínica, ambulatorio"
+                }
+              ]
+            },
+            {
+              "kanji": "疲",
+              "strokes": 10,
+              "onyomi": ["ヒ"],
+              "kunyomi": ["つか・れる"],
+              "meaning": [ "Cansarse, fatigarse"],
+              "examples": [
+                {
+                  "example": "疲れる",
+                  "transcription": "つかれる",
+                  "meaning": "Cansarse, fatigarse"
+                },
+                {
+                  "example": "疲れ",
+                  "transcription": "つかれ",
+                  "meaning": "Cansancio, fatiga, agotamiento"
+                },
+                {
+                  "example": "気疲れ",
+                  "transcription": "きづかれ",
+                  "meaning": "Fatiga mental"
+                }
+              ]
+            },
+            {
+              "kanji": "痛",
+              "strokes": 12,
+              "onyomi": ["ツウ "],
+              "kunyomi": ["いた・い", "いた・む"],
+              "meaning": [
+                "Dolor, ser doloroso"
+              ],
+              "examples": [
+                {
+                  "example": "痛い",
+                  "transcription": "いたい",
+                  "meaning": "Doler, tener dolor; hacer daño, causar dolor"
+                },
+                {
+                  "example": "痛む",
+                  "transcription": "いたむ",
+                  "meaning": "Doler, sentir dolor"
+                },
+                {
+                  "example": "痛み",
+                  "transcription": "いたみ",
+                  "meaning": "Analgésico, calmante de dolor"
+                },
+                {
+                  "example": "ず痛",
+                  "transcription": "ずつう",
+                  "meaning": "Dolor de cabeza"
+                }
+              ]
+            },
+            {
+              "kanji": "屋",
+              "strokes": 9,
+              "onyomi": ["オク"],
+              "kunyomi": ["や"],
+              "meaning": [
+                "Tienda", "Casa", "Techo, tejado"
+              ],
+              "examples": [
+                {
+                  "example": "花屋",
+                  "transcription": "はなや",
+                  "meaning": "Floristería"
+                },
+                {
+                  "example": "肉屋",
+                  "transcription": "にくや",
+                  "meaning": "Carnicería"
+                },
+                {
+                  "example": "魚屋",
+                  "transcription": "さかなや",
+                  "meaning": "Pescadería"
+                },
+                {
+                  "example": "屋上",
+                  "transcription": "おくじょう",
+                  "meaning": "Terraza, azotea"
+                },
+                {
+                  "example": "屋内 ～の",
+                  "transcription": "おくない ～の",
+                  "meaning": "Interno, interior"
+                },
+                {
+                  "example": "屋外 ～の",
+                  "transcription": "おくがい ～の",
+                  "meaning": "Externo, exterior"
+                }
+              ]
+            },
+            {
+              "kanji": "国",
+              "strokes": 8,
+              "onyomi": ["コク"],
+              "kunyomi": ["くに"],
+              "meaning": [
+                "Pais, nación"
+              ],
+              "examples": [
+                {
+                  "example": "国",
+                  "transcription": "くに",
+                  "meaning": "País, estado, nación"
+                },
+                {
+                  "example": "外国",
+                  "transcription": "がいこく",
+                  "meaning": "País extranjero, el extranjero\n外国～人  Extranjero\n外国～語  Idioma extranjero"
+                },
+                {
+                  "example": "国立",
+                  "transcription": "こくりつ",
+                  "meaning": "Estatal, nacional"
+                },
+                {
+                  "example": "雪国",
+                  "transcription": "ゆきぐに",
+                  "meaning": "País muy nevado"
+                },
+                {
+                  "example": "母国",
+                  "transcription": "ぼこく",
+                  "meaning": "País natal"
+                },
+                {
+                  "example": "国語",
+                  "transcription": "こくご",
+                  "meaning": "Lengua nacional; lengua materna"
+                }
+              ]
+            },
+            {
+              "kanji": "回",
+              "strokes": 6,
+              "onyomi": ["カイ"],
+              "kunyomi": ["まわ・る", "まわ・す"],
+              "meaning": ["Girar, dar vueltas", "Contador de veces"],
+              "examples": [
+                {
+                  "example": "回る",
+                  "transcription": "まわる",
+                  "meaning": "Dar vueltas, girar, rotar, orbitar"
+                },
+                {
+                  "example": "回す",
+                  "transcription": "まわす",
+                  "meaning": "Dar vueltas a algo, hacer girar algo"
+                },
+                {
+                  "example": "一回",
+                  "transcription": "いっかい",
+                  "meaning": "Una vez"
+                },
+                {
+                  "example": "今回",
+                  "transcription": "こんかい",
+                  "meaning": "Esta vez"
+                }
+              ]
+            },
+            {
+              "kanji": "困",
+              "strokes": 7,
+              "onyomi": ["コン"],
+              "kunyomi": ["こま・る"],
+              "meaning": ["Molestias, problemas, fastidio"],
+              "examples": [
+                {
+                  "example": "困る",
+                  "transcription": "こまる",
+                  "meaning": "Estar en un apuro, estar en problemas"
+                },
+                {
+                  "example": "困なん",
+                  "transcription": "こんなん",
+                  "meaning": "Dificultad, adversidad; obstáculo, tropiezo"
+                }
+              ]
+            },
+            {
+              "kanji": "開",
+              "strokes": 12,
+              "onyomi": ["カイ"],
+              "kunyomi": ["あ・ける", "あ・く", "ひら・く"],
+              "meaning": ["Abrir"],
+              "examples": [
+                {
+                  "example": "開ける",
+                  "transcription": "あける",
+                  "meaning": "Abrir"
+                },
+                {
+                  "example": "開く",
+                  "transcription": "あく",
+                  "meaning": "Abrirse"
+                },
+                {
+                  "example": "開く",
+                  "transcription": "ひらく",
+                  "meaning": "Abrir(se); Celebrar, dar\n手を開く  Abrir la mano"
+                },
+                {
+                  "example": "開会",
+                  "transcription": "かいかい",
+                  "meaning": "Apertura de una asamblea, inicio de una sesión"
+                }
+              ]
+            },
+            {
+              "kanji": "閉",
+              "strokes": 11,
+              "onyomi": ["へイ"],
+              "kunyomi": ["し・める", "し・まる", "と・じる"],
+              "meaning": [
+                "Cerrar"
+              ],
+              "examples": [
+                {
+                  "example": "閉める",
+                  "transcription": "しめる",
+                  "meaning": "Cerrar, ajustar\nドアを閉める  Cerrar la puerta"
+                },
+                {
+                  "example": "閉まる",
+                  "transcription": "しまる",
+                  "meaning": "Cerrarse"
+                },
+                {
+                  "example": "閉じる",
+                  "transcription": "とじる",
+                  "meaning": "Cerrar\n目を閉じる  Cerrar los ojos"
+                },
+                {
+                  "example": "閉店",
+                  "transcription": "へいてん",
+                  "meaning": "Cierre de una tienda\n8時に閉店します  La tienda cierra a las ocho"
+                },
+                {
+                  "example": "閉会",
+                  "transcription": "へいかい",
+                  "meaning": "Clausura, cierre de una asamblea"
+                },
+                {
+                  "example": "開ける",
+                  "transcription": "あける",
+                  "meaning": "Abrir algo con una llave, un pasador"
+                },
+                {
+                  "example": "開く",
+                  "transcription": "ひらく",
+                  "meaning": "Abrir algo de dentro a fuera o desde su centro (un libro, los ojos...)"
+                }
+              ]
+            }
+          ],
+          "isCompleted": false,
+          "bestMark": 0
+        },
+        {
+          "title": "Tema 14",
+          "kanjis": [
+            {
+              "kanji": "近",
+              "strokes": 7,
+              "onyomi": ["キン"],
+              "kunyomi": ["ちか・い"],
+              "meaning": ["Cerca, cercano, cercanía"],
+              "examples": [
+                {
+                  "example": "近い",
+                  "transcription": "ちかい",
+                  "meaning": "Cerca, cercano"
+                },
+                {
+                  "example": "近く",
+                  "transcription": "ちかく",
+                  "meaning": "Cerca de, en las cercanías."
+                },
+                {
+                  "example": "近所",
+                  "transcription": "きんじょ",
+                  "meaning": "Vecindad, vecindario, barrio"
+                },
+                {
+                  "example": "さい近",
+                  "transcription": "さいきん",
+                  "meaning": "Últimamente, recientemente, hace poco"
+                }
+              ]
+            },
+            {
+              "kanji": "遠",
+              "strokes": 13,
+              "onyomi": ["エン"],
+              "kunyomi": ["とお・い"],
+              "meaning": ["Lejos, lejano, lejanía"],
+              "examples": [
+                {
+                  "example": "遠い",
+                  "transcription": "とおい",
+                  "meaning": "Lejano, remoto, distante, alejado"
+                },
+                {
+                  "example": "遠く",
+                  "transcription": "とおく",
+                  "meaning": "Lejos, en la lejanía, a lo lejos"
+                },
+                {
+                  "example": "遠足",
+                  "transcription": "えんそく",
+                  "meaning": "Excursión (escolar), caminata"
+                },
+                {
+                  "example": "遠ざける",
+                  "transcription": "とおざける",
+                  "meaning": "Alejar, separar, distanciar"
+                },
+                {
+                  "example": "遠ざかる",
+                  "transcription": "とおざかる",
+                  "meaning": "Alejarse, separarse, distanciarse"
+                },
+                {
+                  "example": "遠山",
+                  "transcription": "えんざん",
+                  "meaning": "Montaña lejana"
+                }
+              ]
+            },
+            {
+              "kanji": "速",
+              "strokes": 10,
+              "onyomi": ["ソク"],
+              "kunyomi": ["はや・い"],
+              "meaning": ["Velocidad, rápido"],
+              "examples": [
+                {
+                  "example": "速い",
+                  "transcription": "はやい",
+                  "meaning": "Rápido, veloz"
+                },
+                {
+                  "example": "速度",
+                  "transcription": "そくど",
+                  "meaning": "Velocidad"
+                },
+                {
+                  "example": "速たつ",
+                  "transcription": "そくたつ",
+                  "meaning": "Envío urgente, correo urgente"
+                },
+                {
+                  "example": "高速",
+                  "transcription": "こうそく",
+                  "meaning": "Alta velocidad"
+                },
+                {
+                  "example": "時速",
+                  "transcription": "じそく",
+                  "meaning": "Velocidad por hora"
+                }
+              ]
+            },
+            {
+              "kanji": "遅",
+              "strokes": 12,
+              "onyomi": ["チ"],
+              "kunyomi": ["おそ・い", "おく・れる"],
+              "meaning": ["Lento", "Tarde, retraso, retrasarse"],
+              "examples": [
+                {
+                  "example": "遅い",
+                  "transcription": "おそい",
+                  "meaning": "Tarde; lento"
+                },
+                {
+                  "example": "遅れる",
+                  "transcription": "おくれる",
+                  "meaning": "Llegar tarde, retrasarse, no llegar a tiempo"
+                },
+                {
+                  "example": "遅刻",
+                  "transcription": "ちこく",
+                  "meaning": "Retraso, tardanza"
+                }
+              ]
+            },
+            {
+              "kanji": "道",
+              "strokes": 12,
+              "onyomi": ["ドウ"],
+              "kunyomi": ["みち"],
+              "meaning": [ "Camino, calle"],
+              "examples": [
+                {
+                  "example": "水道",
+                  "transcription": "すいどう",
+                  "meaning": "Agua corriente, conducción de agua"
+                },
+                {
+                  "example": "車道",
+                  "transcription": "しゃどう",
+                  "meaning": "Calzado, calle"
+                },
+                {
+                  "example": "歩道",
+                  "transcription": "ほどう",
+                  "meaning": "Acera"
+                },
+                {
+                  "example": "ぶ道",
+                  "transcription": "ぶどう",
+                  "meaning": "Artes marciales"
+                },
+                {
+                  "example": "道ぐ",
+                  "transcription": "どうぐ",
+                  "meaning": "Útiles, utensilios"
+                }
+              ]
+            },
+            {
+              "kanji": "青",
+              "strokes": 8,
+              "onyomi": ["セイ", "ショウ"],
+              "kunyomi": ["あお", "あお・い"],
+              "meaning": [
+                "Azul, verde"
+              ],
+              "examples": [
+                {
+                  "example": "青",
+                  "transcription": "あお",
+                  "meaning": "Color azul, color verde"
+                },
+                {
+                  "example": "青い",
+                  "transcription": "あおい",
+                  "meaning": "De color azul, de color verde; pálido; inmaduro"
+                },
+                {
+                  "example": "青しんごう",
+                  "transcription": "あおしんごう",
+                  "meaning": "Semáforo verde, luz verde"
+                },
+                {
+                  "example": "青年",
+                  "transcription": "せいねん",
+                  "meaning": "Joven, chico, muchacho; Juventud"
+                }
+              ]
+            },
+            {
+              "kanji": "晴",
+              "strokes": 12,
+              "onyomi": ["セイ", "ショウ"],
+              "kunyomi": ["は・れ", "は・れる"],
+              "meaning": [
+                "Buen tiempo"
+              ],
+              "examples": [
+                {
+                  "example": "晴れ",
+                  "transcription": "はれ",
+                  "meaning": "Buen tiempo, cielo despejado"
+                },
+                {
+                  "example": "晴れる",
+                  "transcription": "はれる",
+                  "meaning": "Hacer buen tiempo, estar despejado"
+                },
+                {
+                  "example": "晴天",
+                  "transcription": "せいてん",
+                  "meaning": "Buen tiempo, tiempo despejado"
+                },
+                {
+                  "example": "す晴らしい",
+                  "transcription": "すばらしい",
+                  "meaning": "Maravilloso, espléndido"
+                },
+                {
+                  "example": "晴夜",
+                  "transcription": "せいや",
+                  "meaning": "Noche despejada"
+                },
+                {
+                  "example": "晴れやか～な",
+                  "transcription": "はれやか～な",
+                  "meaning": "De buen humor, alegre"
+                }
+              ]
+            },
+            {
+              "kanji": "静",
+              "strokes": 14,
+              "onyomi": ["セイ", "ジョウ"],
+              "kunyomi": ["しず・か", "しず・まる", "しず・める"],
+              "meaning": [
+                "Tranquilo, tranquilidad"
+              ],
+              "examples": [
+                {
+                  "example": "静か～な",
+                  "transcription": "しずか～な",
+                  "meaning": "Tranquilo, sosegado, sereno"
+                },
+                {
+                  "example": "静止～する",
+                  "transcription": "せいし～する",
+                  "meaning": "Inmovilizarse, pararse"
+                },
+                {
+                  "example": "安静～する",
+                  "transcription": "あんせい～する",
+                  "meaning": "Reposo, reposar, guardar reposo"
+                },
+                {
+                  "example": "静まる",
+                  "transcription": "しずまる",
+                  "meaning": "Calmarse, serenarse"
+                },
+                {
+                  "example": "静める",
+                  "transcription": "しずめる",
+                  "meaning": "Calmar, serenar"
+                },
+                {
+                  "example": "静けさ",
+                  "transcription": "しずけさ",
+                  "meaning": "Calma, tranquilidad"
+                }
+              ]
+            },
+            {
+              "kanji": "寺",
+              "strokes": 6,
+              "onyomi": ["ジ"],
+              "kunyomi": ["てら"],
+              "meaning": ["Templo (budista)"],
+              "examples": [
+                {
+                  "example": "寺",
+                  "transcription": "てら",
+                  "meaning": "Templo budista"
+                },
+                {
+                  "example": "東大寺",
+                  "transcription": "とうだいじ",
+                  "meaning": "Todaiji, el templo Todai"
+                },
+                {
+                  "example": "お寺まいり",
+                  "transcription": "おてらまいり",
+                  "meaning": "Visita a un templo para rezar."
+                }
+              ]
+            },
+            {
+              "kanji": "持",
+              "strokes": 9,
+              "onyomi": ["ジ"],
+              "kunyomi": ["も・つ"],
+              "meaning": ["Tener en la mano", "Tener, poseer"],
+              "examples": [
+                {
+                  "example": "持つ",
+                  "transcription": "もつ",
+                  "meaning": "Tener algo en la mano, llevar consigo\n私は今お金を持っていません  No llevo dinero encima"
+                },
+                {
+                  "example": "持ち物",
+                  "transcription": "もちもの",
+                  "meaning": "Propiedad, posesión"
+                },
+                {
+                  "example": "持ちぬし",
+                  "transcription": "もちぬし",
+                  "meaning": "Dueño, propietario"
+                },
+                {
+                  "example": "女に～ 持てる",
+                  "transcription": "女に～ もてる",
+                  "meaning": "Tener éxito con las mujeres; Ser un fucker"
+                },
+                {
+                  "example": "持っていく",
+                  "transcription": "もっていく",
+                  "meaning": "Llevar"
+                },
+                {
+                  "example": "持ってくる",
+                  "transcription": "もってくる",
+                  "meaning": "Traer"
+                }
+              ]
+            },
+            {
+              "kanji": "荷",
+              "strokes": 10,
+              "onyomi": ["カ"],
+              "kunyomi": ["に"],
+              "meaning": ["Carga, bultos, equipaje"],
+              "examples": [
+                {
+                  "example": "荷物",
+                  "transcription": "にもつ",
+                  "meaning": "Equipaje, maletas"
+                },
+                {
+                  "example": "荷作り",
+                  "transcription": "にづくまる",
+                  "meaning": "Embalaje, empaquetado"
+                },
+                {
+                  "example": "出荷",
+                  "transcription": "ひらく",
+                  "meaning": "Abrir(se); Celebrar, dar\n手を開く  Abrir la mano"
+                },
+                {
+                  "example": "開会",
+                  "transcription": "しゅっか",
+                  "meaning": "Envío de mercancías"
+                },
+                {
+                  "example": "電荷",
+                  "transcription": "でんか",
+                  "meaning": "Carga eléctrica"
+                }
+              ]
+            },
+            {
+              "kanji": "歌",
+              "strokes": 14,
+              "onyomi": ["カ"],
+              "kunyomi": ["うた", "うた・う"],
+              "meaning": [
+                "Canción", "Cantar"
+              ],
+              "examples": [
+                {
+                  "example": "歌",
+                  "transcription": "うた",
+                  "meaning": "Canción, canto"
+                },
+                {
+                  "example": "歌う",
+                  "transcription": "うたう",
+                  "meaning": "Cantar"
+                },
+                {
+                  "example": "歌手",
+                  "transcription": "かしゅ",
+                  "meaning": "Cantante"
+                },
+                {
+                  "example": "国歌",
+                  "transcription": "こっか",
+                  "meaning": "Himno nacional"
+                },
+                {
+                  "example": "子もり歌",
+                  "transcription": "こもりうた",
+                  "meaning": "Canción de cuna, nana"
+                }
+              ]
+            }
+          ],
+          "isCompleted": false,
+          "bestMark": 0
         }
       ]
     }

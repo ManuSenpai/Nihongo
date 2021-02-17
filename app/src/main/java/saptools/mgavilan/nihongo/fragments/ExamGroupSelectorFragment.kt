@@ -106,8 +106,8 @@ class ExamGroupSelectorFragment : Fragment() {
                     selectedQuestions, i, when (examMode) {
                         -1 -> ThreadLocalRandom.current().nextInt(0, 3)
                         else -> {
-                            if ( examMode == 1 && selectedQuestions[i].getKunyomi() == "-") 2
-                            else if ( examMode == 2 && selectedQuestions[i].getOnyomi() == "-") 1
+                            if ( examMode == 1 && selectedQuestions[i].getKunyomi() == "—") 2
+                            else if ( examMode == 2 && selectedQuestions[i].getOnyomi() == "—") 1
                             else examMode
                         }
                     }
