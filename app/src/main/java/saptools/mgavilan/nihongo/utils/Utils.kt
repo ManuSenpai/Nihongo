@@ -2,12 +2,21 @@ package saptools.mgavilan.nihongo.utils
 
 import android.app.Activity
 import android.content.Context
+import android.view.Gravity
 import android.view.View
 import android.view.inputmethod.InputMethodManager
+import android.widget.LinearLayout
+import android.widget.TextView
+import androidx.cardview.widget.CardView
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
+import saptools.mgavilan.nihongo.MainActivity
 import saptools.mgavilan.nihongo.R
+import saptools.mgavilan.nihongo.data.KanjiItem
+import saptools.mgavilan.nihongo.data.YearUnit
 import java.io.IOException
+import java.util.*
+import kotlin.collections.ArrayList
 
 class Utils {
     companion object {
@@ -71,6 +80,52 @@ class Utils {
                 view = View(activity)
             }
             imm.hideSoftInputFromWindow(view.windowToken, 0)
+        }
+
+        /**
+         * Generates N random units not containing given kanji
+         */
+        fun getNRandomUnitsWithoutCurrentKanji( nUnits: Int, notContainingThisKanji: String): ArrayList<KanjiItem>{
+            val randomUnitsWithNoSlash =
+                MainActivity.listOfQuestions.filter { it.getKunyomi() != "—"
+                        && it.getOnyomi() != "—"
+                        && it.kanji != notContainingThisKanji }
+
+            Collections.shuffle(randomUnitsWithNoSlash)
+            val result = ArrayList<KanjiItem>()
+            for ( i in 0 until nUnits ) { result.add(randomUnitsWithNoSlash[i]) }
+
+            return result
+        }
+
+        /**
+         * Generates a CardView containing the question itself
+         * @param context Context of the fragment
+         * @param questionText String The text that comes in the question
+         */
+        fun generateCardView( context: Context, questionText: String ): CardView {
+
+            val cardView = CardView(context)
+            cardView.layoutParams = LinearLayout.LayoutParams(
+                LinearLayout.LayoutParams.MATCH_PARENT,
+                0,
+                1f
+            )
+            cardView.setPadding(16, 16, 16, 16)
+
+            val answerTV = TextView(context)
+            answerTV.layoutParams = LinearLayout.LayoutParams(
+                LinearLayout.LayoutParams.MATCH_PARENT,
+                LinearLayout.LayoutParams.MATCH_PARENT,
+                1f
+            )
+            answerTV.textSize = 20f
+            answerTV.text = questionText
+            answerTV.textAlignment = TextView.TEXT_ALIGNMENT_CENTER
+            answerTV.gravity = Gravity.CENTER or Gravity.CENTER_VERTICAL or Gravity.CENTER_HORIZONTAL
+
+            cardView.addView(answerTV)
+            return cardView
         }
     }
 }

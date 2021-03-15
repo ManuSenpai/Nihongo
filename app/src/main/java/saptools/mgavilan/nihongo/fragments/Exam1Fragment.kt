@@ -2,6 +2,7 @@ package saptools.mgavilan.nihongo.fragments
 
 import android.graphics.Typeface
 import android.os.Bundle
+import android.util.Log
 import android.view.Gravity
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -15,26 +16,25 @@ import saptools.mgavilan.nihongo.R
 import saptools.mgavilan.nihongo.data.KanjiItem
 import saptools.mgavilan.nihongo.data.Question
 
-// TODO: Rename parameter arguments, choose names that match
-// the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-private const val ARG_PARAM1 = "param1"
-private const val ARG_PARAM2 = "param2"
-
 /**
  * A simple [Fragment] subclass.
  * Use the [Exam1Fragment.newInstance] factory method to
  * create an instance of this fragment.
  */
-class Exam1Fragment(questionList: ArrayList<Question>) : Fragment() {
+class Exam1Fragment(questionList: ArrayList<Question>, textSize: Float ?= null, subTextSize: Float ?= null ) : Fragment() {
 
     private var questions = ArrayList<Question>()
     var rootView: View? = null
     var questionLL: LinearLayout ?= null
+    var textSize: Float = 80f
+    var subtextSize: Float = 14f
     var answerLL: LinearLayout ?= null
     var currentQuestion: Int = 0
 
     init {
         this.questions = questionList
+        this.textSize = textSize ?: 80f
+        this.subtextSize = subTextSize ?: 14f
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -65,15 +65,40 @@ class Exam1Fragment(questionList: ArrayList<Question>) : Fragment() {
         val questionTV = TextView(requireActivity())
         questionTV.layoutParams = LinearLayout.LayoutParams(
             LinearLayout.LayoutParams.MATCH_PARENT,
-            LinearLayout.LayoutParams.MATCH_PARENT
+            LinearLayout.LayoutParams.MATCH_PARENT,
+            1f
         )
-        questionTV.textSize = 80f
+
+        // If subtextSize is not null it means a subtext is set for the question
+        questionTV.textSize = textSize
         questionTV.typeface = Typeface.DEFAULT_BOLD
         questionTV.text = question.question
         questionTV.textAlignment = TextView.TEXT_ALIGNMENT_CENTER
         questionTV.gravity = Gravity.CENTER or Gravity.CENTER_VERTICAL or Gravity.CENTER_HORIZONTAL
-
         questionLL!!.addView(questionTV)
+
+        if ( question.subTexts != null && subtextSize != null) {
+            Log.d("_Subtexts", question.subTexts.toString())
+            question.subTexts.forEach { st ->
+                // Generating Question TextView
+                Log.d("_Subtext", st)
+                val subTextTV = TextView(requireActivity())
+                subTextTV.layoutParams = LinearLayout.LayoutParams(
+                    LinearLayout.LayoutParams.MATCH_PARENT,
+                    LinearLayout.LayoutParams.WRAP_CONTENT
+                )
+
+                subTextTV.setPadding( 0, 16, 0, 16 )
+
+                // If subtextSize is not null it means a subtext is set for the question
+                subTextTV.textSize = subtextSize
+                subTextTV.typeface = Typeface.DEFAULT_BOLD
+                subTextTV.text = st
+                subTextTV.textAlignment = TextView.TEXT_ALIGNMENT_CENTER
+                subTextTV.gravity = Gravity.CENTER or Gravity.CENTER_VERTICAL or Gravity.CENTER_HORIZONTAL
+                questionLL!!.addView(subTextTV)
+            }
+        }
 
         for ( i in 0 until question.answers!!.size) {
             val cardView = CardView(requireActivity())

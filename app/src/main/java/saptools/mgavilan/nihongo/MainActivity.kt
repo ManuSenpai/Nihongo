@@ -8,6 +8,7 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import com.google.gson.Gson
 import saptools.mgavilan.nihongo.data.Course
+import saptools.mgavilan.nihongo.data.KanjiItem
 import saptools.mgavilan.nihongo.fragments.ExamGroupSelectorFragment
 import saptools.mgavilan.nihongo.fragments.HomeFragment
 import saptools.mgavilan.nihongo.fragments.KanjiSummaryFragment
@@ -30,6 +31,7 @@ class MainActivity : AppCompatActivity() {
         var currentYear: Int = -1
         var currentUnit: Int = -1
         var fragment: Fragment = HomeFragment()
+        var listOfQuestions = ArrayList<KanjiItem>()
 
         fun fragmentCalling(myContext: Context, fragmentManager: androidx.fragment.app.FragmentManager) {
             val fragmentTransaction: androidx.fragment.app.FragmentTransaction = fragmentManager.beginTransaction()
@@ -45,6 +47,7 @@ class MainActivity : AppCompatActivity() {
         val gson = Gson()
 
         course = gson.fromJson(jsonFileString, Course::class.java)
+        listOfQuestions = course!!.generateListOfQuestions()
     }
 
     override fun onBackPressed() {
