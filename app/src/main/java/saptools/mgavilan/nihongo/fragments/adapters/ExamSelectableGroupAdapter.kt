@@ -60,6 +60,9 @@ class ExamSelectableGroupAdapter(_items: List<SchoolYear>, context: Context ): R
             newUnit.check.setOnCheckedChangeListener { _, b ->
                 schoolYears!![position].units[un].isSelected = b
             }
+            newUnit.setOnClickListener {
+                newUnit.check.isChecked = !newUnit.check.isChecked
+            }
             unitList.addView(newUnit)
         }
 

@@ -7731,6 +7731,615 @@
           ],
           "isCompleted": false,
           "bestMark": 0
+        },
+        {
+          "title": "Tema 16",
+          "kanjis": [
+            {
+              "kanji": "元",
+              "strokes": 4,
+              "onyomi": ["ゲン", "ガン"],
+              "kunyomi": ["もと"],
+              "meaning": ["Origen, base, fuente "],
+              "examples": [
+                {
+                  "example": "元気",
+                  "transcription": "げんき",
+                  "meaning": "Sano, saludable; estar bien",
+                  "complex": true
+                },
+                {
+                  "example": "元日",
+                  "transcription": "がんじつ",
+                  "meaning": "Día de Año Nuevo",
+                  "complex": true
+                },
+                {
+                  "example": "元旦",
+                  "transcription": "がんたん",
+                  "meaning": "Mañana de Año Nuevo, mañana del primer día del año",
+                  "complex": true
+                },
+                {
+                  "example": "手元",
+                  "transcription": "てもと",
+                  "meaning": "Las manos; al alcance de la mano, a mano",
+                  "complex": true
+                },
+                {
+                  "example": "足元",
+                  "transcription": "あしもと",
+                  "meaning": "Los pies, a los pies de uno; pasos, forma de andar",
+                  "complex": true
+                }
+              ]
+            },
+            {
+              "kanji": "気",
+              "strokes": 6,
+              "onyomi": ["キ", "(ケ)"],
+              "kunyomi": ["—"],
+              "meaning": ["Espíritu, mente", "Aire, atmósfera"],
+              "examples": [
+                {
+                  "example": "気持ち",
+                  "transcription": "きもち",
+                  "meaning": "Sensación",
+                  "complex": true
+                },
+                {
+                  "example": "気分",
+                  "transcription": "きぶん",
+                  "meaning": "Estado de ánimo, estado de humor.\nEstado físico, sensación física",
+                  "complex": true
+                },
+                {
+                  "example": "病気",
+                  "transcription": "びょうき",
+                  "meaning": "Enfermedad",
+                  "complex": true
+                },
+                {
+                  "example": "天気",
+                  "transcription": "てんき",
+                  "meaning": "Tiempo atmosférico, clima\n",
+                  "complex": true
+                },
+                {
+                  "example": "あい気道",
+                  "transcription": "あいきどう",
+                  "meaning": "Aikido",
+                  "complex": true
+                },
+                {
+                  "example": "大気",
+                  "transcription": "たいき",
+                  "meaning": "Atmósfera, aire",
+                  "complex": true
+                },
+                {
+                  "example": "人気",
+                  "transcription": "にんき",
+                  "meaning": "Popularidad, éxito, aceptación",
+                  "complex": true
+                },
+                {
+                  "example": "英気",
+                  "transcription": "えいき",
+                  "meaning": "Ánimos, fuerzas, energías, ganas, vigor",
+                  "complex": true
+                }
+              ]
+            },
+            {
+              "kanji": "有",
+              "strokes": 6,
+              "onyomi": ["ユウ"],
+              "kunyomi": ["あ・る"],
+              "meaning": ["Haber, existir, estar", "poseer, tener"],
+              "examples": [
+                {
+                  "example": "有名 ～な",
+                  "transcription": "ゆうめい ～な",
+                  "meaning": "Famoso, conocido, notorio",
+                  "complex": true
+                },
+                {
+                  "example": "しょ有 ～する",
+                  "transcription": "しょゆう ～する",
+                  "meaning": "Tener, poseer, tener algo en poder\nしょゆう～物  Posesión",
+                  "complex": false
+                },
+                {
+                  "example": "有力 ～な",
+                  "transcription": "ゆうりょく ～な",
+                  "meaning": "Fuerte, poderoso\nInfluyente, convincente\n有力～者  Personaje poderoso, influyente",
+                  "complex": true
+                },
+                {
+                  "example": "有りえる",
+                  "transcription": "ありえる",
+                  "meaning": "Ser posible\nそれは有り得ないよ!  ¡Eso es imposible!\n",
+                  "complex": false
+                },
+                {
+                  "example": "有りがたい",
+                  "transcription": "ありがたい",
+                  "meaning": "De agradecer, digno de agradecimiento\n有りがとうございます  Gracias",
+                  "complex": false
+                },
+                {
+                  "example": "有き物",
+                  "transcription": "ゆうきぶつ",
+                  "meaning": "Materia orgánica",
+                  "complex": true
+                }
+              ]
+            },
+            {
+              "kanji": "名",
+              "strokes": 6,
+              "onyomi": ["メイ", "ミョウ"],
+              "kunyomi": ["な"],
+              "meaning": ["Nombre"],
+              "examples": [
+                {
+                  "example": "名前",
+                  "transcription": "なまえ",
+                  "meaning": "Nombre",
+                  "complex": true
+                },
+                {
+                  "example": "名しょ",
+                  "transcription": "めいしょ",
+                  "meaning": "Lugar famoso, sitio célebre",
+                  "complex": false
+                },
+                {
+                  "example": "名物",
+                  "transcription": "めいぶつ",
+                  "meaning": "Especialidad, producto famoso de un lugar",
+                  "complex": true
+                },
+                {
+                  "example": "名古屋",
+                  "transcription": "なごや",
+                  "meaning": "Nagoya",
+                  "complex": true
+                },
+                {
+                  "example": "氏名",
+                  "transcription": "しめい",
+                  "meaning": "Identidad, nombre completo, nombre y apellidos",
+                  "complex": true
+                },
+                {
+                  "example": "名詞",
+                  "transcription": "めいし",
+                  "meaning": "Sustantivo",
+                  "complex": false
+                },
+                {
+                  "example": "名刺",
+                  "transcription": "めいし",
+                  "meaning": "Tarjeta de visita",
+                  "complex": false
+                },
+                {
+                  "example": "大名",
+                  "transcription": "だいみょう",
+                  "meaning": "Daimio: Señor feudal",
+                  "complex": true
+                }
+              ]
+            },
+            {
+              "kanji": "親",
+              "strokes": 16,
+              "onyomi": ["シン"],
+              "kunyomi": ["おや", "した・しい"],
+              "meaning": [ "Padres", "Cercano, íntimo, querido"],
+              "examples": [
+                {
+                  "example": "親",
+                  "transcription": "おや",
+                  "meaning": "Padre; Madre; Padres",
+                  "complex": false
+                },
+                {
+                  "example": "親しい",
+                  "transcription": "したしい",
+                  "meaning": "Íntimo, cercano, familiar, de confianza, querido",
+                  "complex": false
+                },
+                {
+                  "example": "親切 ～な",
+                  "transcription": "しんせつ ～な",
+                  "meaning": "Amable, afable, servicial",
+                  "complex": true
+                },
+                {
+                  "example": "親子",
+                  "transcription": "おやこ",
+                  "meaning": "Padres e hijos",
+                  "complex": true
+                },
+                {
+                  "example": "肉親",
+                  "transcription": "にくしん",
+                  "meaning": "Pariente carnal, familiar de sangre",
+                  "complex": true
+                },
+                {
+                  "example": "親友",
+                  "transcription": "しんゆう",
+                  "meaning": "Amigo íntimo",
+                  "complex": true
+                },
+                {
+                  "example": "親方",
+                  "transcription": "おやかた",
+                  "meaning": "Maestro, jefe, capataz, amo",
+                  "complex": true
+                }
+              ]
+            },
+            {
+              "kanji": "切",
+              "strokes": 4,
+              "onyomi": ["セツ"],
+              "kunyomi": ["き・る", "き・れる"],
+              "meaning": [
+                "Cortar"
+              ],
+              "examples": [
+                {
+                  "example": "切る",
+                  "transcription": "きる",
+                  "meaning": "Talar",
+                  "complex": false
+                },
+                {
+                  "example": "切っぷ",
+                  "transcription": "きっぷ",
+                  "meaning": "Ticket, entrada, billete",
+                  "complex": false
+                },
+                {
+                  "example": "切手",
+                  "transcription": "きって",
+                  "meaning": "Sello postal, sello de correos",
+                  "complex": true
+                },
+                {
+                  "example": "大切 ～な",
+                  "transcription": "たいせつ ～な ",
+                  "meaning": "Importante",
+                  "complex": true
+                },
+                {
+                  "example": "切っぷく",
+                  "transcription": "せっぷく",
+                  "meaning": "Seppuku (Suicidio)",
+                  "complex": false
+                },
+                {
+                  "example": "はら切り",
+                  "transcription": "はらきり",
+                  "meaning": "Harakiri (Suicidio)",
+                  "complex": false
+                },
+                {
+                  "example": "切ない",
+                  "transcription": "せつない",
+                  "meaning": "Triste, afligido",
+                  "complex": false
+                },
+                {
+                  "example": "切れる",
+                  "transcription": "きれる",
+                  "meaning": "Cortar\nCortarse, romperse, interrumpirse",
+                  "complex": false
+                }
+              ]
+            },
+            {
+              "kanji": "便",
+              "strokes": 9,
+              "onyomi": ["ベン", "ビン"],
+              "kunyomi": ["—"],
+              "meaning": [
+                "Convniente", "Tráfico"
+              ],
+              "examples": [
+                {
+                  "example": "航空便",
+                  "transcription": "こうくうびん",
+                  "meaning": "Correo aéreo",
+                  "complex": false
+                },
+                {
+                  "example": "宅配便",
+                  "transcription": "たくはいびん",
+                  "meaning": "Correo exprés a domicilio",
+                  "complex": false
+                },
+                {
+                  "example": "便利 ～な",
+                  "transcription": "べんり ～な",
+                  "meaning": "Conveniente, útil",
+                  "complex": true
+                },
+                {
+                  "example": "便所",
+                  "transcription": "べんじょ",
+                  "meaning": "Servicio, lavabo, aseo",
+                  "complex": false
+                },
+                {
+                  "example": "便",
+                  "transcription": "びん",
+                  "meaning": "Número de un vuelo",
+                  "complex": false
+                },
+                {
+                  "example": "大便",
+                  "transcription": "だいべん",
+                  "meaning": "Heces, excrementos, puta mierda\n大便～をする  Cagar, jiñar, plantar un pino",
+                  "complex": true
+                },
+                {
+                  "example": "小便",
+                  "transcription": "しょうべん",
+                  "meaning": "Orina, pis, meada\n小便  ～をする  Mear",
+                  "complex": true
+                }
+              ]
+            },
+            {
+              "kanji": "利",
+              "strokes": 7,
+              "onyomi": ["リ"],
+              "kunyomi": ["き・く"],
+              "meaning": [
+                "Beneficio", "Efecto, resultado"
+              ],
+              "examples": [
+                {
+                  "example": "便利 ～な",
+                  "transcription": "べんり ～な",
+                  "meaning": "Conveniente, útil",
+                  "complex": true
+                },
+                {
+                  "example": "有利 ～な",
+                  "transcription": "ゆうり ～な",
+                  "meaning": "Favorable, ventajoso\nProvechoso, lucrativo, rentable\n",
+                  "complex": true
+                },
+                {
+                  "example": "利用 ～する",
+                  "transcription": "りよう ～する",
+                  "meaning": "Utilizar, usar, aprovechar",
+                  "complex": true
+                },
+                {
+                  "example": "利子",
+                  "transcription": "りし",
+                  "meaning": "Interés (bancario), rédito, renta",
+                  "complex": true
+                },
+                {
+                  "example": "利益",
+                  "transcription": "りえき",
+                  "meaning": "Ganancias, beneficio, rendimiento",
+                  "complex": false
+                },
+                {
+                  "example": "左利き",
+                  "transcription": "ひだりきき",
+                  "meaning": "Zurdo",
+                  "complex": true
+                },
+                {
+                  "example": "右利き",
+                  "transcription": "みぎきき",
+                  "meaning": "Diestro",
+                  "complex": true
+                },
+                {
+                  "example": "両手利き",
+                  "transcription": "りょうてきき",
+                  "meaning": "Ambidiestro",
+                  "complex": false
+                }
+              ]
+            },
+            {
+              "kanji": "不",
+              "strokes": 4,
+              "onyomi": ["フ"],
+              "kunyomi": ["—"],
+              "meaning": ["Prefijo negativo"],
+              "examples": [
+                {
+                  "example": "不安 ～な",
+                  "transcription": "ふあん ～な",
+                  "meaning": "Intranquilo, inquieto, preocupado, desazonado,\ndesasosegado, angustiado",
+                  "complex": true
+                },
+                {
+                  "example": "不親切 ～な",
+                  "transcription": "ふしんせつ ～な",
+                  "meaning": "Falto de amabilidad, poco amable\nMala follá, desaborío",
+                  "complex": true
+                },
+                {
+                  "example": "不便 ～な",
+                  "transcription": "ふべん ～な",
+                  "meaning": "Incómodo, inconveniente",
+                  "complex": true
+                },
+                {
+                  "example": "不足 ～する",
+                  "transcription": "ふそく ～する",
+                  "meaning": "Faltar, escasear, ser insuficiente",
+                  "complex": true
+                },
+                {
+                  "example": "不明 ～な",
+                  "transcription": "ふめい ～な",
+                  "meaning": "Incierto, poco claro, desconocido",
+                  "complex": true
+                },
+                {
+                  "example": "不思議 ～な",
+                  "transcription": "ふしぎ ～な",
+                  "meaning": "Maravilloso, fantástico\nExtraño, raro, inexplicable\nMisterioso, milagroso",
+                  "complex": false
+                },
+                {
+                  "example": "不可能 ～な",
+                  "transcription": "ふかのう ～な",
+                  "meaning": "Imposible",
+                  "complex": false
+                },
+                {
+                  "example": "不完全 ～な",
+                  "transcription": "ふかんぜん ～な",
+                  "meaning": "Incompleto, imperfecto",
+                  "complex": false
+                },
+                {
+                  "example": "不快 ～な",
+                  "transcription": "ふかい ～な",
+                  "meaning": "Molesto, incómodo, desagradable",
+                  "complex": false
+                }
+              ]
+            },
+            {
+              "kanji": "若",
+              "strokes": 8,
+              "onyomi": ["ジャク", "(ニャク)"],
+              "kunyomi": ["わか・い"],
+              "meaning": ["Joven"],
+              "examples": [
+                {
+                  "example": "若い",
+                  "transcription": "わかい",
+                  "meaning": "Joven; Menor que uno",
+                  "complex": false
+                },
+                {
+                  "example": "若者",
+                  "transcription": "わかもの",
+                  "meaning": "Joven, adolescente",
+                  "complex": true
+                },
+                {
+                  "example": "若さ",
+                  "transcription": "わかさ",
+                  "meaning": "Juventud",
+                  "complex": false
+                },
+                {
+                  "example": "老若",
+                  "transcription": "ろうにゃく、ろうじゃく",
+                  "meaning": "Jóvenes y mayores",
+                  "complex": false
+                },
+                {
+                  "example": "若年",
+                  "transcription": "じゃくねん",
+                  "meaning": "Juventud, años jóvenes",
+                  "complex": false
+                }
+              ]
+            },
+            {
+              "kanji": "早",
+              "strokes": 6,
+              "onyomi": ["ソウ", "(サッ～)"],
+              "kunyomi": ["はや・い"],
+              "meaning": ["Pronto, temprano"],
+              "examples": [
+                {
+                  "example": "早い",
+                  "transcription": "はやい",
+                  "meaning": "Temprano, pronto",
+                  "complex": false
+                },
+                {
+                  "example": "早く",
+                  "transcription": "はやく",
+                  "meaning": "Pronto, temprano",
+                  "complex": false
+                },
+                {
+                  "example": "早朝 ～に",
+                  "transcription": "そうちょう ～に",
+                  "meaning": "A primera hora de la mañana",
+                  "complex": true
+                },
+                {
+                  "example": "早速",
+                  "transcription": "さっそく",
+                  "meaning": "En seguida, sin demora, echando hostias",
+                  "complex": true
+                },
+                {
+                  "example": "早春",
+                  "transcription": "そうしゅん",
+                  "meaning": "Primavera temprana",
+                  "complex": false
+                },
+                {
+                  "example": "早引き ～をする",
+                  "transcription": "はやびき ～をする",
+                  "meaning": "Volver a casa temprano, salir pronto del curro",
+                  "complex": false
+                }
+              ]
+            },
+            {
+              "kanji": "忙",
+              "strokes": 6,
+              "onyomi": ["ボウ"],
+              "kunyomi": ["いそが・しい "],
+              "meaning": [
+                "Ocupado, atareado"
+              ],
+              "examples": [
+                {
+                  "example": "忙しい",
+                  "transcription": "いそがしい",
+                  "meaning": "Ocupado, atareado",
+                  "complex": false
+                },
+                {
+                  "example": "多忙 ～な",
+                  "transcription": "たぼう ～な",
+                  "meaning": "Ocupado, atareado",
+                  "complex": true
+                },
+                {
+                  "example": "忙殺 ～する",
+                  "transcription": "ぼうさつ ～する",
+                  "meaning": "Estar muy ocupado\nEstar hasta las tetas de curro",
+                  "complex": false
+                },
+                {
+                  "example": "大忙し",
+                  "transcription": "おおいそがし",
+                  "meaning": "Estar muy ocupado\nEstar en la mierda",
+                  "complex": true
+                }
+              ]
+            }
+          ],
+          "isCompleted": false,
+          "bestMark": 0
         }
       ]
     }
