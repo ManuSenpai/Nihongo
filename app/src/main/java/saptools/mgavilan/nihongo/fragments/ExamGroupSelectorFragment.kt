@@ -37,7 +37,7 @@ class ExamGroupSelectorFragment : Fragment() {
 
     companion object {
         var examMode: Int = 0
-        var nQuestions: Int = 10
+        var nQuestions: Int = 12
     }
 
     @RequiresApi(Build.VERSION_CODES.N)

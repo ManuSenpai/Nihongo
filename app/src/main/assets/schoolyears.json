@@ -8049,7 +8049,7 @@
               "onyomi": ["ベン", "ビン"],
               "kunyomi": ["—"],
               "meaning": [
-                "Convniente", "Tráfico"
+                "Conveniente", "Tráfico"
               ],
               "examples": [
                 {
@@ -8333,6 +8333,1166 @@
                   "example": "大忙し",
                   "transcription": "おおいそがし",
                   "meaning": "Estar muy ocupado\nEstar en la mierda",
+                  "complex": true
+                }
+              ]
+            }
+          ],
+          "isCompleted": false,
+          "bestMark": 0
+        },
+        {
+          "title": "Tema 17",
+          "kanjis": [
+            {
+              "kanji": "出",
+              "strokes": 5,
+              "onyomi": ["シュツ", "シュッ～"],
+              "kunyomi": ["で・る", "だ・す"],
+              "meaning": ["Salir", "Sacar", "Entregar, presentar", "Enviar, mandar"],
+              "examples": [
+                {
+                  "example": "出る",
+                  "transcription": "でる",
+                  "meaning": "Salir de un sitio",
+                  "complex": false
+                },
+                {
+                  "example": "出す",
+                  "transcription": "だす",
+                  "meaning": "Sacar, extraer, echar fuera\nEnviar (por correo), mandar, despachar\nPresentar, entregar (un informe, trabajo...)\nExponer\nServir\nかばんから本を出す  sacar un libro de la maleta\n銀行からお金を出す  sacar dinero del banco\nレポートを出す  entregar (presentar) un informe\n水道の水を出す  abrir el grifo del agua\nお茶を出す  servir el té\n手紙を出す  enviar una carta\n元気を出して!  ¡Anímate!, ¡Alegra esa cara!",
+                  "complex": false
+                },
+                {
+                  "example": "出口",
+                  "transcription": "でぐち",
+                  "meaning": "Salida, Puerta de salida\nBoca, entrada",
+                  "complex": true
+                },
+                {
+                  "example": "外出 ～する",
+                  "transcription": "がいしゅつ ～する",
+                  "meaning": "Salir",
+                  "complex": true
+                },
+                {
+                  "example": "出発",
+                  "transcription": "しゅっぱつ",
+                  "meaning": "Salida, partida",
+                  "complex": false
+                },
+                {
+                  "example": "出かける",
+                  "transcription": "でかける",
+                  "meaning": "Salir (a hacer algo)\nPartir, irse, marcharse; Ir (= 行く)",
+                  "complex": false
+                },
+                {
+                  "example": "引き出し",
+                  "transcription": "ひきだし",
+                  "meaning": "Cajón, retirada de dinero",
+                  "complex": false
+                },
+                {
+                  "example": "日の出",
+                  "transcription": "ひので",
+                  "meaning": "Amanecer, salida del sol",
+                  "complex": true
+                }
+              ]
+            },
+            {
+              "kanji": "入",
+              "strokes": 2,
+              "onyomi": ["ニュウ"],
+              "kunyomi": ["はい・る", "いれ・る"],
+              "meaning": ["Entrar", "Introducir, meter", "Poner, añadir"],
+              "examples": [
+                {
+                  "example": "入る",
+                  "transcription": "はいる",
+                  "meaning": "Entrar, meterse, introducirse, internarse, penetrar",
+                  "complex": false
+                },
+                {
+                  "example": "入れる",
+                  "transcription": "いれる",
+                  "meaning": "Meter, introducir\nEchar, poner, añadir\nInsertar, colocar, insertar (algo dentro de otra cosa)\nHacer pasar\nIncluir\nポケットにお金を入れる  meter el dinero en el bolsillo\nコーヒーに砂糖を入れる  poner azúcar al café\nお客さんを居間に入れる  hacer pasar a los invitados a la sala de estar\n本にしおりを入れる  colocar una señal en el libro\n家族は、私を入れて５人です  somos cinco en mi familia, incluyéndome a mí",
+                  "complex": false
+                },
+                {
+                  "example": "入り口",
+                  "transcription": "いりぐち",
+                  "meaning": "Entrada, puerta de entrada, boca",
+                  "complex": true
+                },
+                {
+                  "example": "入学",
+                  "transcription": "にゅうがく",
+                  "meaning": "Ingreso, entrada, admisión\n入学 ～する  Ingresar, ser admitido en una escuela",
+                  "complex": true
+                },
+                {
+                  "example": "入院",
+                  "transcription": "にゅういん",
+                  "meaning": "Hospitalización, ingreso hospitalario\n入院  ～する   Ingresar en un hospital, ser hospitalizado\n入院 ～させる  Ingresar a alguien en un hospital, hospitalizar",
+                  "complex": true
+                },
+                {
+                  "example": "入験",
+                  "transcription": "にゅうけん",
+                  "meaning": "Exámenes de ingreso",
+                  "complex": false
+                },
+                {
+                  "example": "日の入り",
+                  "transcription": "ひのいり",
+                  "meaning": "Atardecer, puesta del sol",
+                  "complex": true
+                }
+              ]
+            },
+            {
+              "kanji": "乗",
+              "strokes": 9,
+              "onyomi": ["ジョウ"],
+              "kunyomi": ["の・る"],
+              "meaning": ["Montar en un vehículo"],
+              "examples": [
+                {
+                  "example": "乗る",
+                  "transcription": "のる",
+                  "meaning": "Subirse, montar (en un vehículo)",
+                  "complex": false
+                },
+                {
+                  "example": "乗り物",
+                  "transcription": "のりもの",
+                  "meaning": "Vahículo, transporte",
+                  "complex": true
+                },
+                {
+                  "example": "乗客",
+                  "transcription": "じょうきゃく",
+                  "meaning": "Viajero, pasajero",
+                  "complex": true
+                },
+                {
+                  "example": "乗車 ～する",
+                  "transcription": "じょうしゃ ～する",
+                  "meaning": "Subir al tren, al bus...; Montar en un vehículo",
+                  "complex": true
+                },
+                {
+                  "example": "乗り換える",
+                  "transcription": "のりかえる",
+                  "meaning": "Trasbordar; Hacer trasbordo",
+                  "complex": false
+                },
+                {
+                  "example": "乗り場",
+                  "transcription": "のりば",
+                  "meaning": "Parada; andén",
+                  "complex": true
+                }
+              ]
+            },
+            {
+              "kanji": "降",
+              "strokes": 6,
+              "onyomi": ["コウ"],
+              "kunyomi": ["お・りる", "ふ・る"],
+              "meaning": ["Bajar, descender"],
+              "examples": [
+                {
+                  "example": "降りる",
+                  "transcription": "おりる",
+                  "meaning": "Bajar, apearse",
+                  "complex": false
+                },
+                {
+                  "example": "降る",
+                  "transcription": "ふる",
+                  "meaning": "Llover; Nevar",
+                  "complex": false
+                },
+                {
+                  "example": "降車",
+                  "transcription": "こうしゃ",
+                  "meaning": "Bajarse (del tren, bus...), apearse",
+                  "complex": true
+                },
+                {
+                  "example": "降雪",
+                  "transcription": "こうせつ",
+                  "meaning": "Nevada",
+                  "complex": true
+                },
+                {
+                  "example": "降雨",
+                  "transcription": "こうう",
+                  "meaning": "Lluvia, caída de lluvia",
+                  "complex": true
+                }
+              ]
+            },
+            {
+              "kanji": "着",
+              "strokes": 12,
+              "onyomi": ["チャク"],
+              "kunyomi": ["き・る", "つ・く"],
+              "meaning": [ "Ponerse, vestir", "Llegar"],
+              "examples": [
+                {
+                  "example": "着る",
+                  "transcription": "きる",
+                  "meaning": "Vestir, ponerse",
+                  "complex": false
+                },
+                {
+                  "example": "着く",
+                  "transcription": "つく",
+                  "meaning": "Llegar\n家に着く  Llegar a casa",
+                  "complex": false
+                },
+                {
+                  "example": "到着",
+                  "transcription": "とうちゃく",
+                  "meaning": "Llegada (de un vehículo)\n到着 ～する  Llegar",
+                  "complex": false
+                },
+                {
+                  "example": "着物",
+                  "transcription": "きもの",
+                  "meaning": "Kimono; Traje, vestido, vestimenta",
+                  "complex": true
+                },
+                {
+                  "example": "たどり着く",
+                  "transcription": "たどりつく",
+                  "meaning": "Llegar a un lugar (con dificultad)",
+                  "complex": false
+                },
+                {
+                  "example": "着替える",
+                  "transcription": "きがえる",
+                  "meaning": "Cambiarse de ropa",
+                  "complex": false
+                },
+                {
+                  "example": "上着",
+                  "transcription": "うわぎ",
+                  "meaning": "Chaqueta, americana",
+                  "complex": true
+                },
+                {
+                  "example": "下着",
+                  "transcription": "したぎ",
+                  "meaning": "Ropa interior",
+                  "complex": true
+                },
+                {
+                  "example": "着陸",
+                  "transcription": "ちゃくりく",
+                  "meaning": "Aterrizaje",
+                  "complex": false
+                }
+              ]
+            },
+            {
+              "kanji": "渡",
+              "strokes": 12,
+              "onyomi": ["ト"],
+              "kunyomi": ["わた・る", "わた・す"],
+              "meaning": [
+                "Cruzar, atravesar", "Entregar"
+              ],
+              "examples": [
+                {
+                  "example": "渡る",
+                  "transcription": "わたる",
+                  "meaning": "Cruzar, atravesar, pasar\n道を渡る  Cruzar la calle",
+                  "complex": false
+                },
+                {
+                  "example": "渡す",
+                  "transcription": "わたす",
+                  "meaning": "Entregar, pasar, ceder, transferir",
+                  "complex": false
+                },
+                {
+                  "example": "渡米 ～する",
+                  "transcription": "とべい ～する",
+                  "meaning": "Vistar EEUU (intr.)",
+                  "complex": true
+                },
+                {
+                  "example": "渡欧 ～する",
+                  "transcription": "とおう ～する",
+                  "meaning": "Visitar Europa (intr.)",
+                  "complex": false
+                },
+                {
+                  "example": "渡り鳥",
+                  "transcription": "わたりどり",
+                  "meaning": "Ave migratoria",
+                  "complex": true
+                },
+                {
+                  "example": "手渡す",
+                  "transcription": "てわたす",
+                  "meaning": "Entregar en mano",
+                  "complex": true
+                }
+              ]
+            },
+            {
+              "kanji": "通",
+              "strokes": 10,
+              "onyomi": ["ツウ"],
+              "kunyomi": ["とお・る", "とお・す", "かよ・う"],
+              "meaning": [
+                "Pasar, circular, transitar", "Ir todos los días a un sitio, frecuentar"
+              ],
+              "examples": [
+                {
+                  "example": "通る",
+                  "transcription": "とおる",
+                  "meaning": "Pasar, transitar, circular, ir por un lugar",
+                  "complex": false
+                },
+                {
+                  "example": "通す",
+                  "transcription": "とおす",
+                  "meaning": "Hacer pasar, dejar pasar",
+                  "complex": false
+                },
+                {
+                  "example": "通う",
+                  "transcription": "かよう",
+                  "meaning": "Frecuentar un sitio\nバスで学校に通う  Ir a la escuela en autobús",
+                  "complex": false
+                },
+                {
+                  "example": "交通",
+                  "transcription": "こうつう",
+                  "meaning": "Tráfico de vehículos, tránsito, circulación",
+                  "complex": true
+                },
+                {
+                  "example": "通学 ～する",
+                  "transcription": "つうがく ～する",
+                  "meaning": "Ir a la autoescuela",
+                  "complex": true
+                },
+                {
+                  "example": "通り",
+                  "transcription": "とおり",
+                  "meaning": "Calle, avenida, paseo, bulevar",
+                  "complex": true
+                },
+                {
+                  "example": "通行",
+                  "transcription": "つうこう",
+                  "meaning": "Paso, tránsito, circulación",
+                  "complex": true
+                },
+                {
+                  "example": "通称",
+                  "transcription": "つうしょう",
+                  "meaning": "Alias, pseudónimo, nick",
+                  "complex": false
+                },
+                {
+                  "example": "通信",
+                  "transcription": "つうしん",
+                  "meaning": "Comunicación, correspondencia",
+                  "complex": false
+                }
+              ]
+            },
+            {
+              "kanji": "走",
+              "strokes": 7,
+              "onyomi": ["ソウ"],
+              "kunyomi": ["はし・る"],
+              "meaning": [
+                "Correr"
+              ],
+              "examples": [
+                {
+                  "example": "走る",
+                  "transcription": "はしる",
+                  "meaning": "Correr",
+                  "complex": false
+                },
+                {
+                  "example": "走者",
+                  "transcription": "そうしゃ",
+                  "meaning": "Corredor",
+                  "complex": true
+                },
+                {
+                  "example": "競走",
+                  "transcription": "きょうそう",
+                  "meaning": "Carrera\n競走 ～する  Correr",
+                  "complex": false
+                },
+                {
+                  "example": "暴走 ～する",
+                  "transcription": "ぼうそう ～する",
+                  "meaning": "Correr a toda hostia\nA pijo sacao, sin control",
+                  "complex": false
+                },
+                {
+                  "example": "独走 ～する",
+                  "transcription": "どくそう ～する",
+                  "meaning": "Correr solo, dejar atrás a los rivales",
+                  "complex": false
+                },
+                {
+                  "example": "出走 ～する",
+                  "transcription": "しゅっそう ～する",
+                  "meaning": "Participar en una carrera",
+                  "complex": true
+                }
+              ]
+            },
+            {
+              "kanji": "歩",
+              "strokes": 8,
+              "onyomi": ["ホ"],
+              "kunyomi": ["ある・く", "あゆ・む"],
+              "meaning": ["Andar, caminar", "Contador de pasos"],
+              "examples": [
+                {
+                  "example": "歩く",
+                  "transcription": "あるく",
+                  "meaning": "Caminar, andar",
+                  "complex": false
+                },
+                {
+                  "example": "歩道",
+                  "transcription": "ほどう",
+                  "meaning": "Acera",
+                  "complex": true
+                },
+                {
+                  "example": "歩行 ～する",
+                  "transcription": "ほこう ～する",
+                  "meaning": "Ir a pata a un sitio",
+                  "complex": true
+                },
+                {
+                  "example": "進歩 ～する",
+                  "transcription": "しんぽ ～する",
+                  "meaning": "Progresar, avanzar",
+                  "complex": false
+                },
+                {
+                  "example": "徒歩 ～で",
+                  "transcription": "とほ ～で",
+                  "meaning": "A pie\n学校はここから徒歩で１０分のところにあります  la escuela está a 10 minutos andando desde aquí",
+                  "complex": false
+                },
+                {
+                  "example": "歩き回る",
+                  "transcription": "あるきまわる",
+                  "meaning": "Dar vueltas por un sitio; Ir de un lado a otro",
+                  "complex": true
+                },
+                {
+                  "example": "歩む",
+                  "transcription": "あゆむ",
+                  "meaning": "Andar, caminar, recorrer a pie",
+                  "complex": false
+                },
+                {
+                  "example": "一歩",
+                  "transcription": "いっぽ",
+                  "meaning": "Paso, un paso",
+                  "complex": true
+                }
+              ]
+            },
+            {
+              "kanji": "止",
+              "strokes": 4,
+              "onyomi": ["シ"],
+              "kunyomi": ["と・める", "と・まる", "や・む"],
+              "meaning": ["Parar(se), detener(se)"],
+              "examples": [
+                {
+                  "example": "止まる",
+                  "transcription": "とまる",
+                  "meaning": "Pararse, detenerse",
+                  "complex": false
+                },
+                {
+                  "example": "止める",
+                  "transcription": "とめる",
+                  "meaning": "Parar, detener, aparcar\nCortar, cerrar (el gas, el agua)",
+                  "complex": false
+                },
+                {
+                  "example": "中止",
+                  "transcription": "ちゅうし",
+                  "meaning": "Cese, suspensión\n中止 ～する  Cerrar, suspender, cancelar\n中止 ～になる  Ser suspendido, suspenderse, cancelarse",
+                  "complex": true
+                },
+                {
+                  "example": "通行止め",
+                  "transcription": "つうこうどめ",
+                  "meaning": "Cerrado al tráfico",
+                  "complex": true
+                },
+                {
+                  "example": "痛み止め",
+                  "transcription": "いたみどめ",
+                  "meaning": "Analgésico",
+                  "complex": true
+                },
+                {
+                  "example": "止む",
+                  "transcription": "やむ",
+                  "meaning": "Amainar, cesar, parar\n雨が止んだ  Dejó de llover",
+                  "complex": false
+                },
+                {
+                  "example": "停止",
+                  "transcription": "ていし",
+                  "meaning": "Parada, detención, interrupción",
+                  "complex": false
+                },
+                {
+                  "example": "禁止",
+                  "transcription": "きんし",
+                  "meaning": "Prohibición\n禁止 ～する  Prohibir",
+                  "complex": false
+                }
+              ]
+            },
+            {
+              "kanji": "動",
+              "strokes": 11,
+              "onyomi": ["ドウ"],
+              "kunyomi": ["うご・く", "うご・かす"],
+              "meaning": ["Mover(se)"],
+              "examples": [
+                {
+                  "example": "動く",
+                  "transcription": "うごく",
+                  "meaning": "Moverse, trasladarse; funcionar",
+                  "complex": false
+                },
+                {
+                  "example": "動かす",
+                  "transcription": "うごかす",
+                  "meaning": "Mover, hacer moverse, trasladar\nManejar, hacer funcionar, poner en marcha",
+                  "complex": false
+                },
+                {
+                  "example": "動物",
+                  "transcription": "どうぶつ",
+                  "meaning": "Animal",
+                  "complex": true
+                },
+                {
+                  "example": "行動",
+                  "transcription": "こうどう",
+                  "meaning": "Acción, acto, conducta",
+                  "complex": true
+                },
+                {
+                  "example": "自動 ～的な",
+                  "transcription": "じどう ～てきな",
+                  "meaning": "Automático\n自動 ～的に  Automáticamente\n自動 ～車  Automóvil\n自動 ～ドア  Puerta automática",
+                  "complex": false
+                },
+                {
+                  "example": "起動",
+                  "transcription": "きどう",
+                  "meaning": "Arranque, inicio, puesta en marcha",
+                  "complex": false
+                }
+              ]
+            },
+            {
+              "kanji": "働",
+              "strokes": 13,
+              "onyomi": ["ドウ"],
+              "kunyomi": ["はたら・く"],
+              "meaning": [
+                "Trabajar"
+              ],
+              "examples": [
+                {
+                  "example": "働く",
+                  "transcription": "はたらく",
+                  "meaning": "Trabajar",
+                  "complex": false
+                },
+                {
+                  "example": "労働",
+                  "transcription": "ろうどう",
+                  "meaning": "Trabajo, labor",
+                  "complex": false
+                },
+                {
+                  "example": "働かす",
+                  "transcription": "はたらかす",
+                  "meaning": "Hacer trabajar a uno, poner a alguien a trabajar\nHacer funcionar algo",
+                  "complex": false
+                }
+              ]
+            }
+          ],
+          "isCompleted": false,
+          "bestMark": 0
+        },
+        {
+          "title": "Tema 18",
+          "kanjis": [
+            {
+              "kanji": "右",
+              "strokes": 5,
+              "onyomi": ["ウ", "ユウ"],
+              "kunyomi": ["みぎ"],
+              "meaning": ["Derecha"],
+              "examples": [
+                {
+                  "example": "右手",
+                  "transcription": "みぎて",
+                  "meaning": "Mano derecha",
+                  "complex": false
+                },
+                {
+                  "example": "右折 ～する",
+                  "transcription": "うせつ ～する",
+                  "meaning": "Girar a la derecha",
+                  "complex": true
+                },
+                {
+                  "example": "左右",
+                  "transcription": "さゆう",
+                  "meaning": "La izquierda y la derecha. A ambos lados",
+                  "complex": true
+                },
+                {
+                  "example": "右足",
+                  "transcription": "みぎあし",
+                  "meaning": "Pie derecho",
+                  "complex": false
+                },
+                {
+                  "example": "右よく",
+                  "transcription": "うよく",
+                  "meaning": "Derecha (política)",
+                  "complex": false
+                },
+                {
+                  "example": "右利き",
+                  "transcription": "みぎきき",
+                  "meaning": "Diestro",
+                  "complex": false
+                }
+              ]
+            },
+            {
+              "kanji": "左",
+              "strokes": 5,
+              "onyomi": ["サ"],
+              "kunyomi": ["ひだり"],
+              "meaning": ["Izquierda"],
+              "examples": [
+                {
+                  "example": "左手",
+                  "transcription": "ひだりて",
+                  "meaning": "Mano izquierda",
+                  "complex": false
+                },
+                {
+                  "example": "左折 ～する",
+                  "transcription": "させつ ～する",
+                  "meaning": "Girar a la izquierda",
+                  "complex": true
+                },
+                {
+                  "example": "左足",
+                  "transcription": "ひだりあし",
+                  "meaning": "Pierna izquierda",
+                  "complex": false
+                },
+                {
+                  "example": "左利き",
+                  "transcription": "ひだりきき",
+                  "meaning": "Zurdo",
+                  "complex": false
+                },
+                {
+                  "example": "左よく",
+                  "transcription": "さよく",
+                  "meaning": "Izquierda (política)",
+                  "complex": false
+                }
+              ]
+            },
+            {
+              "kanji": "東",
+              "strokes": 8,
+              "onyomi": ["トウ"],
+              "kunyomi": ["ひがし"],
+              "meaning": ["Este, Oriente"],
+              "examples": [
+                {
+                  "example": "東口",
+                  "transcription": "ひがしぐち",
+                  "meaning": "Puerta este, entrada este",
+                  "complex": false
+                },
+                {
+                  "example": "東京",
+                  "transcription": "とうきょう",
+                  "meaning": "Tokyo",
+                  "complex": true
+                },
+                {
+                  "example": "関東",
+                  "transcription": "かんとう",
+                  "meaning": "Kanto (región)",
+                  "complex": true
+                },
+                {
+                  "example": "南東 / 東南",
+                  "transcription": "なんとう / とうなん",
+                  "meaning": "Sureste",
+                  "complex": true
+                },
+                {
+                  "example": "北東 / 東北",
+                  "transcription": "ほくとう / とうほく",
+                  "meaning": "Noreste",
+                  "complex": true
+                },
+                {
+                  "example": "東西",
+                  "transcription": "とうざい",
+                  "meaning": "Este y oeste",
+                  "complex": true
+                },
+                {
+                  "example": "東洋",
+                  "transcription": "とうよう",
+                  "meaning": "Oriente",
+                  "complex": true
+                }
+              ]
+            },
+            {
+              "kanji": "西",
+              "strokes": 6,
+              "onyomi": ["セイ", "サイ"],
+              "kunyomi": ["にし"],
+              "meaning": ["Oeste, occidental", "España"],
+              "examples": [
+                {
+                  "example": "西口",
+                  "transcription": "にしぐち",
+                  "meaning": "Puerta oeste",
+                  "complex": false
+                },
+                {
+                  "example": "西洋",
+                  "transcription": "せいよう",
+                  "meaning": "Occidente, países occidentales",
+                  "complex": true
+                },
+                {
+                  "example": "関西",
+                  "transcription": "かんさい",
+                  "meaning": "Kansai (región)",
+                  "complex": true
+                },
+                {
+                  "example": "和西",
+                  "transcription": "わせい",
+                  "meaning": "Japón y España; Japonés - Español",
+                  "complex": true
+                },
+                {
+                  "example": "北西 / 西北",
+                  "transcription": "ほくせい / せいほく",
+                  "meaning": "Noroeste",
+                  "complex": true
+                },
+                {
+                  "example": "南西 / 西南",
+                  "transcription": "なんせい / せいなん",
+                  "meaning": "Suroeste",
+                  "complex": true
+                }
+              ]
+            },
+            {
+              "kanji": "北",
+              "strokes": 5,
+              "onyomi": ["ホク"],
+              "kunyomi": ["きた"],
+              "meaning": [ "Norte"],
+              "examples": [
+                {
+                  "example": "北口",
+                  "transcription": "きたぐち",
+                  "meaning": "Entrada norte",
+                  "complex": false
+                },
+                {
+                  "example": "北米",
+                  "transcription": "ほくべい",
+                  "meaning": "América del norte",
+                  "complex": true
+                },
+                {
+                  "example": "北海道",
+                  "transcription": "ほっかいどう",
+                  "meaning": "Hokkaido",
+                  "complex": true
+                },
+                {
+                  "example": "北斗の拳",
+                  "transcription": "ほくとのけん",
+                  "meaning": "El puño de la estrella del norte (Serie)",
+                  "complex": false
+                }
+              ]
+            },
+            {
+              "kanji": "南",
+              "strokes": 9,
+              "onyomi": ["ナン"],
+              "kunyomi": ["みなみ"],
+              "meaning": [
+                "Sur, mediodía"
+              ],
+              "examples": [
+                {
+                  "example": "南口",
+                  "transcription": "みなみぐち",
+                  "meaning": "Entrada sur",
+                  "complex": false
+                },
+                {
+                  "example": "南北",
+                  "transcription": "なんぼく",
+                  "meaning": "Norte y Sur",
+                  "complex": true
+                },
+                {
+                  "example": "南米",
+                  "transcription": "なんべい",
+                  "meaning": "América del sur",
+                  "complex": true
+                }
+              ]
+            },
+            {
+              "kanji": "外",
+              "strokes": 5,
+              "onyomi": ["ガイ", "ゲ"],
+              "kunyomi": ["そと", "ほか"],
+              "meaning": ["Fuera, exterior", "Otro, diferente"],
+              "examples": [
+                {
+                  "example": "外国",
+                  "transcription": "がいこく",
+                  "meaning": "Extranjero; País extranjero",
+                  "complex": true
+                },
+                {
+                  "example": "外出 ～する",
+                  "transcription": "がいしゅつ ～する",
+                  "meaning": "Salir de casa",
+                  "complex": true
+                },
+                {
+                  "example": "外科",
+                  "transcription": "げか",
+                  "meaning": "Cirugía",
+                  "complex": false
+                },
+                {
+                  "example": "外 ～の",
+                  "transcription": "ほか ～の",
+                  "meaning": "Diferente",
+                  "complex": false
+                },
+                {
+                  "example": "外 ～に",
+                  "transcription": "ほか ～に",
+                  "meaning": "De otra forma",
+                  "complex": false
+                },
+                {
+                  "example": "外見",
+                  "transcription": "がいけん",
+                  "meaning": "Apariencia",
+                  "complex": true
+                },
+                {
+                  "example": "外食",
+                  "transcription": "がいしょく",
+                  "meaning": "Salir a comer fuera de casa",
+                  "complex": true
+                },
+                {
+                  "example": "海外",
+                  "transcription": "かいがい",
+                  "meaning": "Extranjero, ultramar",
+                  "complex": true
+                },
+                {
+                  "example": "以外",
+                  "transcription": "いがい",
+                  "meaning": "Excepto\n田中さん以外のぜんいん  Todos menos el señor Tanaka",
+                  "complex": true
+                },
+                {
+                  "example": "屋外",
+                  "transcription": "おくがい",
+                  "meaning": "Externo, exterior, fuera de casa",
+                  "complex": true
+                }
+              ]
+            },
+            {
+              "kanji": "内",
+              "strokes": 4,
+              "onyomi": ["ナイ"],
+              "kunyomi": ["うち"],
+              "meaning": ["Dentro, interior"],
+              "examples": [
+                {
+                  "example": "国内",
+                  "transcription": "こくない",
+                  "meaning": "Interior del país; Nacional; Doméstico",
+                  "complex": true
+                },
+                {
+                  "example": "内か",
+                  "transcription": "ないか",
+                  "meaning": "Medicina interna",
+                  "complex": false
+                },
+                {
+                  "example": "内気",
+                  "transcription": "うちき",
+                  "meaning": "Timidez",
+                  "complex": true
+                },
+                {
+                  "example": "案内",
+                  "transcription": "あんない",
+                  "meaning": "Guía, información\n案内 ～する  Guiar, conducir a alguien",
+                  "complex": true
+                },
+                {
+                  "example": "車内",
+                  "transcription": "しゃない",
+                  "meaning": "Dentro de un tren / autobús / vehículo",
+                  "complex": true
+                },
+                {
+                  "example": "店内",
+                  "transcription": "てんない",
+                  "meaning": "Dentro de la tienda",
+                  "complex": true
+                },
+                {
+                  "example": "屋内",
+                  "transcription": "おくない",
+                  "meaning": "Interior, cubierto, bajo techo\n屋内プール  Piscina cubierta",
+                  "complex": true
+                }
+              ]
+            },
+            {
+              "kanji": "部",
+              "strokes": 11,
+              "onyomi": ["ブ "],
+              "kunyomi": ["—"],
+              "meaning": ["Sección, departamento, club", "Parte, componente"],
+              "examples": [
+                {
+                  "example": "*部屋",
+                  "transcription": "*へや",
+                  "meaning": "Habitación",
+                  "complex": true
+                },
+                {
+                  "example": "部分",
+                  "transcription": "ぶぶん",
+                  "meaning": "Parte, porción",
+                  "complex": true
+                },
+                {
+                  "example": "全部",
+                  "transcription": "ぜんぶ",
+                  "meaning": "Todo, por completo, totalmente",
+                  "complex": true
+                },
+                {
+                  "example": "部活",
+                  "transcription": "ぶかつ",
+                  "meaning": "Clubes de instituto",
+                  "complex": true
+                },
+                {
+                  "example": "部品",
+                  "transcription": "ぶひん",
+                  "meaning": "Pieza, parte, componente",
+                  "complex": true
+                },
+                {
+                  "example": "一部",
+                  "transcription": "いちぶ",
+                  "meaning": "Una parte, una porción",
+                  "complex": false
+                },
+                {
+                  "example": "部下",
+                  "transcription": "ぶか",
+                  "meaning": "Subordinado",
+                  "complex": true
+                },
+                {
+                  "example": "下部",
+                  "transcription": "かぶ",
+                  "meaning": "Parte inferior",
+                  "complex": true
+                }
+              ]
+            },
+            {
+              "kanji": "駅",
+              "strokes": 14,
+              "onyomi": ["エキ"],
+              "kunyomi": ["—"],
+              "meaning": ["Estación"],
+              "examples": [
+                {
+                  "example": "駅長",
+                  "transcription": "えきちょう",
+                  "meaning": "Jefe de estación",
+                  "complex": true
+                },
+                {
+                  "example": "駅員",
+                  "transcription": "えきいん",
+                  "meaning": "Empleado de la estación",
+                  "complex": true
+                },
+                {
+                  "example": "各駅",
+                  "transcription": "かくえき",
+                  "meaning": "Cada estación; Todas las estaciones",
+                  "complex": true
+                }
+              ]
+            },
+            {
+              "kanji": "社",
+              "strokes": 7,
+              "onyomi": ["シャ", "～ジャ"],
+              "kunyomi": ["やしろ"],
+              "meaning": ["Santuario sintoísta", "Compañía, empresa, sociedad"],
+              "examples": [
+                {
+                  "example": "神社",
+                  "transcription": "じんじゃ",
+                  "meaning": "Santuario sintoísta",
+                  "complex": true
+                },
+                {
+                  "example": "会社",
+                  "transcription": "かいしゃ",
+                  "meaning": "Empresa, compañía, entidad mercantil; oficina, el trabajo",
+                  "complex": true
+                },
+                {
+                  "example": "社長",
+                  "transcription": "しゃちょう",
+                  "meaning": "Presidente de la empresa, CEO",
+                  "complex": true
+                },
+                {
+                  "example": "社会",
+                  "transcription": "しゃかい",
+                  "meaning": "Sociedad, la sociedad, el mundo",
+                  "complex": true
+                },
+                {
+                  "example": "社交 ~性",
+                  "transcription": "しゃこう ～せい",
+                  "meaning": "Sociabilidad",
+                  "complex": true
+                },
+                {
+                  "example": "出社 ～する",
+                  "transcription": "しゅっしゃ ～する",
+                  "meaning": "Ir a la oficina, ir al trabajo",
+                  "complex": true
+                },
+                {
+                  "example": "本社",
+                  "transcription": "ほんしゃ",
+                  "meaning": "Oficina principal; Templo principal",
+                  "complex": true
+                },
+                {
+                  "example": "当社",
+                  "transcription": "とうしゃ",
+                  "meaning": "Esta empresa, este templo",
+                  "complex": true
+                }
+              ]
+            },
+            {
+              "kanji": "院",
+              "strokes": 10,
+              "onyomi": ["イン"],
+              "kunyomi": ["—"],
+              "meaning": [
+                "Institución, casa, edificio público", "Escuela de posgrado"
+              ],
+              "examples": [
+                {
+                  "example": "病院",
+                  "transcription": "びょういん",
+                  "meaning": "Hospital",
+                  "complex": true
+                },
+                {
+                  "example": "入院",
+                  "transcription": "にゅういん",
+                  "meaning": "Hospitalización, ingreso en el hospital",
+                  "complex": true
+                },
+                {
+                  "example": "学院",
+                  "transcription": "がくいん",
+                  "meaning": "Academia, instituto",
+                  "complex": true
+                },
+                {
+                  "example": "退院",
+                  "transcription": "たいいん",
+                  "meaning": "Salir del hospital, ser dado de alta",
+                  "complex": true
+                },
+                {
+                  "example": "美容院",
+                  "transcription": "びよういん",
+                  "meaning": "Salón de belleza",
                   "complex": true
                 }
               ]
