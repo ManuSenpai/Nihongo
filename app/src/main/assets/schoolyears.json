@@ -9461,9 +9461,7 @@
               "strokes": 10,
               "onyomi": ["イン"],
               "kunyomi": ["—"],
-              "meaning": [
-                "Institución, casa, edificio público", "Escuela de posgrado"
-              ],
+              "meaning": ["Institución, casa, edificio público", "Escuela de posgrado"],
               "examples": [
                 {
                   "example": "病院",
@@ -9494,6 +9492,549 @@
                   "transcription": "びよういん",
                   "meaning": "Salón de belleza",
                   "complex": true
+                }
+              ]
+            }
+          ],
+          "isCompleted": false,
+          "bestMark": 0
+        },
+        {
+          "title": "Tema 19",
+          "kanjis": [
+            {
+              "kanji": "地",
+              "strokes": 6,
+              "onyomi": ["ジ", "チ"],
+              "kunyomi": ["—"],
+              "meaning": ["Suelo, terreno, base"],
+              "examples": [
+                {
+                  "example": "地下",
+                  "transcription": "ちか",
+                  "meaning": "Subterráneo, bajo tierra\n地下鉄 (ちかてつ)　 Metro",
+                  "complex": true
+                },
+                {
+                  "example": "地方",
+                  "transcription": "ちほう",
+                  "meaning": "Región, comarca\n東北地方 (とうほくちほう)  Región de Tôhoku",
+                  "complex": true
+                },
+                {
+                  "example": "土地",
+                  "transcription": "とち",
+                  "meaning": "Tierra, terreno, finca, solar",
+                  "complex": true
+                },
+                {
+                  "example": "地震",
+                  "transcription": "じしん",
+                  "meaning": "Terremoto, movimiento de tierra",
+                  "complex": false
+                },
+                {
+                  "example": "地理",
+                  "transcription": "ちり",
+                  "meaning": "Geografía\n地理学  （ちりがく） Geografía (ciencia)",
+                  "complex": false
+                },
+                {
+                  "example": "地点",
+                  "transcription": "ちてん",
+                  "meaning": "Punto (geográfico), lugar, sitio",
+                  "complex": false
+                },
+                {
+                  "example": "地球",
+                  "transcription": "ちきゅう",
+                  "meaning": "La Tierra; El planeta Tierra",
+                  "complex": false
+                },
+                {
+                  "example": "生地",
+                  "transcription": "せいち",
+                  "meaning": "Lugar de nacimiento; Tierra natal",
+                  "complex": false
+                }
+              ]
+            },
+            {
+              "kanji": "鉄",
+              "strokes": 13,
+              "onyomi": ["テツ"],
+              "kunyomi": ["くろがね"],
+              "meaning": ["Hierro"],
+              "examples": [
+                {
+                  "example": "鉄道",
+                  "transcription": "てつどう",
+                  "meaning": "Ferrocarril, vía férrea, tren",
+                  "complex": true
+                },
+                {
+                  "example": "地下鉄",
+                  "transcription": "ちかてつ",
+                  "meaning": "Metro, ferrocarril, subterráneo",
+                  "complex": true
+                },
+                {
+                  "example": "私鉄",
+                  "transcription": "してつ",
+                  "meaning": "Ferrocarril privado, línea privada de ferrocarriles",
+                  "complex": true
+                },
+                {
+                  "example": "国鉄",
+                  "transcription": "こくてつ",
+                  "meaning": "Ferrocarril estatal",
+                  "complex": true
+                },
+                {
+                  "example": "鉄拳",
+                  "transcription": "てっけん",
+                  "meaning": "Tekken (Puño de hierro) Videojuego de NAMCO",
+                  "complex": false
+                }
+              ]
+            },
+            {
+              "kanji": "工",
+              "strokes": 3,
+              "onyomi": ["コウ" ],
+              "kunyomi": ["ク"],
+              "meaning": ["Obra, industria, construcción"],
+              "examples": [
+                {
+                  "example": "工場",
+                  "transcription": "こうじょう",
+                  "meaning": "Fábrica, industria, taller",
+                  "complex": true
+                },
+                {
+                  "example": "工業",
+                  "transcription": "こうぎょう",
+                  "meaning": "Industria",
+                  "complex": false
+                },
+                {
+                  "example": "工事",
+                  "transcription": "こうじ",
+                  "meaning": "Obra, construcción",
+                  "complex": false
+                },
+                {
+                  "example": "工学",
+                  "transcription": "こうがく",
+                  "meaning": "Ingeniería",
+                  "complex": true
+                },
+                {
+                  "example": "工夫",
+                  "transcription": "くふう",
+                  "meaning": "Idea; Invención, recurso, plan, proyecto\n工夫 ～する  Invento",
+                  "complex": true
+                },
+                {
+                  "example": "大工",
+                  "transcription": "だいく",
+                  "meaning": "Carpintero",
+                  "complex": true
+                }
+              ]
+            },
+            {
+              "kanji": "場",
+              "strokes": 12,
+              "onyomi": ["ジョウ"],
+              "kunyomi": ["ば"],
+              "meaning": ["Sitio, lugar, escenario"],
+              "examples": [
+                {
+                  "example": "場所",
+                  "transcription": "ばしょ",
+                  "meaning": "Lugar, sitio, espacio",
+                  "complex": true
+                },
+                {
+                  "example": "場合",
+                  "transcription": "ばあい",
+                  "meaning": "Caso, ocasión, circunstancia, situación",
+                  "complex": true
+                },
+                {
+                  "example": "広場",
+                  "transcription": "ひろば",
+                  "meaning": "Plaza",
+                  "complex": true
+                },
+                {
+                  "example": "運動場",
+                  "transcription": "うんどうじょう",
+                  "meaning": "Campo de deportes, campo de juego",
+                  "complex": false
+                },
+                {
+                  "example": "売り場",
+                  "transcription": "うりば",
+                  "meaning": "Punto de venta, sección",
+                  "complex": true
+                },
+                {
+                  "example": "仕事場",
+                  "transcription": "しごとば",
+                  "meaning": "Lugar de trabajo, oficina",
+                  "complex": true
+                },
+                {
+                  "example": "駐車場",
+                  "transcription": "ちゅうしゃじょう",
+                  "meaning": "Parking, aparcamiento",
+                  "complex": false
+                },
+                {
+                  "example": "道場",
+                  "transcription": "どうじょう",
+                  "meaning": "Dojo, gimnasio de artes marciales",
+                  "complex": false
+                },
+                {
+                  "example": "乗り場",
+                  "transcription": "のりば",
+                  "meaning": "Parada (de autobús o taxi); andén",
+                  "complex": true
+                },
+                {
+                  "example": "立ち場",
+                  "transcription": "たちば",
+                  "meaning": "Posición, situación, punto de vista",
+                  "complex": false
+                },
+                {
+                  "example": "会場",
+                  "transcription": "かいじょう",
+                  "meaning": "Sala, local, recinto",
+                  "complex": false
+                }
+              ]
+            },
+            {
+              "kanji": "図",
+              "strokes": 7,
+              "onyomi": ["ト", "ズ"],
+              "kunyomi": ["—"],
+              "meaning": [ "Diagrama, mapa, gráfico"],
+              "examples": [
+                {
+                  "example": "地図",
+                  "transcription": "ちず",
+                  "meaning": "Mapa",
+                  "complex": true
+                },
+                {
+                  "example": "天気図",
+                  "transcription": "てんきず",
+                  "meaning": "Mapa del tiempo, mapa meteorológico",
+                  "complex": true
+                },
+                {
+                  "example": "図書",
+                  "transcription": "としょ",
+                  "meaning": "Libro\n図書館 (としょかん)　　Biblioteca\n図書室 (としょしつ)  Biblioteca, sala de lectura",
+                  "complex": true
+                },
+                {
+                  "example": "合図",
+                  "transcription": "あいず",
+                  "meaning": "Señal, seña, signo",
+                  "complex": true
+                }
+              ]
+            },
+            {
+              "kanji": "館",
+              "strokes": 16,
+              "onyomi": ["カン"],
+              "kunyomi": ["やかた"],
+              "meaning": [
+                "Edificio, mansión"
+              ],
+              "examples": [
+                {
+                  "example": "図書館",
+                  "transcription": "としょかん",
+                  "meaning": "Biblioteca",
+                  "complex": true
+                },
+                {
+                  "example": "大使館",
+                  "transcription": "たいしかん",
+                  "meaning": "Embajada",
+                  "complex": true
+                },
+                {
+                  "example": "映画館",
+                  "transcription": "えいがかん",
+                  "meaning": "Cine, sala de cine",
+                  "complex": false
+                },
+                {
+                  "example": "体育館",
+                  "transcription": "たいいくかん",
+                  "meaning": "Gimnasio",
+                  "complex": false
+                },
+                {
+                  "example": "博物館",
+                  "transcription": "はくぶつかん",
+                  "meaning": "Museo",
+                  "complex": false
+                },
+                {
+                  "example": "美術館",
+                  "transcription": "びじゅつかん",
+                  "meaning": "Museo de arte",
+                  "complex": false
+                }
+              ]
+            },
+            {
+              "kanji": "公",
+              "strokes": 4,
+              "onyomi": ["コウ", "ク"],
+              "kunyomi": ["おおやけ"],
+              "meaning": ["Oficial, público"],
+              "examples": [
+                {
+                  "example": "公園",
+                  "transcription": "こうえん",
+                  "meaning": "Parque",
+                  "complex": true
+                },
+                {
+                  "example": "公立",
+                  "transcription": "こうりつ",
+                  "meaning": "Público, municipal; Provincial\n公立学校  Escuela pública",
+                  "complex": true
+                },
+                {
+                  "example": "公開 ～する",
+                  "transcription": "こうかい ～する",
+                  "meaning": "Abrir al público",
+                  "complex": true
+                },
+                {
+                  "example": "公式 ～の",
+                  "transcription": "こうしき ～の",
+                  "meaning": "Formal, oficial",
+                  "complex": false
+                }
+              ]
+            },
+            {
+              "kanji": "園",
+              "strokes": 13,
+              "onyomi": ["エン"],
+              "kunyomi": ["その"],
+              "meaning": ["Jardín"],
+              "examples": [
+                {
+                  "example": "公園",
+                  "transcription": "こうえん",
+                  "meaning": "Parque",
+                  "complex": true
+                },
+                {
+                  "example": "動物園",
+                  "transcription": "どうぶつえん",
+                  "meaning": "Parque zoológico, zoo",
+                  "complex": true
+                },
+                {
+                  "example": "遊園地",
+                  "transcription": "ゆうえんち",
+                  "meaning": "Parque de atracciones",
+                  "complex": false
+                },
+                {
+                  "example": "植物園",
+                  "transcription": "しょくぶつえん",
+                  "meaning": "Jardín botánico",
+                  "complex": false
+                },
+                {
+                  "example": "花園",
+                  "transcription": "はなぞの",
+                  "meaning": "Jardín de flores",
+                  "complex": true
+                },
+                {
+                  "example": "楽園",
+                  "transcription": "らくえん",
+                  "meaning": "Paraíso, Edén, Jauja",
+                  "complex": true
+                },
+                {
+                  "example": "学園",
+                  "transcription": "がくえん",
+                  "meaning": "Escuela, academia, universidad",
+                  "complex": true
+                },
+                {
+                  "example": "幼稚園",
+                  "transcription": "ようちえん",
+                  "meaning": "Guardería, párvulos, jardín de infancia",
+                  "complex": false
+                }
+              ]
+            },
+            {
+              "kanji": "住",
+              "strokes": 7,
+              "onyomi": ["ジュウ"],
+              "kunyomi": ["す・む"],
+              "meaning": ["Residir, vivir, morar, habitar, residencia"],
+              "examples": [
+                {
+                  "example": "住宅",
+                  "transcription": "じゅうたく",
+                  "meaning": "Residencia, vivienda, domicilio",
+                  "complex": true
+                },
+                {
+                  "example": "住所",
+                  "transcription": "じゅうしょ",
+                  "meaning": "Domicilio, dirección, lugar de residencia",
+                  "complex": false
+                },
+                {
+                  "example": "住民",
+                  "transcription": "じゅうみん",
+                  "meaning": "Habitante, residente",
+                  "complex": false
+                },
+                {
+                  "example": "住まい",
+                  "transcription": "すまい",
+                  "meaning": "Casa, vivienda",
+                  "complex": true
+                }
+              ]
+            },
+            {
+              "kanji": "所",
+              "strokes": 8,
+              "onyomi": ["ショ", "ジョ"],
+              "kunyomi": ["ところ"],
+              "meaning": ["Lugar, sitio"],
+              "examples": [
+                {
+                  "example": "場所",
+                  "transcription": "ばしょ",
+                  "meaning": "Lugar, sitio",
+                  "complex": true
+                },
+                {
+                  "example": "台所",
+                  "transcription": "だいどころ",
+                  "meaning": "Cocina",
+                  "complex": true
+                },
+                {
+                  "example": "研究所",
+                  "transcription": "けんきゅうしょ",
+                  "meaning": "Centro de investiación; Laboratorio",
+                  "complex": false
+                },
+                {
+                  "example": "案内所",
+                  "transcription": "あんないしょ",
+                  "meaning": "Mostrador de información",
+                  "complex": false
+                },
+                {
+                  "example": "事務所",
+                  "transcription": "じむしょ",
+                  "meaning": "Oficina, despacho",
+                  "complex": false
+                },
+                {
+                  "example": "所有",
+                  "transcription": "しょゆう",
+                  "meaning": "Posesión, poseer",
+                  "complex": true
+                },
+                {
+                  "example": "居場所 / 居所",
+                  "transcription": "いばしょ / いどころ",
+                  "meaning": "Domicilio, residencia",
+                  "complex": true
+                }
+              ]
+            },
+            {
+              "kanji": "番",
+              "strokes": 12,
+              "onyomi": ["バン"],
+              "kunyomi": ["—"],
+              "meaning": ["Número ordinal; vigilar, guardar"],
+              "examples": [
+                {
+                  "example": "番組",
+                  "transcription": "ばんぐみ",
+                  "meaning": "Programa de TV / radio",
+                  "complex": true
+                },
+                {
+                  "example": "番号",
+                  "transcription": "ばんごう",
+                  "meaning": "Número\n電話番号  Número de teléfono",
+                  "complex": true
+                },
+                {
+                  "example": "交番",
+                  "transcription": "こうばん",
+                  "meaning": "Puesto de policía",
+                  "complex": true
+                },
+                {
+                  "example": "一番",
+                  "transcription": "いちばん",
+                  "meaning": "El primero, el número 1; el más, lo más",
+                  "complex": true
+                },
+                {
+                  "example": "番犬",
+                  "transcription": "ばんけん",
+                  "meaning": "Perro guardián",
+                  "complex": true
+                },
+                {
+                  "example": "番人",
+                  "transcription": "ばんにん",
+                  "meaning": "Guardián, vigilante, guarda, carcelero",
+                  "complex": true
+                }
+              ]
+            },
+            {
+              "kanji": "号",
+              "strokes": 5,
+              "onyomi": ["ゴウ"],
+              "kunyomi": ["—"],
+              "meaning": ["Número", "Modelo", "Título, seudónimo, llamar"],
+              "examples": [
+                {
+                  "example": "番号",
+                  "transcription": "ばんごう",
+                  "meaning": "Número",
+                  "complex": true
+                },
+                {
+                  "example": "信号",
+                  "transcription": "しんごう",
+                  "meaning": "Señal, semáforo",
+                  "complex": false
                 }
               ]
             }
