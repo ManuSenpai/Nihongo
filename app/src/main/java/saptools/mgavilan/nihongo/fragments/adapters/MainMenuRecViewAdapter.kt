@@ -8,6 +8,7 @@ import android.widget.TextView
 import androidx.recyclerview.widget.AdapterListUpdateCallback
 import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.main_menu_item.view.*
+import kotlinx.android.synthetic.main.main_menu_item_2.view.*
 import saptools.mgavilan.nihongo.R
 import saptools.mgavilan.nihongo.data.SchoolYear
 
@@ -25,7 +26,8 @@ class MainMenuRecViewAdapter( _items: List<SchoolYear>, _callback: (Int) -> Unit
         parent: ViewGroup,
         viewType: Int
     ): ViewHolder {
-        val view = LayoutInflater.from(parent?.context).inflate(R.layout.main_menu_item, parent, false)
+//        val view = LayoutInflater.from(parent?.context).inflate(R.layout.main_menu_item, parent, false)
+        val view = LayoutInflater.from(parent?.context).inflate(R.layout.main_menu_item_2, parent, false)
 
         viewHolder = ViewHolder(view)
 
@@ -39,7 +41,9 @@ class MainMenuRecViewAdapter( _items: List<SchoolYear>, _callback: (Int) -> Unit
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val item = items?.get(position)
         holder.title?.text = item?.title
-        holder.view?.setOnClickListener {
+        holder.content?.visibility = View.GONE
+        holder.kanjiIndicator?.text = String.format("%d", position + 1)
+        holder.view.setOnClickListener {
             callback!!(position)
         }
     }
@@ -47,9 +51,13 @@ class MainMenuRecViewAdapter( _items: List<SchoolYear>, _callback: (Int) -> Unit
     class ViewHolder( _view: View ): RecyclerView.ViewHolder(_view) {
         var view = _view
         var title: TextView? =null
+        var content: TextView? =null
+        var kanjiIndicator: TextView? =null
 
         init {
-            title = view.title
+            title = view.tvTitle
+            content = view.tvContent
+            kanjiIndicator = view.tvFirstKanji
         }
 
     }
